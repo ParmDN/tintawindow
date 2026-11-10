@@ -1,0 +1,23 @@
+/* Shared photograph rails: hide the visual bar while preserving native scrolling. */
+.fresh main .photo-carousel {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.fresh main .photo-carousel::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Keep the restored gallery label close to its heading at every breakpoint. */
+.fresh main .compact-gallery-717 .gallery-intro {
+  row-gap: 12px;
+}
+.fresh main .compact-gallery-717 .gallery-label {
+  margin: 0;
+  width: fit-content;
+}
+.fresh main .compact-gallery-717 .gallery-intro > h2 {
+  padding-top: 0;
+  border-top: 0;
+}

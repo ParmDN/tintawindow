@@ -1,0 +1,370 @@
+{
+  "pages": [
+    {
+      "page": "Home",
+      "path": "/",
+      "words": 1433,
+      "targets": 3,
+      "keyword_counts": {
+        "window tinting christchurch": 3,
+        "window tint christchurch": 3,
+        "window film christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "window tinting christchurch": 1,
+        "window tint christchurch": 0,
+        "window film christchurch": 0
+      }
+    },
+    {
+      "page": "Residential",
+      "path": "/residential-window-tinting-services",
+      "words": 1439,
+      "targets": 2,
+      "keyword_counts": {
+        "residential window tinting christchurch": 4,
+        "house window tinting christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "residential window tinting christchurch": 1,
+        "house window tinting christchurch": 0
+      }
+    },
+    {
+      "page": "Fade reduction",
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "words": 1462,
+      "targets": 2,
+      "keyword_counts": {
+        "fade reducing & uv window film christchurch": 4,
+        "fade reducing window film christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "fade reducing & uv window film christchurch": 0,
+        "fade reducing window film christchurch": 0
+      }
+    },
+    {
+      "page": "Privacy",
+      "path": "/residential-window-tinting/privacy-window-films",
+      "words": 1396,
+      "targets": 2,
+      "keyword_counts": {
+        "window privacy film installation christchurch": 3,
+        "privacy window film christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "window privacy film installation christchurch": 0,
+        "privacy window film christchurch": 1
+      }
+    },
+    {
+      "page": "Heat control",
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "words": 1461,
+      "targets": 1,
+      "keyword_counts": {
+        "heat control window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "heat control window film christchurch": 1
+      }
+    },
+    {
+      "page": "Anti-glare",
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "words": 1427,
+      "targets": 1,
+      "keyword_counts": {
+        "Anti Glare Window Film Christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "Anti Glare Window Film Christchurch": 0
+      }
+    },
+    {
+      "page": "Frosted & opaque",
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "words": 1378,
+      "targets": 2,
+      "keyword_counts": {
+        "frosted and opaque window film christchurch": 4,
+        "opaque window film christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "frosted and opaque window film christchurch": 1,
+        "opaque window film christchurch": 1
+      }
+    },
+    {
+      "page": "Safety & security",
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "words": 1370,
+      "targets": 1,
+      "keyword_counts": {
+        "safety & security window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "safety & security window film christchurch": 0
+      }
+    },
+    {
+      "page": "Commercial",
+      "path": "/commercial-window-tinting-services",
+      "words": 1446,
+      "targets": 1,
+      "keyword_counts": {
+        "commercial window tinting christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial window tinting christchurch": 1
+      }
+    },
+    {
+      "page": "Heat & solar control",
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "words": 1443,
+      "targets": 2,
+      "keyword_counts": {
+        "commercial heat control window film christchurch": 4,
+        "solar protection window films christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "commercial heat control window film christchurch": 1,
+        "solar protection window films christchurch": 0
+      }
+    },
+    {
+      "page": "Anti-glare",
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "words": 1406,
+      "targets": 1,
+      "keyword_counts": {
+        "Commercial Anti-Glare Window Films Christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "Commercial Anti-Glare Window Films Christchurch": 0
+      }
+    },
+    {
+      "page": "Anti-graffiti",
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "words": 1337,
+      "targets": 1,
+      "keyword_counts": {
+        "anti graffiti window films christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "anti graffiti window films christchurch": 0
+      }
+    },
+    {
+      "page": "Frosted & decorative",
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "words": 1392,
+      "targets": 2,
+      "keyword_counts": {
+        "commercial frosted and opaque window film christchurch": 3,
+        "decorative window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial frosted and opaque window film christchurch": 0,
+        "decorative window film christchurch": 1
+      }
+    },
+    {
+      "page": "Safety & security",
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "words": 1292,
+      "targets": 1,
+      "keyword_counts": {
+        "commercial safety & security window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial safety & security window film christchurch": 0
+      }
+    },
+    {
+      "page": "Christchurch",
+      "path": "/locations/christchurch",
+      "words": 1110,
+      "targets": 1,
+      "keyword_counts": {
+        "Window Tinting in Christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "Window Tinting in Christchurch": 3
+      }
+    },
+    {
+      "page": "Ashburton",
+      "path": "/locations/ashburton",
+      "words": 1102,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting ashburton": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting ashburton": 0
+      }
+    },
+    {
+      "page": "Timaru",
+      "path": "/locations/timaru",
+      "words": 1102,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting timaru": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting timaru": 0
+      }
+    },
+    {
+      "page": "Oamaru",
+      "path": "/locations/oamaru",
+      "words": 1094,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting oamaru": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting oamaru": 0
+      }
+    },
+    {
+      "page": "Queenstown",
+      "path": "/locations/queenstown",
+      "words": 1109,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting queenstown": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting queenstown": 0
+      }
+    },
+    {
+      "page": "Wanaka",
+      "path": "/locations/wanaka",
+      "words": 1111,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting wanaka": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting wanaka": 0
+      }
+    },
+    {
+      "page": "Cromwell",
+      "path": "/locations/cromwell",
+      "words": 1117,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting cromwell": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting cromwell": 0
+      }
+    },
+    {
+      "page": "Lake Tekapo",
+      "path": "/locations/lake-tekapo",
+      "words": 1085,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting lake tekapo": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting lake tekapo": 0
+      }
+    },
+    {
+      "page": "Arrowtown",
+      "path": "/locations/arrowtown",
+      "words": 1082,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting arrowtown": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting arrowtown": 0
+      }
+    },
+    {
+      "page": "Temuka",
+      "path": "/locations/temuka",
+      "words": 1109,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting temuka": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting temuka": 0
+      }
+    },
+    {
+      "page": "Geraldine",
+      "path": "/locations/geraldine",
+      "words": 1106,
+      "targets": 1,
+      "keyword_counts": {
+        "window tinting Geraldine": 4
+      },
+      "exact_keyword_counts": {
+        "window tinting Geraldine": 0
+      }
+    },
+    {
+      "page": "Our story",
+      "path": "/about",
+      "words": 478,
+      "targets": 1,
+      "keyword_counts": {
+        "About Tint A Window": 1
+      },
+      "exact_keyword_counts": {
+        "About Tint A Window": 1
+      }
+    },
+    {
+      "page": "Contact",
+      "path": "/contact-for-window-tinting",
+      "words": 1011,
+      "targets": 1,
+      "keyword_counts": {
+        "Contact Tint A Window": 4
+      },
+      "exact_keyword_counts": {
+        "Contact Tint A Window": 4
+      }
+    },
+    {
+      "page": "FAQs",
+      "path": "/window-tinting-faq",
+      "words": 1340,
+      "targets": 1,
+      "keyword_counts": {
+        "Tint A Window FAQs": 3
+      },
+      "exact_keyword_counts": {
+        "Tint A Window FAQs": 3
+      }
+    },
+    {
+      "page": "Projects",
+      "path": "/window-tinting-gallery",
+      "words": 580,
+      "targets": 1,
+      "keyword_counts": {
+        "Tint A Window projects": 1
+      },
+      "exact_keyword_counts": {
+        "Tint A Window projects": 1
+      }
+    }
+  ],
+  "issues": [],
+  "method": "Main content text including closed FAQ answers, excluding shared navigation, breadcrumbs, footer, hidden panels, metadata and SVG. Case-insensitive whole phrase matches; whitespace and accents normalised (W\u0101naka matches the sheet spelling Wanaka). Hyphenated words count as one. Photographic captions are included; no installation product or measured result is inferred from an image. Gallery spelling corrected from source typo. The 23 October brief retains at least three natural matches and 1,000\u20131,500 words for main SEO landing pages. About and Projects are intentionally concise and exempt from these quantity checks; their phrase counts are reported for review. Counts include explicit grammatical variants with in, across or for before a location, hyphenated service names and and/& equivalents. Exact phrase counts are recorded separately. These checks confirm brief adherence, not a ranking guarantee. Hyphenated locality forms such as Christchurch-wide count as phrase occurrences."
+}

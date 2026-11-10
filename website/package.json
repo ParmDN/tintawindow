@@ -1,0 +1,16 @@
+{
+  "name": "tint-a-window-story-led-preview",
+  "version": "7.20.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs && python3 check-content.py && python3 check-site.py && python3 check-design.py && python3 check-final.py",
+    "dev": "node server.mjs",
+    "check": "python3 check-content.py && python3 check-site.py && python3 check-design.py && python3 check-final.py",
+    "check:links": "python3 check-http.py",
+    "package:review": "python3 package-review.py"
+  },
+  "dependencies": {
+    "@sanity/client": "^8.15.1"
+  }
+}

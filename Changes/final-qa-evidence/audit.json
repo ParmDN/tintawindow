@@ -1,0 +1,2691 @@
+{
+  "baseline": "C:\\Users\\Aditya\\AppData\\Local\\Temp\\tint-window-readonly-7b3f54ed1d544b439cbc91ac23ada2e8\\website",
+  "baseline_manifest_validation": [
+    {
+      "file": "website/build.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/check-content.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-design.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-enquiry-flow.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/check-final.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-http.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-site.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-vercel-live.py",
+      "passed": true
+    },
+    {
+      "file": "website/keyword_matching.py",
+      "passed": true
+    },
+    {
+      "file": "website/package.json",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/architecture.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-001-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-001-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-007-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-007-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-009-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-009-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-013-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-013-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-015-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-016-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-016-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-019-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-019-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-020-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-020-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-024-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-024-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-026-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-026-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-027-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-027-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-031-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-031-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-033-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-033-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-035-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-035-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-036-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-036-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-037-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-037-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-039-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-039-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-040-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-040-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-042-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-042-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-044-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-044-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-045-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-045-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-048-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-048-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-049-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-049-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-051-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-051-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-054-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-054-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-056-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-056-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-057-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-057-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-062-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-062-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-064-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-064-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-065-1600.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-065-640.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-van-polished-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-van-polished-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-van-polished-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-van-polished.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/client-van.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/commercial.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/craft-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/craft.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/customer-logos/2degrees.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/customer-logos/corrections.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/customer-logos/fire-service.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/customer-logos/mccain.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/customer-logos/sanitarium.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/font-0.ttf",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/font-1.ttf",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/font-2.ttf",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/font-3.ttf",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/font-4.ttf",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/frost-concept.jpg",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/frost.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/glazing-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/glazing.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/google-g.png",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/home-hero-loop-mobile-poster.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/home-hero-loop-mobile.mp4",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/home-hero-loop-poster.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/home-hero-loop.mp4",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/interior.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/lake-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/lake.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/logo-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/logo.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/residential.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/restaurant-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/restaurant.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/room-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-tools-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-tools-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-tools-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-tools.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-working-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-working-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-working-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-bill-working.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-portrait-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-portrait-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-portrait-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-portrait.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-support-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-support-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-support-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-roxana-support.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-balanced-720-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-balanced-720-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-balanced-720-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation-balanced-720.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-conversation.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-landscape-1200.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-landscape-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-landscape-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-landscape.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-portrait-480.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-portrait-800.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/shoot-team-portrait.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/view.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/welcome-tint-a-window-poster.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/welcome-tint-a-window.mp4",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/welcome-tint-a-window.vtt",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-1-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-2-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-3-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-4-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-5-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/assets/work-6-large.webp",
+      "passed": true
+    },
+    {
+      "file": "website/public/atelier.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/boutique.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/brand.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/client-polish.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/enquiry-flow.js",
+      "passed": true
+    },
+    {
+      "file": "website/public/favicon.svg",
+      "passed": true
+    },
+    {
+      "file": "website/public/film-guide.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/fonts.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/fresh.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/launch-polish-717.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/photo-alignment-719.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/placement-polish-720.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/polish.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/refinement.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/responsive-sections.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/revision.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/service-layout-717.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/shoot-media-715.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/shoot-media-715.js",
+      "passed": true
+    },
+    {
+      "file": "website/public/signature.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/site.js",
+      "passed": true
+    },
+    {
+      "file": "website/public/story-717.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/style.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/surfaces.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/team-ui-715.css",
+      "passed": true
+    },
+    {
+      "file": "website/public/team-ui-715.js",
+      "passed": true
+    },
+    {
+      "file": "website/public/team-ui-718.css",
+      "passed": true
+    },
+    {
+      "file": "website/src/ashit-source-map.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/boutique.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/brand-pages.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/client-media.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/customer-evidence.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/customer-polish.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/editorial-review.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/enhancements.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/enquiry-actions.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/film-guide.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/final-content.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/final-local-stories.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/final-proof-copy.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/final-proof.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/footer.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/fresh-design.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/homepage-refinement.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/image-manifest.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-06.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-21.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-23.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/local-stories.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/media-map-717.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/page-copy.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/quote-form.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/review-template.html",
+      "passed": true
+    },
+    {
+      "file": "website/src/revised-content.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/section-design.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/shoot-media.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/site-data.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/social-links.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/surfaces.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/src/team-content.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/thank-you.mjs",
+      "passed": true
+    }
+  ],
+  "docx_sha256": "1b1c1b9885e7858e8c44be2575c1c17bb618095f382963066ffb539162e54a2d",
+  "docx_exact_rows": 61,
+  "pages": [
+    {
+      "index": 0,
+      "title": "Homepage",
+      "path": "/",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Window Tinting Christchurch",
+          "built": "Window Tinting Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Window Film Solutions Across New Zealand",
+          "built": "Window Film Solutions Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph",
+          "docx": "Based in Christchurch, Tint A Window provides residential and commercial window film solutions across New Zealand, helping reduce heat and glare and improve privacy in homes and businesses.",
+          "built": "Based in Christchurch, Tint A Window provides residential and commercial window film solutions across New Zealand, helping reduce heat and glare and improve privacy in homes and businesses.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "possibilities: eyebrow",
+          "docx": "Christchurch Window Films",
+          "built": "Christchurch Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "possibilities: replaced sentence",
+          "docx": "We fit window film in Christchurch homes and businesses, with service also available across New Zealand.",
+          "built": "We fit window film in Christchurch homes and businesses, with service also available across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "choose-your-space: eyebrow",
+          "docx": "Christchurch Window Tinting",
+          "built": "Christchurch Window Tinting",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "choose-your-space: replaced sentence",
+          "docx": "Explore residential and commercial window film solutions for properties in Christchurch and across New Zealand.",
+          "built": "Explore residential and commercial window film solutions for properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "home-enquiry: eyebrow",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "home-enquiry: replaced sentence",
+          "docx": "Talk to us about window tinting in Christchurch and across New Zealand.",
+          "built": "Talk to us about window tinting in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 16,
+      "non_docx_changes": [
+        {
+          "old": "Not sure where to start?",
+          "new": "Not sure about window film in Christchurch?",
+          "source": "website/src/homepage-refinement.mjs",
+          "key": "homepageRefinement().benefits / .home-outcome-help > p",
+          "revert": "Replace ${exactCopy(esc('Not sure about window film in Christchurch?'))} with Not sure where to start? and rebuild."
+        }
+      ],
+      "visible_text_explained": true
+    },
+    {
+      "index": 1,
+      "title": "Residential window tinting",
+      "path": "/residential-window-tinting-services",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Residential Window Tinting Christchurch",
+          "built": "Residential Window Tinting Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Residential Window Tinting Across New Zealand",
+          "built": "Residential Window Tinting Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide residential window tinting for homes in Christchurch and across New Zealand.",
+          "built": "Less heat, less glare and more privacy. Make the rooms you love more comfortable, with film chosen for your home and existing glass. We provide residential window tinting for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Residential Window Tinting",
+          "built": "Christchurch Residential Window Tinting",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Residential Tinting",
+          "built": "Christchurch Residential Tinting",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 16,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 2,
+      "title": "Fade reduction and UV film",
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Fade-Reducing and UV Window Film Christchurch",
+          "built": "Fade-Reducing and UV Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Fade-Reducing and UV Window Film Across New Zealand",
+          "built": "Fade-Reducing and UV Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide fade-reducing and UV window film for homes in Christchurch and across New Zealand.",
+          "built": "Help care for your carpets, furniture and artwork. Reduce sunlight exposure with film that balances protection, daylight and the outlook. We provide fade-reducing and UV window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch UV Protection Window Films",
+          "built": "Christchurch UV Protection Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 3,
+      "title": "Privacy window film",
+      "path": "/residential-window-tinting/privacy-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Privacy Window Film Christchurch",
+          "built": "Privacy Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Privacy Window Film Across New Zealand",
+          "built": "Privacy Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide privacy window film for homes in Christchurch and across New Zealand.",
+          "built": "Feel less overlooked without keeping the curtains closed all day. Compare privacy finishes that suit your rooms and the times you use them. We provide privacy window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Privacy Window Films",
+          "built": "Christchurch Privacy Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 4,
+      "title": "Heat control window film",
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Heat Control Window Film Christchurch",
+          "built": "Heat Control Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Heat Control Window Film Across New Zealand",
+          "built": "Heat Control Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide heat control window film for homes in Christchurch and across New Zealand.",
+          "built": "Make a sunny lounge or bedroom more comfortable. Reduce solar heat through suitable glass while considering the daylight and view you want to keep. We provide heat control window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Heat Control Window Films",
+          "built": "Christchurch Heat Control Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 5,
+      "title": "Anti-glare window film",
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Anti-Glare Window Film Christchurch",
+          "built": "Anti-Glare Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Anti-Glare Window Film Across New Zealand",
+          "built": "Anti-Glare Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide anti-glare window film for homes in Christchurch and across New Zealand.",
+          "built": "Read, relax and see your screens with less harsh brightness. Choose a comfortable level of light without covering the view all day. We provide anti-glare window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Anti-Glare Window Films",
+          "built": "Christchurch Anti-Glare Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 6,
+      "title": "Frosted and opaque window film",
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Frosted and Opaque Window Film Christchurch",
+          "built": "Frosted and Opaque Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Frosted and Opaque Window Film Across New Zealand",
+          "built": "Frosted and Opaque Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide frosted and opaque window film for homes in Christchurch and across New Zealand.",
+          "built": "Create privacy in bathrooms, entrances and internal glass. Compare full or partial coverage and a finish that keeps the space inviting. We provide frosted and opaque window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Frosted Window Films",
+          "built": "Christchurch Frosted Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 7,
+      "title": "Safety and security window film",
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Safety and Security Window Film Christchurch",
+          "built": "Safety and Security Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Safety and Security Window Film Across New Zealand",
+          "built": "Safety and Security Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide safety and security window film for homes in Christchurch and across New Zealand.",
+          "built": "Explore film that can help hold broken glass together. We assess your windows and the protection you need before recommending a product. We provide safety and security window film for homes in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Safety Window Films",
+          "built": "Christchurch Safety Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 8,
+      "title": "Commercial window tinting",
+      "path": "/commercial-window-tinting-services",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Commercial Window Tinting Christchurch",
+          "built": "Commercial Window Tinting Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Commercial Window Tinting Across New Zealand",
+          "built": "Commercial Window Tinting Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide commercial window tinting for businesses in Christchurch and across New Zealand.",
+          "built": "Give staff and customers a more comfortable space. Explore films for heat, glare, privacy and suitable glass protection, planned around your business. We provide commercial window tinting for businesses in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Commercial Window Tinting",
+          "built": "Christchurch Commercial Window Tinting",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Commercial Tinting",
+          "built": "Christchurch Commercial Tinting",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 16,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 9,
+      "title": "Heat and solar control window film",
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Commercial Heat Control Window Film Christchurch",
+          "built": "Commercial Heat Control Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Commercial Heat Control and Solar Protection Window Film Across New Zealand",
+          "built": "Commercial Heat Control and Solar Protection Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide heat control and solar protection window film for commercial properties in Christchurch and across New Zealand.",
+          "built": "Help reduce solar heat in offices, shops and shared spaces. Compare films that balance heat control, daylight and the appearance of your building. We provide heat control and solar protection window film for commercial properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Solar Control Window Films",
+          "built": "Christchurch Solar Control Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 10,
+      "title": "Commercial anti-glare window film",
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Commercial Anti-Glare Window Film Christchurch",
+          "built": "Commercial Anti-Glare Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Commercial Anti-Glare Window Film Across New Zealand",
+          "built": "Commercial Anti-Glare Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide anti-glare window film for commercial properties in Christchurch and across New Zealand.",
+          "built": "Make bright offices, classrooms and customer areas easier to use. Ease harsh sunlight around screens, work surfaces and seating. We provide anti-glare window film for commercial properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Anti-Glare Window Films",
+          "built": "Christchurch Anti-Glare Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 11,
+      "title": "Anti-graffiti window film",
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Anti-Graffiti Window Film Christchurch",
+          "built": "Anti-Graffiti Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Anti-Graffiti Window Film Across New Zealand",
+          "built": "Anti-Graffiti Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide anti-graffiti window film for commercial properties in Christchurch and across New Zealand.",
+          "built": "Add a replaceable protective layer to suitable exposed glass. Help care for the shopfront or entrance that customers see every day. We provide anti-graffiti window film for commercial properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Anti-Graffiti Window Films",
+          "built": "Christchurch Anti-Graffiti Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 12,
+      "title": "Frosted opaque and decorative film",
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Commercial Frosted, Opaque and Decorative Window Film Christchurch",
+          "built": "Commercial Frosted, Opaque and Decorative Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Commercial Frosted, Opaque and Decorative Window Film Across New Zealand",
+          "built": "Commercial Frosted, Opaque and Decorative Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide frosted, opaque and decorative window film for commercial properties in Christchurch and across New Zealand.",
+          "built": "Give meeting rooms, partitions and reception glass a purposeful finish. Plan privacy, daylight and decorative detail together. We provide frosted, opaque and decorative window film for commercial properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Decorative Window Films",
+          "built": "Christchurch Decorative Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    },
+    {
+      "index": 13,
+      "title": "Commercial safety and security film",
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "rows": [
+        {
+          "element": "Hero small eyebrow",
+          "docx": "Commercial Safety and Security Window Film Christchurch",
+          "built": "Commercial Safety and Security Window Film Christchurch",
+          "tag": "h1",
+          "passed": true
+        },
+        {
+          "element": "Hero large headline",
+          "docx": "Commercial Safety and Security Window Film Across New Zealand",
+          "built": "Commercial Safety and Security Window Film Across New Zealand",
+          "tag": "span",
+          "passed": true
+        },
+        {
+          "element": "Hero paragraph: baseline + appendix",
+          "docx": "We provide safety and security window film for commercial properties in Christchurch and across New Zealand.",
+          "built": "Assess the glass and the risk before choosing protection. Discuss suitable products, system requirements and clear installation arrangements. We provide safety and security window film for commercial properties in Christchurch and across New Zealand.",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Overview eyebrow",
+          "docx": "Christchurch Safety Window Films",
+          "built": "Christchurch Safety Window Films",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Film-options label",
+          "docx": "Christchurch Film Options",
+          "built": "Christchurch Film Options",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Closing label",
+          "docx": "Christchurch Tinting Advice",
+          "built": "Christchurch Tinting Advice",
+          "tag": "p",
+          "passed": true
+        },
+        {
+          "element": "Final H2 (retained)",
+          "docx": "Tell us what you would like to change.",
+          "built": "Tell us what you would like to change.",
+          "tag": "h2",
+          "passed": true
+        }
+      ],
+      "checks": {
+        "sole_hero_h1": true,
+        "span_mentions_new_zealand": true,
+        "section_eyebrows_not_headings": true,
+        "original_h2s_identical": true,
+        "meta_title_identical": true,
+        "meta_values_identical": true,
+        "canonical_identical": true,
+        "url_identical": true,
+        "button_and_link_text_hrefs_identical": true,
+        "image_src_alt_identical": true,
+        "manifest_actual_h1": true
+      },
+      "h2_count": 17,
+      "non_docx_changes": [],
+      "visible_text_explained": true
+    }
+  ],
+  "retained_old_occurrences": [
+    {
+      "path": "/",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < div.form-panel < section#home-enquiry.section.home-enquiry < main#main < body.fresh.page-home < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-home < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < div.form-panel < section#home-enquiry.section.home-enquiry < main#main < body.fresh.page-home < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-home < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting-services",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-hub < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting-services",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-hub < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/privacy-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/privacy-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-residential < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting-services",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-hub < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting-services",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-hub < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "old_string": "Residential Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Residential Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    },
+    {
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "old_string": "Commercial Services",
+      "location": "legend < fieldset < details.service-picker < form.quick-quote-form < dialog.quote-dialog < body.fresh.page-commercial < html",
+      "text": "Commercial Services",
+      "legitimate": true,
+      "reason": "Unchanged form service-picker legend, not the film-options label"
+    }
+  ],
+  "excluded": [
+    {
+      "file": "404.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "about/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "contact-for-window-tinting/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "design-review/index.html",
+      "passed": true,
+      "exception": true
+    },
+    {
+      "file": "design-review/project-story/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/arrowtown/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/ashburton/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/christchurch/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/cromwell/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/geraldine/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/lake-tekapo/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/oamaru/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/queenstown/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/temuka/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/timaru/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "locations/wanaka/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "thank-you/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "window-tinting-faq/index.html",
+      "passed": true,
+      "exception": false
+    },
+    {
+      "file": "window-tinting-gallery/index.html",
+      "passed": true,
+      "exception": false
+    }
+  ],
+  "footers": [
+    {
+      "file": "404.html",
+      "passed": true
+    },
+    {
+      "file": "about/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting/anti-glare-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting/anti-graffiti-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting/frosted-opaque-decorative-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting/heat-rejection-solar-protection-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting/safety-security-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "commercial-window-tinting-services/index.html",
+      "passed": true
+    },
+    {
+      "file": "contact-for-window-tinting/index.html",
+      "passed": true
+    },
+    {
+      "file": "design-review/index.html",
+      "passed": true
+    },
+    {
+      "file": "design-review/project-story/index.html",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/arrowtown/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/ashburton/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/christchurch/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/cromwell/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/geraldine/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/lake-tekapo/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/oamaru/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/queenstown/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/temuka/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/timaru/index.html",
+      "passed": true
+    },
+    {
+      "file": "locations/wanaka/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/anti-glare-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/fade-reduction-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/frosted-opaque-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/heat-control-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/privacy-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting/safety-security-window-films/index.html",
+      "passed": true
+    },
+    {
+      "file": "residential-window-tinting-services/index.html",
+      "passed": true
+    },
+    {
+      "file": "thank-you/index.html",
+      "passed": true
+    },
+    {
+      "file": "window-tinting-faq/index.html",
+      "passed": true
+    },
+    {
+      "file": "window-tinting-gallery/index.html",
+      "passed": true
+    }
+  ],
+  "report_cell_differences": [
+    {
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "cell": "word count",
+      "before": 1270,
+      "after": 1292
+    },
+    {
+      "path": "/residential-window-tinting-services",
+      "cell": "word count",
+      "before": 1423,
+      "after": 1439
+    },
+    {
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "cell": "word count",
+      "before": 1444,
+      "after": 1461
+    },
+    {
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "cell": "word count",
+      "before": 1359,
+      "after": 1378
+    },
+    {
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "cell": "word count",
+      "before": 1321,
+      "after": 1337
+    },
+    {
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "cell": "word count",
+      "before": 1367,
+      "after": 1392
+    },
+    {
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "cell": "word count",
+      "before": 1442,
+      "after": 1462
+    },
+    {
+      "path": "/residential-window-tinting/privacy-window-films",
+      "cell": "word count",
+      "before": 1382,
+      "after": 1396
+    },
+    {
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "cell": "word count",
+      "before": 1389,
+      "after": 1406
+    },
+    {
+      "path": "/commercial-window-tinting-services",
+      "cell": "word count",
+      "before": 1430,
+      "after": 1446
+    },
+    {
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "cell": "word count",
+      "before": 1418,
+      "after": 1443
+    },
+    {
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "cell": "word count",
+      "before": 1413,
+      "after": 1427
+    },
+    {
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "cell": "word count",
+      "before": 1351,
+      "after": 1370
+    },
+    {
+      "path": "/",
+      "cell": "word count",
+      "before": 1426,
+      "after": 1433
+    },
+    {
+      "path": "/",
+      "cell": "keyword count",
+      "keyword": "window tinting christchurch",
+      "before": 4,
+      "after": 3
+    }
+  ],
+  "protected_files": [
+    {
+      "file": "website/check-content.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-design.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-enquiry-flow.mjs",
+      "passed": true
+    },
+    {
+      "file": "website/check-final.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-http.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-site.py",
+      "passed": true
+    },
+    {
+      "file": "website/check-vercel-live.py",
+      "passed": true
+    },
+    {
+      "file": "website/keyword_matching.py",
+      "passed": true
+    },
+    {
+      "file": "website/proof-content.py",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-06.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-21.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map-2026-10-23.json",
+      "passed": true
+    },
+    {
+      "file": "website/src/keyword-map.json",
+      "passed": true
+    }
+  ],
+  "keyword_summary": [
+    {
+      "page": "Home",
+      "path": "/",
+      "words": 1433,
+      "targets": 3,
+      "keyword_counts": {
+        "window tinting christchurch": 3,
+        "window tint christchurch": 3,
+        "window film christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "window tinting christchurch": 1,
+        "window tint christchurch": 0,
+        "window film christchurch": 0
+      }
+    },
+    {
+      "page": "Residential",
+      "path": "/residential-window-tinting-services",
+      "words": 1439,
+      "targets": 2,
+      "keyword_counts": {
+        "residential window tinting christchurch": 4,
+        "house window tinting christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "residential window tinting christchurch": 1,
+        "house window tinting christchurch": 0
+      }
+    },
+    {
+      "page": "Fade reduction",
+      "path": "/residential-window-tinting/fade-reduction-window-films",
+      "words": 1462,
+      "targets": 2,
+      "keyword_counts": {
+        "fade reducing & uv window film christchurch": 4,
+        "fade reducing window film christchurch": 3
+      },
+      "exact_keyword_counts": {
+        "fade reducing & uv window film christchurch": 0,
+        "fade reducing window film christchurch": 0
+      }
+    },
+    {
+      "page": "Privacy",
+      "path": "/residential-window-tinting/privacy-window-films",
+      "words": 1396,
+      "targets": 2,
+      "keyword_counts": {
+        "window privacy film installation christchurch": 3,
+        "privacy window film christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "window privacy film installation christchurch": 0,
+        "privacy window film christchurch": 1
+      }
+    },
+    {
+      "page": "Heat control",
+      "path": "/residential-window-tinting/heat-control-window-films",
+      "words": 1461,
+      "targets": 1,
+      "keyword_counts": {
+        "heat control window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "heat control window film christchurch": 1
+      }
+    },
+    {
+      "page": "Anti-glare",
+      "path": "/residential-window-tinting/anti-glare-window-films",
+      "words": 1427,
+      "targets": 1,
+      "keyword_counts": {
+        "Anti Glare Window Film Christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "Anti Glare Window Film Christchurch": 0
+      }
+    },
+    {
+      "page": "Frosted & opaque",
+      "path": "/residential-window-tinting/frosted-opaque-window-films",
+      "words": 1378,
+      "targets": 2,
+      "keyword_counts": {
+        "frosted and opaque window film christchurch": 4,
+        "opaque window film christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "frosted and opaque window film christchurch": 1,
+        "opaque window film christchurch": 1
+      }
+    },
+    {
+      "page": "Safety & security",
+      "path": "/residential-window-tinting/safety-security-window-films",
+      "words": 1370,
+      "targets": 1,
+      "keyword_counts": {
+        "safety & security window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "safety & security window film christchurch": 0
+      }
+    },
+    {
+      "page": "Commercial",
+      "path": "/commercial-window-tinting-services",
+      "words": 1446,
+      "targets": 1,
+      "keyword_counts": {
+        "commercial window tinting christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial window tinting christchurch": 1
+      }
+    },
+    {
+      "page": "Heat & solar control",
+      "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+      "words": 1443,
+      "targets": 2,
+      "keyword_counts": {
+        "commercial heat control window film christchurch": 4,
+        "solar protection window films christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "commercial heat control window film christchurch": 1,
+        "solar protection window films christchurch": 0
+      }
+    },
+    {
+      "page": "Anti-glare",
+      "path": "/commercial-window-tinting/anti-glare-window-films",
+      "words": 1406,
+      "targets": 1,
+      "keyword_counts": {
+        "Commercial Anti-Glare Window Films Christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "Commercial Anti-Glare Window Films Christchurch": 0
+      }
+    },
+    {
+      "page": "Anti-graffiti",
+      "path": "/commercial-window-tinting/anti-graffiti-window-films",
+      "words": 1337,
+      "targets": 1,
+      "keyword_counts": {
+        "anti graffiti window films christchurch": 4
+      },
+      "exact_keyword_counts": {
+        "anti graffiti window films christchurch": 0
+      }
+    },
+    {
+      "page": "Frosted & decorative",
+      "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+      "words": 1392,
+      "targets": 2,
+      "keyword_counts": {
+        "commercial frosted and opaque window film christchurch": 3,
+        "decorative window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial frosted and opaque window film christchurch": 0,
+        "decorative window film christchurch": 1
+      }
+    },
+    {
+      "page": "Safety & security",
+      "path": "/commercial-window-tinting/safety-security-window-films",
+      "words": 1292,
+      "targets": 1,
+      "keyword_counts": {
+        "commercial safety & security window film christchurch": 5
+      },
+      "exact_keyword_counts": {
+        "commercial safety & security window film christchurch": 0
+      }
+    }
+  ],
+  "issues": []
+}

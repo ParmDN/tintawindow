@@ -1,0 +1,69 @@
+/* Service chapters: align the photograph with the advice and keep complete
+   four-option collections balanced. These rules do not affect About or Home. */
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure){grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto 1fr;column-gap:clamp(28px,5vw,64px);row-gap:18px;align-items:start}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)> .revision-heading{grid-column:2;grid-row:1;margin:0;align-self:start;position:static;top:auto}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)> .revision-body{grid-column:2;grid-row:2;margin:0;align-self:start}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)>figure{grid-column:1;grid-row:1/3;align-self:start;position:static;top:auto;margin:0}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)>figure img{display:block;width:100%;height:auto;min-height:0;max-height:none;aspect-ratio:4/3;object-fit:cover}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide) h2{margin-block:0}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide) .revision-body>p:first-child{margin-top:0}
+
+/* One image beside a connected advice column, rather than a tall image row
+   followed by the remainder of the text a long way below it. */
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons>.revision-heading{margin-bottom:28px;position:static;top:auto}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-composition{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);grid-template-rows:auto 1fr;gap:22px clamp(28px,5vw,64px);align-items:start}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-feature{display:contents;position:static;top:auto;margin:0}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-photo{grid-column:1;grid-row:1/3;align-self:start;margin:0;position:static;top:auto}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-photo img{display:block;width:100%;height:auto;min-height:0;max-height:550px;aspect-ratio:4/5;object-fit:cover}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .experience-panel{grid-column:2;grid-row:1;align-self:start;margin:0;padding:24px 28px;background:var(--brand-yellow,#FFD43B);color:var(--ink,#293c3a)}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .experience-panel h3{margin:0 0 12px;max-width:none;font-size:23px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .experience-panel p{font-size:17px;line-height:1.65}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons{grid-column:2;grid-row:2;display:grid;grid-template-columns:1fr;gap:0;margin:0;align-self:start}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article{display:grid;grid-template-columns:34px minmax(0,1fr);gap:0 16px;padding:20px 0;margin:0;align-content:start}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article:first-child{padding-top:0;border-top:0}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article>.detail-icon{grid-column:1;grid-row:1;width:30px;height:30px;margin:0;color:var(--brand-yellow,#FFD43B)}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article>h3{grid-column:2;grid-row:1;font-size:22px;margin:0 0 12px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article>p{grid-column:2;font-size:17px;line-height:1.65}
+
+/* Four choices are two complete rows, never a three-plus-one orphan. */
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices:has(>article:nth-child(4):last-child):not(:has(>.revision-category)){grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices:has(>article:nth-child(4):last-child)>article{min-width:0;padding:24px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices:has(>article:nth-child(4):last-child)>article>.detail-icon{margin-bottom:18px;width:40px;height:40px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices h3{margin:0 0 14px;line-height:1.3}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices h3 a{display:inline;border:0;min-height:0;padding:0;color:inherit;font:inherit;text-decoration:none;text-underline-offset:5px;text-decoration-thickness:1px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices h3 a:hover,.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices h3 a:focus-visible{text-decoration:underline}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices h3 a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:2px}
+
+/* The gallery destination is a clear action, not a quiet text afterthought. */
+.fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link{display:flex;justify-content:flex-start;margin-top:24px}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link>a{display:inline-flex;align-items:center;justify-content:center;min-height:50px;max-width:100%;margin:0;padding:14px 22px;background:var(--brand-yellow,#FFD43B);border:1px solid var(--ink,#293c3a);border-radius:5px;color:var(--ink,#293c3a);font-size:16px;font-weight:650;line-height:1.45;text-align:center;text-decoration:none;white-space:normal}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link>a:hover{box-shadow:0 3px 0 var(--ink,#293c3a)}
+.fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link>a:focus-visible{outline:3px solid var(--ink,#293c3a);outline-offset:4px}
+
+@media(max-width:800px){
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure){grid-template-columns:1fr;grid-template-rows:auto;gap:20px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)>:is(.revision-heading,.revision-body,figure){grid-column:1;grid-row:auto}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)>figure{order:3}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-guide:not(.with-tint-guide):has(>figure)>figure img{height:auto;aspect-ratio:16/10;max-height:440px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-composition{column-gap:28px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .experience-panel{padding:22px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-photo img{aspect-ratio:3/4;max-height:none}
+}
+@media(max-width:600px){
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-composition{grid-template-columns:1fr;grid-template-rows:auto;gap:20px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-photo{grid-column:1;grid-row:1}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .reasons-photo img{aspect-ratio:4/3;max-height:none}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .experience-panel{grid-column:1;grid-row:2}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons{grid-column:1;grid-row:3}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .atelier-reasons .revision-reasons>article{padding:18px 0}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices:has(>article:nth-child(4):last-child):not(:has(>.revision-category)){grid-template-columns:1fr;gap:16px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .revision-choices:has(>article:nth-child(4):last-child)>article{padding:22px}
+ .fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link>a{width:100%}
+}
+@media(prefers-reduced-motion:reduce){.fresh:is(.page-residential,.page-commercial,.page-hub) .project-gallery-link>a{transition:none}}
+
+/* Four-card film options use the existing mobile rail's automatic columns.
+   Explicit desktop columns otherwise leave the first mobile cards collapsed. */
+@media(max-width:800px){
+ .fresh:is(.page-residential,.page-commercial) #content-3 .revision-choices:has(>article:nth-child(4):last-child):not(:has(>.revision-category)){grid-template-columns:none}
+}

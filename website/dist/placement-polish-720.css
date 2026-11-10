@@ -1,0 +1,65 @@
+/* The balanced master includes breathing room on both sides. Show it in full. */
+.fresh #main .home-people-717 figure img[src*="shoot-team-conversation"],
+.fresh.page-about #main .fresh-hero .fresh-hero-media > img[src*="shoot-team-conversation"] {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Trim excess wall above the joint portrait while retaining its full width. */
+.fresh #main .story-team-717 .shoot-team-portrait img {
+  aspect-ratio: 9 / 10;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+/* The heading already supplies the gap above the installation steps. */
+.fresh #main .home-installation-steps {
+  margin-top: 6px;
+}
+
+/* Keep arrows close to their photographs after hiding the scrollbar. */
+.fresh #main .photo-carousel {
+  padding-bottom: 4px;
+}
+
+/* Preserve the complete office photograph without letterboxing its column. */
+.fresh #main .contact-copy > img[src*="shoot-roxana-support"] {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center;
+}
+@media (min-width: 601px) and (max-width: 1100px) {
+  .fresh #main .contact-copy > img[src*="shoot-roxana-support"] {
+    width: min(100%, 420px);
+    margin-inline: auto;
+  }
+}
+
+/* A single reading column avoids a long empty area beside tablet copy. */
+@media (max-width: 850px) {
+  .fresh #main .story-team-717 {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 22px;
+  }
+  .fresh #main .story-team-717 > .revision-heading {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .fresh #main .story-team-717 > .shoot-team-portrait {
+    grid-column: 1;
+    grid-row: 2;
+    width: min(100%, 420px);
+    justify-self: center;
+  }
+  .fresh #main .story-team-717 > .revision-body {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}

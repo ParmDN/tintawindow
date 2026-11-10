@@ -1,0 +1,27 @@
+import {hasNationalHero,nationalCopy,exactCopy} from './national-copy.mjs';
+import {proofCopy} from './final-proof.mjs';
+import {heroLeadFor} from './final-content.mjs';
+import {enquiryActions} from './enquiry-actions.mjs';
+import {plainCopy} from './editorial-review.mjs';
+import {bannerTitles} from './brand-pages.mjs';
+export function freshDesign({esc,img,eyebrow,btn,link,pages,regional}){
+ const contact='/contact-for-window-tinting';
+ function hero(p){const home=p.index===0;const [title,accent]=bannerTitles[p.index]||(p.type==='location'?['Window tinting',`in ${p.label==='Wanaka'?'Wānaka':p.label}.`]:['Window tinting service areas','across the South Island.']);
+ const photo=home?'architecture':p.image||'architecture';
+ const serviceCopy=nationalCopy.services[p.index];
+ const {lead:pageLead,appendSentence}=heroLeadFor(p.index);
+ const lead=pageLead||(home?'Keep the outlook you love. Make your space more comfortable. We help you choose film around your glass, your interiors and the way you live.':p.type==='location'?regional[p.label].intro:p.description||'Explore considered window film for your property, with advice on the glass, the finish and the result you want.');
+ const parent=p.type==='residential'?pages[1]:p.type==='commercial'?pages[8]:p.type==='location'?{label:'Locations',path:'/locations'}:null;
+ const trail=home?'':`<nav class="editorial-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span>${parent?`<a href="${parent.path}">${esc(parent.label)}</a><span aria-hidden="true">/</span>`:''}<span aria-current="page">${esc(p.label==='Wanaka'?'Wānaka':p.label)}</span></nav>`;
+ const scoped=hasNationalHero(p.index);
+ const exactEye=home?nationalCopy.home.heroEyebrow:serviceCopy?.eyebrow;
+ const eye=exactEye?`<p class="eyebrow"><span></span>${exactCopy(esc(exactEye))}</p>`:eyebrow(p.type==='commercial'||p.index===8?'For your workplace':p.type==='residential'||p.index===1?'For your home':p.type==='location'?'Your property. Your place.':'Tint A Window');
+ const heroEye=scoped?eye.replace('<p class="eyebrow">','<h1 class="eyebrow hero-eyebrow">').replace('</p>','</h1>'):eye;
+ const headline=serviceCopy?`<span class="hero-headline"><span>${exactCopy(esc(title))}</span></span>`:home?`<span class="hero-headline">${exactCopy(esc(title))}</span>`:scoped?`<span class="hero-headline"><span>${esc(title)}</span> <span class="hero-accent">${esc(accent)}</span></span>`:`<h1><span>${esc(title)}</span> <em>${esc(accent)}</em></h1>`;
+ return `<section class="fresh-hero ${home?'fresh-home':'fresh-internal'}" data-layout="opening"><div class="fresh-hero-copy">${trail}<span class="brand-film-mark" aria-hidden="true"></span>${heroEye}<div class="hero-heading-row">${headline}<div class="hero-support"><p>${home?exactCopy(esc(lead)):esc(plainCopy(lead))}${appendSentence?` ${exactCopy(esc(appendSentence))}`:''}</p>${enquiryActions(p.index===26?'#start-enquiry':contact)}</div></div>${home?'<div class="fresh-credentials"><span>Family-owned</span><span>39+ years of industry experience</span></div>':''}</div><div class="fresh-hero-media">${img(photo,'fresh-cover wide-cover',true)}<div class="sunlight-note"><span>${home?'Light, considered.':(p.type==='commercial'||p.index===8)?'Made for working life.':'Made for everyday life.'}</span><p>${home?'The view stays.<br>The feeling changes.':'Your glass.<br>Your priorities.'}</p></div>${photo==='frost-concept'?'<small>Illustrated privacy-film concept.</small>':''}</div></section>`;
+ }
+ const placeholderSlots=[];
+ function projects(p){const d=proofCopy.project_context[p.index];if(!d)return '';return `<section class="section project-slots gallery-context" id="project-examples" data-layout="projects"><div class="project-slots-heading">${eyebrow('From the installation gallery')}<h2>${esc(d.title)}</h2><p>${esc(d.intro)}</p></div><div class="project-slot-grid">${d.photos.map(photo=>`<article class="gallery-context-card"><a href="/window-tinting-gallery#photo-${photo}">${img(photo)}</a><p>${esc(d.captions[photo])}</p></article>`).join('')}</div><div class="project-gallery-link">${link('Explore all installation photographs','/window-tinting-gallery')}</div></section>`;}
+ function audience(){return `<section class="section audience-chapter" id="choose-your-space" data-layout="audiences"><div class="chapter-heading"><p class="eyebrow"><span></span>${exactCopy(esc(nationalCopy.home.audienceEyebrow))}</p><h2>Choose window film<br><em>for your home or business.</em></h2><p>${exactCopy(esc(nationalCopy.home.audienceSentence))} Start with the way you use your space.</p></div><div class="audience-tiles">${[[1,'client-019','For the place you call home.','Comfort, privacy and protection, room by room.'],[8,'client-054','For the way your business works.','Less glare, more privacy and glass suited to your working day.']].map(([i,photo,title,copy])=>`<article class="audience-tile"><a class="audience-photo-link" href="${pages[i].path}">${img(photo)}<span class="audience-tag">${i===1?'Residential':'Commercial'}</span></a><div class="audience-tile-copy"><h3>${title}</h3><p>${copy}</p><a class="audience-main-link" href="${pages[i].path}">Explore ${i===1?'residential':'commercial'} window tinting </a><div class="audience-services">${pages.filter(x=>x.type===(i===1?'residential':'commercial')).map(x=>`<a href="${x.path}">${esc(x.label)}</a>`).join('')}</div></div></article>`).join('')}</div></section>`;}
+ return{hero,projects,audience,placeholderSlots};
+}

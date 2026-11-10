@@ -1,0 +1,169 @@
+/* V7.14: comfortable reading, compact chapters and photographic movement. */
+.fresh #main>.section{padding-block:48px}
+.fresh main .section :is(p,li,dd,label,summary){font-size:17px!important;line-height:1.65}
+.fresh main :is(.eyebrow,p.eyebrow){font-size:12px!important;line-height:1.5;letter-spacing:.1em}
+.fresh main :is(figcaption,.fine,.file-help,.gallery-item small){font-size:15px!important;line-height:1.6}
+.fresh main :is(h2,.revision-next h2){font-size:clamp(30px,3.4vw,48px);line-height:1.16;letter-spacing:-.045em}
+.fresh main h3{font-size:22px;line-height:1.3}
+.fresh main :is(.revision-heading,.home-chapter-heading,.project-slots-heading,.chapter-heading,.application-heading){margin-bottom:26px}
+.fresh main :is(.revision-heading,.home-chapter-heading,.chapter-heading,.application-heading) .eyebrow{margin-bottom:12px}
+.fresh main .revision-feature-section>.revision-heading{margin:0}
+.fresh main .revision-feature-section{gap:18px 5vw}
+.fresh main .revision-next{padding-block:46px}
+.fresh main .revision-next h2{max-width:20ch}
+.fresh main .fresh-hero{padding-block:20px 32px}
+.fresh main .fresh-hero-copy{margin-bottom:24px}
+.fresh main .hero-heading-row{gap:4vw;align-items:start}
+.fresh main .fresh-credentials span{font-size:14px;line-height:1.5}
+.fresh main .editorial-breadcrumbs{font-size:14px}
+.fresh main .fresh-hero :is(h1:where(:not(.hero-eyebrow)),span:where(.hero-headline)){font-size:clamp(38px,5.3vw,78px);line-height:1.08}
+.fresh main .hero-support p{font-size:18px!important;line-height:1.65}
+.fresh main .fresh-hero .fresh-hero-media>img{height:clamp(290px,35vw,480px)}
+.fresh main .sunlight-note p{font-size:27px!important;line-height:1.2}
+.fresh main .home-reasons-layout{gap:4vw}
+.fresh main .home-reason-grid{gap:24px}
+.fresh main .reasons-feature{gap:30px;margin-bottom:26px}
+.fresh main .experience-panel{padding:26px}
+.fresh main :is(.benefit-intro,.reasons-intro){margin-bottom:24px}
+.fresh main :is(.home-outcome-help,.benefit-close,.problem-takeaway){padding:24px;gap:24px;margin-top:26px}
+.fresh main .home-gallery-note{margin-top:20px;max-width:78ch}
+.fresh main .project-gallery-link{margin-top:20px}
+.fresh main :is(.button,.audience-main-link),.fresh .site-header :is(.nav-quote,.mobile-quote){font-size:16px!important;font-weight:650;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 21px;line-height:1.35;text-decoration:none;border-radius:4px 4px 18px 4px;box-sizing:border-box;white-space:normal}
+.fresh main .enquiry-actions{gap:12px;flex-wrap:wrap}
+.fresh main .call-button{border:1px solid currentColor}
+.fresh .site-header #site-nav{font-size:16px}
+.fresh .site-header .nav-group>a{font-size:16px}
+@media(min-width:801px){.fresh .site-header .mobile-quote{display:none}}
+.fresh .site-header .nav-panel{height:auto;min-height:0;width:350px;display:block;align-content:start;padding:10px 16px;background:#e9f0ec;border:1px solid #c4d3ca;border-top:3px solid #FFD43B;border-radius:3px 3px 18px 3px;box-shadow:0 15px 32px #172d2920}
+.fresh .site-header .nav-panel[hidden]{display:none!important}
+.fresh .site-header .nav-panel>a{font-size:16px;line-height:1.4;min-height:40px;padding:9px 10px;margin:0;border-bottom:1px solid #293c3a22;color:#293c3a;border-radius:3px;box-sizing:border-box}
+.fresh .site-header .nav-panel>a:last-child{border:0;margin:0;padding-bottom:9px}
+.fresh .site-header .nav-panel .overview{font-size:17px;font-weight:700;background:#FFD43B;margin:0 0 7px;min-height:46px}
+.fresh .site-header .nav-panel>a:hover,.fresh .site-header .nav-panel>a:focus-visible{background:#293c3a;color:#fff}
+.fresh main .audience-services a{font-size:16px!important;min-height:44px;padding:11px 14px;line-height:1.35}
+.fresh main .service-outline{padding-block:16px;gap:10px}
+.fresh main .service-outline a{font-size:16px;min-height:44px;padding:11px 14px}
+.fresh .atelier-footer{padding-top:40px}
+.fresh .atelier-footer .footer-top{gap:24px;padding-bottom:32px}
+.fresh .atelier-footer .footer-column :is(a,h2){font-size:16px;line-height:1.5}
+.fresh .atelier-footer .footer-column>a{padding-block:5px;min-height:32px}
+.fresh .atelier-footer .footer-positioning{font-size:16px}
+.fresh .atelier-footer .footer-contact-strip{padding-block:30px}
+.fresh .atelier-footer .footer-bottom{font-size:14px;padding-block:20px}
+.fresh .atelier-footer .footer-column .button{padding:12px 18px;min-height:48px}
+/* Photo rails are distinct from service-selection cards and the filterable gallery. */
+.fresh main .section .photo-carousel{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:72%;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding:0 0 14px;align-items:stretch;max-width:100%;min-width:0;touch-action:pan-x pan-y}
+.fresh main .section .home-gallery-pair.photo-carousel{grid-auto-columns:47%}
+.fresh main .section .photo-carousel>*{min-width:0;scroll-snap-align:start;grid-column:auto;grid-row:auto;margin:0}
+.fresh main .section .photo-carousel img{height:320px;width:100%;object-fit:cover}
+.fresh main .section .photo-carousel .gallery-context-card p{padding:18px 20px;margin:0}
+.fresh main .section .home-gallery-pair figure{margin:0}
+.fresh main .section .home-gallery-pair figcaption{font-size:18px!important}
+.fresh main .section .home-gallery-pair figcaption span{font-size:15px}
+/* Original archive scans sit inside a slanted film-colour frame. Dates are type, not buttons. */
+.fresh main .client-archive .archive-heading{margin-bottom:26px}
+.fresh main .client-archive .archive-years{margin-bottom:20px}
+.fresh main .client-archive .archive-years button{font-size:15px;min-height:44px}
+.fresh main .client-archive .archive-timeline figure{isolation:isolate;background:transparent;border-radius:0;padding:14px 14px 44px;margin-bottom:18px;overflow:hidden}
+.fresh main .client-archive .archive-timeline figure:before{content:"";position:absolute;inset:0;background:#293c3a;clip-path:polygon(0 5%,100% 0,100% 94%,0 100%);z-index:-1}
+.fresh main .client-archive .archive-timeline img{height:280px;object-fit:contain}
+.fresh main .client-archive .archive-timeline figcaption{position:absolute;left:25px;bottom:11px;background:none;color:#FFD43B;padding:0;font-size:16px!important;font-weight:650;z-index:1}
+.fresh .archive-era{position:absolute;right:18px;bottom:4px;font-size:44px;line-height:1;font-weight:700;color:#ffffff15;letter-spacing:-.07em;transform:skewY(-3deg);pointer-events:none;z-index:0}
+.fresh main .client-archive>.archive-team{margin-top:28px;padding:26px}
+/* Shared quote form. Native controls keep touch, keyboard and assistive-technology support. */
+.fresh main .home-enquiry,.fresh main .contact-layout{gap:5vw}
+.fresh .quote-dialog{max-width:760px;width:calc(100% - 32px);max-height:calc(100dvh - 32px);overflow-y:auto;padding:28px;border:0;border-radius:4px 4px 28px 4px}
+.fresh .quote-dialog .quote-dialog-close{position:sticky;top:0;float:right;z-index:5;min-width:70px;min-height:44px;font-size:16px;background:#e9f0ec;color:#293c3a;border:1px solid #a8b9b0;border-radius:3px}
+.fresh .quote-dialog h2{font-size:36px;line-height:1.15;margin:12px 0}
+.fresh .quote-dialog :is(p,label,summary,legend){font-size:17px;line-height:1.55}
+.fresh .quick-quote-form{display:grid;gap:15px;margin-top:18px}
+.fresh .quick-quote-form .form-introduction{margin:0;font-size:15px!important;line-height:1.5}
+.fresh .quick-quote-form .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px}
+.fresh .quick-quote-form label{display:grid;gap:7px;font-size:16px!important;font-weight:600;line-height:1.5}
+.fresh .quick-quote-form :is(input:not([type=checkbox]),textarea,select){width:100%;min-width:0;min-height:48px;padding:11px 12px;border:1px solid #72867a;background:white;color:#293c3a;border-radius:3px;font:inherit;font-size:17px;line-height:1.5;box-sizing:border-box}
+.fresh .quick-quote-form :is(input,select,textarea):focus-visible{outline:2px solid #293c3a;outline-offset:3px}
+.fresh .quick-quote-form textarea{min-height:100px;resize:vertical}
+.fresh .quick-quote-form :is(.service-picker,.measurement-fields){margin:0;border:1px solid #8fa398;border-radius:3px;background:#fff}
+.fresh .quick-quote-form summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 15px;min-height:48px;font-size:16px!important;font-weight:600;line-height:1.4}
+.fresh .quick-quote-form summary::-webkit-details-marker{display:none}
+.fresh .picker-indicator{font-size:24px;font-weight:400}
+.fresh .service-picker[open] .picker-indicator{transform:rotate(45deg)}
+.fresh .quick-quote-form .service-picker>p{padding:0 15px;font-size:15px!important;margin:0 0 12px}
+.fresh .quick-quote-form fieldset{border:0;border-top:1px solid #c5d3cb;padding:12px 15px 15px;margin:0;min-width:0}
+.fresh .quick-quote-form fieldset[hidden]{display:none!important}
+.fresh .quick-quote-form legend{font-size:16px;font-weight:700;padding:0 6px}
+.fresh .service-check-grid{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px}
+.fresh .quick-quote-form .service-check-grid label{display:flex;align-items:center;gap:10px;min-height:44px;font-size:16px!important;font-weight:400;padding:6px 0}
+.fresh .quick-quote-form .service-check-grid label span{color:#293c3a}
+.fresh .quick-quote-form input[type=checkbox]{width:20px;height:20px;min-height:20px;margin:0;padding:0;flex-shrink:0;accent-color:#293c3a}
+.fresh .quick-quote-form .measurement-fields>label{padding:0 15px 15px}
+.fresh .quick-quote-form input[type=file]{font-size:15px;padding:9px;background:#fff;min-height:52px}
+.fresh .quick-quote-form input[type=file]::file-selector-button{font:inherit;background:#293c3a;color:white;border:0;padding:10px 12px;border-radius:3px;cursor:pointer;margin-right:10px}
+.fresh .quick-quote-form :is(.file-help,.file-status){font-size:14px!important;line-height:1.5;margin:7px 0 0;overflow-wrap:anywhere}
+.fresh .quick-quote-form .file-status:empty{display:none}
+.fresh .quick-quote-form .field-error{color:#8a251c;font-weight:600}
+.fresh .quick-quote-form .clear-photos{min-height:44px;font-size:15px;padding:8px 12px;background:#fff;border:1px solid #72867a;border-radius:3px;margin-top:8px;cursor:pointer}
+.fresh .quick-quote-form .clear-photos[hidden]{display:none!important}
+.fresh .quick-quote-form .form-submit{width:100%;min-height:52px;background:#FFD43B;color:#293c3a;border:1px solid #c98a15;font-size:17px!important;font-weight:700;cursor:pointer}
+.fresh .quote-support-photo{margin:24px 0 0;overflow:hidden;border-radius:3px 3px 28px 3px}
+.fresh .quote-support-photo img{display:block;width:100%;height:330px;object-fit:cover}
+.fresh main .customer-notes .reviews-context p.fine{font-size:17px!important}
+.fresh main .review-reel blockquote p{font-size:clamp(26px,2.2vw,34px)!important;line-height:1.2}
+.fresh main .review-reel cite{font-size:15px;line-height:1.4}
+.fresh main .review-reel cite span{font-size:15px;color:inherit}
+@media(max-width:800px){
+ .fresh #main>.section{padding-block:34px}
+ .fresh .site-header{padding-inline:14px;gap:8px}
+ .fresh .site-header .brand,.fresh .site-header .brand img{width:clamp(120px,34vw,145px)}
+ .fresh .site-header .mobile-quote{width:auto;min-width:104px;white-space:nowrap;font-size:15px!important;min-height:46px;padding:10px 12px}
+ .fresh .site-header .mobile-toggle{width:44px;min-width:44px;min-height:44px}
+ .fresh main .revision-next{padding-block:36px}
+ .fresh main .fresh-hero{padding-block:16px 24px}
+ .fresh main .fresh-hero :is(h1:where(:not(.hero-eyebrow)),span:where(.hero-headline)){font-size:clamp(32px,8.2vw,52px)}
+ .fresh main .fresh-hero .fresh-hero-media>img{height:290px}
+ .fresh main .hero-support p{font-size:17px!important}
+ .fresh main .fresh-hero-copy{margin-bottom:20px}
+ .fresh main .section :is(.home-reasons-layout,.problem-layout,.benefit-layout){gap:24px}
+ .fresh main .section .mobile-card-rail>article p{font-size:17px!important;line-height:1.65}
+ .fresh main .section :is(.home-outcome-help,.problem-takeaway,.benefit-close){padding:20px;gap:16px;margin-top:22px}
+ .fresh main .section :is(.photo-carousel,.home-gallery-pair.photo-carousel){grid-auto-columns:88%;gap:18px}
+ .fresh main .section .photo-carousel img{height:250px}
+ .fresh main .client-archive .archive-timeline img{height:240px}
+ .fresh main .client-archive .archive-timeline figure{padding:12px 12px 42px}
+ .fresh main .client-archive .archive-timeline figcaption{left:21px;font-size:15px!important}
+ .fresh .archive-era{font-size:36px}
+ .fresh .site-header .nav-panel{width:100%;margin:0 0 8px;padding:8px 10px;box-shadow:none}
+ .fresh .site-header #site-nav{padding-bottom:18px;max-height:calc(100dvh - 98px)}
+ .fresh .quick-quote-form .form-grid{grid-template-columns:1fr}
+ .fresh .service-check-grid{grid-template-columns:1fr}
+ .fresh main .home-enquiry .form-panel,.fresh main .contact-layout .form-panel{padding:22px}
+ .fresh .quote-dialog{padding:22px;width:calc(100% - 24px);max-height:calc(100dvh - 24px)}
+ .fresh .quote-support-photo img{height:240px}
+ .fresh .mobile-enquiry-bar .button{font-size:16px!important;min-height:48px}
+ .fresh main .review-reel blockquote p{font-size:27px!important}
+ .fresh main .review-reel blockquote{padding:23px}
+ .fresh .atelier-footer .footer-column a{font-size:16px;min-height:36px}
+}
+@media(prefers-reduced-motion:reduce){.fresh .photo-carousel{scroll-behavior:auto!important}}
+/* Use the compact navigation before larger text starts wrapping on tablets. */
+@media(min-width:1101px){.fresh .site-header #site-nav>a,.fresh .site-header .nav-group>a{white-space:nowrap}}
+@media(min-width:801px) and (max-width:1100px){
+ .fresh .site-header{padding:14px 28px;gap:16px;min-height:90px}
+ .fresh .site-header .brand,.fresh .site-header .brand img{width:180px}
+ .fresh .site-header .mobile-quote{display:inline-flex;margin-left:auto;white-space:nowrap;width:auto}
+ .fresh .site-header .mobile-toggle{display:inline-flex;align-items:center;justify-content:center;position:relative;width:44px;height:44px;min-width:44px;border:0;background:none;color:#293c3a}
+ .fresh .site-header .mobile-toggle span{display:none}
+ .fresh .site-header .mobile-toggle i{display:block;position:relative;width:22px;height:14px;border-top:1px solid;border-bottom:1px solid}
+ .fresh .site-header .mobile-toggle[aria-expanded=true] i{border:0}
+ .fresh .site-header .mobile-toggle[aria-expanded=true] i:before,.fresh .site-header .mobile-toggle[aria-expanded=true] i:after{content:"";position:absolute;left:0;top:6px;width:22px;height:1px;background:currentColor;transform:rotate(45deg)}
+ .fresh .site-header .mobile-toggle[aria-expanded=true] i:after{transform:rotate(-45deg)}
+ .fresh .site-header #site-nav{display:none;position:absolute;top:100%;left:0;right:0;max-height:calc(100dvh - 96px);overflow-y:auto;background:#f4f4ef;padding:12px 28px 18px;box-shadow:0 15px 30px #293c3a20}
+ .fresh .site-header #site-nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}
+ .fresh .site-header .nav-group{display:flex;flex-wrap:wrap;justify-content:space-between;border-bottom:1px solid #293c3a25}
+ .fresh .site-header .nav-group>a{flex:1;padding:14px 0;min-height:46px}
+ .fresh .site-header .nav-toggle{width:44px;height:48px}
+ .fresh .site-header .nav-panel{position:static;top:auto;left:auto;right:auto;width:100%;max-height:none;overflow-y:visible;padding:8px 12px;margin:0 0 8px;box-shadow:none}
+ .fresh .site-header #site-nav>a:not(.nav-quote){padding:14px 0;min-height:46px;border-bottom:1px solid #293c3a25}
+ .fresh .site-header .nav-quote{margin-top:12px}
+}
+.fresh main .hero-support .enquiry-actions{margin-top:20px}

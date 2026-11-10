@@ -1,0 +1,100 @@
+# Contact
+
+Website page: https://tint-a-window-review.vercel.app/contact-for-window-tinting
+
+Version 7.17 · 23 October 2026
+
+Tint A Window
+
+# Get a Window tinting quote. Tell us about your glass.
+
+Talk to Tint A Window about your Christchurch or South Island project. Call 0800 368 468 or prepare an enquiry with your priorities, photos and measurements.
+
+Your glass. Your priorities.
+
+Made for your space
+
+## Contact Tint A Window for a quote built around your property.
+
+Contact Tint A Window about the room that gets too hot, the screen lost in glare or the window that feels exposed. Tell us what you want to improve. You do not need a product name or perfect measurements to start. For an email, use a short subject naming the room and location, so your message is easy to recognise when you follow up.
+
+Contact Tint A Window
+
+## Prefer to talk it through?
+
+Tell us about the room that needs attention and the difference you would like to make. Call or email us, or bring your requirements together using the form.
+
+### Opening hours
+
+Monday–Friday, 8 am–5 pm Saturday by appointment Sunday closed
+
+Christchurch and selected South Island locations. We confirm assessment and installation arrangements for your property.
+
+Your project
+
+## Let’s look at your windows.
+
+Tell us about your windows. Fields marked * are required.
+
+### Choose services (optional) +
+
+Select any services you are considering, or leave the choice to us.
+
+Up to 5 JPG, PNG or WebP photos, 5 MB each.
+
+### Add measurements or access details (optional)
+
+Before you enquire
+
+## Start with a short description of the problem
+
+Tell us what makes the room difficult to use and the change you would like. It might be a desk in harsh sunlight, an entrance that feels exposed or carpet or timber flooring beginning to fade. Include whether the property is a home, workplace, shop or accommodation setting.
+
+List separate concerns by room. A short, clearly labelled enquiry is more useful than choosing one product name for the whole property. Include the town or address area and who can answer questions about the windows. You can ask about the next step without exact sizes or a preferred film already selected.
+
+Helpful photographs
+
+## Take photographs that explain your view
+
+Include a wide view of the room and window, then a closer image of the frame, existing film or any safely visible glass label. For glare, take the photograph from the affected seat. For privacy, explain the view from outside and when people can see in.
+
+Show adjoining panes if appearance matters across a larger opening. Avoid including private documents or people unnecessarily. Photographs help the first discussion but do not establish every glass detail, so the team will explain what else needs checking. Keep a copy of the photographs with your project notes, so you can identify the correct window when you call.
+
+Measurements and access
+
+## Add approximate sizes and access details
+
+If safe and easy, give the width and height of each pane, the number of panes and the units used. Say that the figures are estimates. Do not climb, lean out or reach difficult glass to obtain a measurement for an initial enquiry.
+
+Mention furniture, blinds, upper-storey windows and rooms that remain in use. For rented or shared buildings, identify any person who must approve the work or external appearance. Pane sizes, film choice, condition and access can affect the proposal. The final quote needs to make the selected product, windows included and agreed installation arrangements clear.
+
+Business enquiries
+
+## Tell us who approves commercial work
+
+Include the owner, facilities contact or other person who can approve the product, appearance and quote. Staff using the room may describe a different issue from the person managing the building, so it helps to bring their requirements into one enquiry.
+
+List opening hours, access restrictions and areas that must stay available. Include any written safety or security requirement where relevant; a general product description is not proof of performance for every building. The team can then discuss the information needed for the actual application and confirm practical arrangements before an installation plan is agreed.
+
+What happens next
+
+## Know what the next conversation should cover
+
+After the property and concern are understood, the next discussion can cover missing glass information, an assessment where needed and suitable sample choices. Ask about daylight, reflection, privacy and the finished look from both sides. Request product and warranty information relevant to the proposed use.
+
+Keep preferred dates, access contacts and approval requirements together. If your priorities change, say so before the work is confirmed. Calling or emailing reaches the team directly. The form on this review website demonstrates the enquiry and thank-you journey only; completing it does not request a booking, callback or quote.
+
+After installation
+
+## For aftercare, identify the pane and what you see
+
+Include your name, property location and approximate installation date if known. Describe the affected window and what has changed, with a clear photograph where useful. Product information or the original quote helps identify the film without relying only on its appearance.
+
+Follow the supplied cleaning instructions and ask before trying an unfamiliar product or repair. Drying and care can vary by application. Call 0800 368 468 or email info@tintawindow.co.nz with your question. For help with an existing installation, use those direct contact details and identify the pane that needs attention.
+
+Your next step
+
+## Tell us what you would like to change.
+
+Contact Tint A Window by phone or email to discuss your project. Include your location, the affected windows and your preferred way to hear from us. Use the form above to bring your requirements together before discussing the next step.
+

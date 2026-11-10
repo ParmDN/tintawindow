@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-27",
+  "mode": "built-in image_gen",
+  "status": "Selected balanced-background composition. Original masters retained separately.",
+  "master": "team-conversation-balanced.png",
+  "generatedPath": "/Users/sags/.codex/generated_images/01a10e34-f9ec-7762-b305-61c3a8c64ec9/exec-0a0c1abc-2573-4893-9be0-f85bab28b748.png",
+  "args": {
+    "referenced_image_paths": [
+      "/Users/sags/Documents/Digital Neighbour Ops/Clients/Tint A Window/client-media/shoot-2026-10-22/edited/team-conversation.png"
+    ],
+    "transparent_background": false,
+    "prompt": "Use case: precise-object-edit / identity-preserve. Asset: real team photograph for a premium New Zealand window-film company website. Edit target is the supplied photograph of Bill and Roxana facing each other. Correct the COMPOSITION AND BACKGROUND ONLY. The current frame has excessive empty wall at the left of Bill and almost no wall at the right of Roxana. Create a balanced landscape composition with comparable comfortable breathing space around the two people. Expand the plain pale-grey wall to the RIGHT of Roxana, remove the far-right vertical door/wall trim, and trim a modest amount of unused wall at the LEFT. Keep full heads, hair, glasses, both shirt logos and yellow sleeve edges comfortably inside the picture. The pair should feel centred as a group, without Roxana touching the right border. Preserve the people exactly as photographed: same faces, expressions, age, natural skin detail, glasses, hair, bodies, poses, clothing, watch, hands, existing embroidered logo shapes and lettering. Do not beautify, smooth, redraw or reshape them. Do not move either person's limbs or change their relative distance. Preserve the natural lighting. Only plain wall may be extended; do not add objects or any new text. Aim for a gently wider 3:2 landscape frame, with a believable neutral wall and no visible seam, border, switch or door trim."
+  }
+}

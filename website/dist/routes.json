@@ -1,0 +1,671 @@
+[
+  {
+    "path": "/",
+    "label": "Home",
+    "type": "home",
+    "title": "Window Tinting Christchurch | Tint A Window",
+    "keywords": [
+      "window tinting christchurch",
+      "window tint christchurch",
+      "window film christchurch"
+    ],
+    "originalKeywords": [
+      "window tinting christchurch",
+      "house window tinting christchurch",
+      "window tint christchurch",
+      "window film christchurch"
+    ],
+    "searchRole": "Primary owner: broad Christchurch window tinting and window film",
+    "h1": "Window Tinting Christchurch",
+    "applications": [],
+    "sourceLines": [
+      1,
+      163
+    ]
+  },
+  {
+    "path": "/residential-window-tinting-services",
+    "label": "Residential",
+    "type": "hub",
+    "title": "Residential Window Tinting Christchurch | Tint A Window",
+    "keywords": [
+      "residential window tinting christchurch",
+      "house window tinting christchurch"
+    ],
+    "originalKeywords": [
+      "residential window tinting christchurch"
+    ],
+    "searchRole": "Primary owner: residential, house and home window tinting Christchurch",
+    "h1": "Residential Window Tinting Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Townhouses",
+      "Apartments",
+      "Holiday homes & Airbnb",
+      "Architectural homes",
+      "Renovated homes"
+    ],
+    "sourceLines": [
+      164,
+      301
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/fade-reduction-window-films",
+    "label": "Fade reduction",
+    "type": "residential",
+    "title": "Fade Reducing & UV Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "fade reducing & uv window film christchurch",
+      "fade reducing window film christchurch"
+    ],
+    "originalKeywords": [
+      "fade reducing & uv window film christchurch",
+      "fade reducing window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Fade-Reducing and UV Window Film Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Architectural homes",
+      "Apartments & townhouses",
+      "Holiday homes & Airbnb"
+    ],
+    "sourceLines": [
+      302,
+      420
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/privacy-window-films",
+    "label": "Privacy",
+    "type": "residential",
+    "title": "Privacy Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "window privacy film installation christchurch",
+      "privacy window film christchurch"
+    ],
+    "originalKeywords": [
+      "window privacy film installation christchurch",
+      "privacy window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Privacy Window Film Christchurch",
+    "applications": [
+      "Street-facing houses",
+      "Townhouses",
+      "Apartments",
+      "Holiday homes & Airbnb"
+    ],
+    "sourceLines": [
+      421,
+      539
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/heat-control-window-films",
+    "label": "Heat control",
+    "type": "residential",
+    "title": "Heat Control Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "heat control window film christchurch"
+    ],
+    "originalKeywords": [
+      "heat control window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Heat Control Window Film Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Architectural homes",
+      "Apartments & townhouses",
+      "Holiday homes & Airbnb"
+    ],
+    "sourceLines": [
+      540,
+      658
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/anti-glare-window-films",
+    "label": "Anti-glare",
+    "type": "residential",
+    "title": "Anti Glare Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "Anti Glare Window Film Christchurch"
+    ],
+    "originalKeywords": [
+      "Anti Glare Window Film Christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Anti-Glare Window Film Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Home offices",
+      "Apartments & townhouses",
+      "Architectural & holiday homes"
+    ],
+    "sourceLines": [
+      659,
+      777
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/frosted-opaque-window-films",
+    "label": "Frosted & opaque",
+    "type": "residential",
+    "title": "Frosted and Opaque Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "frosted and opaque window film christchurch",
+      "opaque window film christchurch"
+    ],
+    "originalKeywords": [
+      "frosted and opaque window film christchurch",
+      "opaque window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Frosted and Opaque Window Film Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Townhouses",
+      "Apartments",
+      "Holiday homes & Airbnb"
+    ],
+    "sourceLines": [
+      778,
+      897
+    ]
+  },
+  {
+    "path": "/residential-window-tinting/safety-security-window-films",
+    "label": "Safety & security",
+    "type": "residential",
+    "title": "Safety & Security Window Film Christchurch | Tint A Window",
+    "keywords": [
+      "safety & security window film christchurch"
+    ],
+    "originalKeywords": [
+      "safety & security window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Safety and Security Window Film Christchurch",
+    "applications": [
+      "Standalone houses",
+      "Townhouses",
+      "Apartments",
+      "Architectural & holiday homes"
+    ],
+    "sourceLines": [
+      898,
+      1016
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting-services",
+    "label": "Commercial",
+    "type": "hub",
+    "title": "Commercial Window Tinting Christchurch | Tint A Window",
+    "keywords": [
+      "commercial window tinting christchurch"
+    ],
+    "originalKeywords": [
+      "commercial window tinting christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Commercial Window Tinting Christchurch",
+    "applications": [
+      "Offices & workspaces",
+      "Restaurants & cafés",
+      "Retail & showrooms",
+      "Hotels & accommodation",
+      "Clinics & consulting rooms",
+      "Education & shared facilities"
+    ],
+    "sourceLines": [
+      1017,
+      1123
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting/heat-rejection-solar-protection-window-films",
+    "label": "Heat & solar control",
+    "type": "commercial",
+    "title": "Commercial Heat Control Christchurch | Tint A Window",
+    "keywords": [
+      "commercial heat control window film christchurch",
+      "solar protection window films christchurch"
+    ],
+    "originalKeywords": [
+      "commercial heat control window film christchurch",
+      "solar protection window films christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Commercial Heat Control Window Film Christchurch",
+    "applications": [
+      "Offices",
+      "Restaurants & cafés",
+      "Hotels & accommodation",
+      "Retail & showrooms"
+    ],
+    "sourceLines": [
+      1124,
+      1236
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting/anti-glare-window-films",
+    "label": "Anti-glare",
+    "type": "commercial",
+    "title": "Commercial Glare Control Christchurch | Tint A Window",
+    "keywords": [
+      "Commercial Anti-Glare Window Films Christchurch"
+    ],
+    "originalKeywords": [
+      "Commercial Anti-Glare Window Films Christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Commercial Anti-Glare Window Film Christchurch",
+    "applications": [
+      "Restaurants & cafés",
+      "Offices & workspaces",
+      "Clinics & reception areas",
+      "Hotels & accommodation"
+    ],
+    "sourceLines": [
+      1237,
+      1349
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting/anti-graffiti-window-films",
+    "label": "Anti-graffiti",
+    "type": "commercial",
+    "title": "Anti Graffiti Window Films Christchurch | Tint A Window",
+    "keywords": [
+      "anti graffiti window films christchurch"
+    ],
+    "originalKeywords": [
+      "anti graffiti window films christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Anti-Graffiti Window Film Christchurch",
+    "applications": [
+      "Retail shopfronts",
+      "Restaurants & cafés",
+      "Shared building entrances",
+      "Public-facing facilities"
+    ],
+    "sourceLines": [
+      1350,
+      1462
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting/frosted-opaque-decorative-window-films",
+    "label": "Frosted & decorative",
+    "type": "commercial",
+    "title": "Commercial Frosted Film Christchurch | Tint A Window",
+    "keywords": [
+      "commercial frosted and opaque window film christchurch",
+      "decorative window film christchurch"
+    ],
+    "originalKeywords": [
+      "commercial frosted and opaque window film christchurch",
+      "decorative window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Commercial Frosted, Opaque and Decorative Window Film Christchurch",
+    "applications": [
+      "Offices & meeting rooms",
+      "Clinics & consulting rooms",
+      "Retail & hospitality",
+      "Hotels & shared accommodation"
+    ],
+    "sourceLines": [
+      1463,
+      1575
+    ]
+  },
+  {
+    "path": "/commercial-window-tinting/safety-security-window-films",
+    "label": "Safety & security",
+    "type": "commercial",
+    "title": "Commercial Safety Film Christchurch | Tint A Window",
+    "keywords": [
+      "commercial safety & security window film christchurch"
+    ],
+    "originalKeywords": [
+      "commercial safety & security window film christchurch"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Commercial Safety and Security Window Film Christchurch",
+    "applications": [
+      "Retail & shopfronts",
+      "Offices & shared buildings",
+      "Education & childcare facilities",
+      "Clinics & accommodation"
+    ],
+    "sourceLines": [
+      1576,
+      1688
+    ]
+  },
+  {
+    "path": "/locations/christchurch",
+    "label": "Christchurch",
+    "type": "location",
+    "title": "Christchurch Window Film Assessments | Tint A Window",
+    "keywords": [
+      "Window Tinting in Christchurch"
+    ],
+    "originalKeywords": [
+      "Window Tinting in Christchurch"
+    ],
+    "searchRole": "Supporting page: local assessment and installation arrangements",
+    "h1": "Window tinting assessments in Christchurch.",
+    "applications": [],
+    "sourceLines": [
+      1689,
+      1811
+    ]
+  },
+  {
+    "path": "/locations/ashburton",
+    "label": "Ashburton",
+    "type": "location",
+    "title": "Window Tinting Ashburton | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting ashburton"
+    ],
+    "originalKeywords": [
+      "window tinting ashburton"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Ashburton.",
+    "applications": [],
+    "sourceLines": [
+      1812,
+      1931
+    ]
+  },
+  {
+    "path": "/locations/timaru",
+    "label": "Timaru",
+    "type": "location",
+    "title": "Window Tinting Timaru | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting timaru"
+    ],
+    "originalKeywords": [
+      "window tinting timaru"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Timaru.",
+    "applications": [],
+    "sourceLines": [
+      1932,
+      2051
+    ]
+  },
+  {
+    "path": "/locations/oamaru",
+    "label": "Oamaru",
+    "type": "location",
+    "title": "Window Tinting Oamaru | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting oamaru"
+    ],
+    "originalKeywords": [
+      "window tinting oamaru"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Oamaru.",
+    "applications": [],
+    "sourceLines": [
+      2052,
+      2171
+    ]
+  },
+  {
+    "path": "/locations/queenstown",
+    "label": "Queenstown",
+    "type": "location",
+    "title": "Window Tinting Queenstown | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting queenstown"
+    ],
+    "originalKeywords": [
+      "window tinting queenstown"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Queenstown.",
+    "applications": [],
+    "sourceLines": [
+      2172,
+      2291
+    ]
+  },
+  {
+    "path": "/locations/wanaka",
+    "label": "Wanaka",
+    "type": "location",
+    "title": "Window Tinting Wānaka | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting wanaka"
+    ],
+    "originalKeywords": [
+      "window tinting wanaka"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Wānaka.",
+    "applications": [],
+    "sourceLines": [
+      2292,
+      2411
+    ]
+  },
+  {
+    "path": "/locations/cromwell",
+    "label": "Cromwell",
+    "type": "location",
+    "title": "Window Tinting Cromwell | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting cromwell"
+    ],
+    "originalKeywords": [
+      "window tinting cromwell"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Cromwell.",
+    "applications": [],
+    "sourceLines": [
+      2412,
+      2531
+    ]
+  },
+  {
+    "path": "/locations/lake-tekapo",
+    "label": "Lake Tekapo",
+    "type": "location",
+    "title": "Window Tinting Lake Tekapo | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting lake tekapo"
+    ],
+    "originalKeywords": [
+      "window tinting lake tekapo"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Lake Tekapo.",
+    "applications": [],
+    "sourceLines": [
+      2532,
+      2651
+    ]
+  },
+  {
+    "path": "/locations/arrowtown",
+    "label": "Arrowtown",
+    "type": "location",
+    "title": "Window Tinting Arrowtown | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting arrowtown"
+    ],
+    "originalKeywords": [
+      "window tinting arrowtown"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Arrowtown.",
+    "applications": [],
+    "sourceLines": [
+      2652,
+      2771
+    ]
+  },
+  {
+    "path": "/locations/temuka",
+    "label": "Temuka",
+    "type": "location",
+    "title": "Window Tinting Temuka | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting temuka"
+    ],
+    "originalKeywords": [
+      "window tinting temuka"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Temuka.",
+    "applications": [],
+    "sourceLines": [
+      2772,
+      2891
+    ]
+  },
+  {
+    "path": "/locations/geraldine",
+    "label": "Geraldine",
+    "type": "location",
+    "title": "Window Tinting Geraldine | Service Area | Tint A Window",
+    "keywords": [
+      "window tinting Geraldine"
+    ],
+    "originalKeywords": [
+      "window tinting Geraldine"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window Tinting in Geraldine.",
+    "applications": [],
+    "sourceLines": [
+      2892,
+      3011
+    ]
+  },
+  {
+    "path": "/about",
+    "label": "Our story",
+    "type": "about",
+    "title": "About Tint A Window | Our Family Story",
+    "keywords": [
+      "About Tint A Window"
+    ],
+    "originalKeywords": [
+      "About Tint A Window"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "About Tint A Window. The people behind the film.",
+    "applications": [],
+    "sourceLines": [
+      3012,
+      3079
+    ]
+  },
+  {
+    "path": "/contact-for-window-tinting",
+    "label": "Contact",
+    "type": "contact",
+    "title": "Contact Tint A Window | Request a Window Film Quote",
+    "keywords": [
+      "Contact Tint A Window"
+    ],
+    "originalKeywords": [
+      "Contact Tint A Window"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Get a window tinting quote. Tell us about your glass.",
+    "applications": [],
+    "sourceLines": [
+      3080,
+      3115
+    ]
+  },
+  {
+    "path": "/window-tinting-faq",
+    "label": "FAQs",
+    "type": "faq",
+    "title": "Window Film FAQs | Tint A Window",
+    "keywords": [
+      "Tint A Window FAQs"
+    ],
+    "originalKeywords": [
+      "Tint A Window FAQs"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window tinting FAQs. Answers for your property.",
+    "applications": [],
+    "sourceLines": [
+      3116,
+      3197
+    ]
+  },
+  {
+    "path": "/window-tinting-gallery",
+    "label": "Projects",
+    "type": "gallery",
+    "title": "Window Tinting Projects & Gallery | Tint A Window",
+    "keywords": [
+      "Tint A Window projects"
+    ],
+    "originalKeywords": [
+      "Tint a Windows Project"
+    ],
+    "searchRole": "Service or navigational intent",
+    "h1": "Window tinting projects & installation gallery.",
+    "applications": [],
+    "sourceLines": null
+  },
+  {
+    "path": "/locations",
+    "label": "Locations",
+    "type": "locations",
+    "title": "South Island Window Tinting Locations | Tint A Window",
+    "keywords": [],
+    "originalKeywords": [],
+    "searchRole": "Service or navigational intent",
+    "h1": "South Island Window Tinting Find your service area.",
+    "applications": [],
+    "sourceLines": null
+  },
+  {
+    "path": "/design-review",
+    "label": "Design review",
+    "type": "review",
+    "title": "Tint A Window | Design Review & Brand Guidelines",
+    "keywords": [],
+    "originalKeywords": [],
+    "searchRole": "Service or navigational intent",
+    "h1": null,
+    "applications": [],
+    "sourceLines": null
+  },
+  {
+    "path": "/design-review/project-story",
+    "label": "Project-story template",
+    "type": "review",
+    "title": "Project Story Layout | Tint A Window Design Review",
+    "keywords": [],
+    "originalKeywords": [],
+    "searchRole": "Service or navigational intent",
+    "h1": null,
+    "applications": [],
+    "sourceLines": null
+  }
+]

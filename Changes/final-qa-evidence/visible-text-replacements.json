@@ -1,0 +1,552 @@
+{
+  "/": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "Made for your light. Made for your life.",
+      "new": "Window Tinting Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Window tinting in Christchurch.",
+      "new": "Window Film Solutions Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph",
+      "old": "Keep the view you love. Make your rooms more comfortable. Our Window tinting in Christchurch helps reduce heat and glare, with privacy options for homes and businesses.",
+      "new": "Based in Christchurch, Tint A Window provides residential and commercial window film solutions across New Zealand, helping reduce heat and glare and improve privacy in homes and businesses.",
+      "docx": true
+    },
+    {
+      "element": "possibilities: eyebrow",
+      "old": "Window film, chosen around you",
+      "new": "Christchurch Window Films",
+      "docx": true
+    },
+    {
+      "element": "possibilities: replaced sentence",
+      "old": "We fit Window film in Christchurch homes and businesses, with selected South Island locations also covered.",
+      "new": "We fit window film in Christchurch homes and businesses, with service also available across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "choose-your-space: eyebrow",
+      "old": "Choose your space",
+      "new": "Christchurch Window Tinting",
+      "docx": true
+    },
+    {
+      "element": "choose-your-space: replaced sentence",
+      "old": "Choose Window film in Christchurch for your home or workplace.",
+      "new": "Explore residential and commercial window film solutions for properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "home-enquiry: eyebrow",
+      "old": "Start a conversation",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    },
+    {
+      "element": "home-enquiry: replaced sentence",
+      "old": "Talk to us about Window tinting in Christchurch.",
+      "new": "Talk to us about window tinting in Christchurch and across New Zealand.",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting-services": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Residential Window Tinting Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Residential window tinting in Christchurch.",
+      "new": "Residential Window Tinting Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Less heat, less glare and more privacy. Make the rooms you love more comfortable, with film chosen for your home and existing glass.",
+      "new": "Less heat, less glare and more privacy. Make the rooms you love more comfortable, with film chosen for your home and existing glass. We provide residential window tinting for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Residential Window Tinting",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Residential Services",
+      "new": "Christchurch Residential Tinting",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/fade-reduction-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Fade-Reducing and UV Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Fade-reducing & UV window film for Christchurch homes.",
+      "new": "Fade-Reducing and UV Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Help care for your carpets, furniture and artwork. Reduce sunlight exposure with film that balances protection, daylight and the outlook.",
+      "new": "Help care for your carpets, furniture and artwork. Reduce sunlight exposure with film that balances protection, daylight and the outlook. We provide fade-reducing and UV window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch UV Protection Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/privacy-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Privacy Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Privacy window film for Christchurch homes.",
+      "new": "Privacy Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Feel less overlooked without keeping the curtains closed all day. Compare privacy finishes that suit your rooms and the times you use them.",
+      "new": "Feel less overlooked without keeping the curtains closed all day. Compare privacy finishes that suit your rooms and the times you use them. We provide privacy window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Privacy Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/heat-control-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Heat Control Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Heat control window film for Christchurch homes.",
+      "new": "Heat Control Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Make a sunny lounge or bedroom more comfortable. Reduce solar heat through suitable glass while considering the daylight and view you want to keep.",
+      "new": "Make a sunny lounge or bedroom more comfortable. Reduce solar heat through suitable glass while considering the daylight and view you want to keep. We provide heat control window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Heat Control Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/anti-glare-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Anti-Glare Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Anti-glare window film for Christchurch homes.",
+      "new": "Anti-Glare Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Read, relax and see your screens with less harsh brightness. Choose a comfortable level of light without covering the view all day.",
+      "new": "Read, relax and see your screens with less harsh brightness. Choose a comfortable level of light without covering the view all day. We provide anti-glare window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Anti-Glare Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/frosted-opaque-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Frosted and Opaque Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Frosted & opaque window film for Christchurch homes.",
+      "new": "Frosted and Opaque Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Create privacy in bathrooms, entrances and internal glass. Compare full or partial coverage and a finish that keeps the space inviting.",
+      "new": "Create privacy in bathrooms, entrances and internal glass. Compare full or partial coverage and a finish that keeps the space inviting. We provide frosted and opaque window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Frosted Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/residential-window-tinting/safety-security-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your home",
+      "new": "Safety and Security Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Safety & security window film for Christchurch homes.",
+      "new": "Safety and Security Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Explore film that can help hold broken glass together. We assess your windows and the protection you need before recommending a product.",
+      "new": "Explore film that can help hold broken glass together. We assess your windows and the protection you need before recommending a product. We provide safety and security window film for homes in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Safety Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting-services": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Commercial Window Tinting Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Commercial window tinting in Christchurch.",
+      "new": "Commercial Window Tinting Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Give staff and customers a more comfortable space. Explore films for heat, glare, privacy and suitable glass protection, planned around your business.",
+      "new": "Give staff and customers a more comfortable space. Explore films for heat, glare, privacy and suitable glass protection, planned around your business. We provide commercial window tinting for businesses in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Commercial Window Tinting",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Commercial Services",
+      "new": "Christchurch Commercial Tinting",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting/heat-rejection-solar-protection-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Commercial Heat Control Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Commercial heat control window film for Christchurch buildings.",
+      "new": "Commercial Heat Control and Solar Protection Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Help reduce solar heat in offices, shops and shared spaces. Compare films that balance heat control, daylight and the appearance of your building.",
+      "new": "Help reduce solar heat in offices, shops and shared spaces. Compare films that balance heat control, daylight and the appearance of your building. We provide heat control and solar protection window film for commercial properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Solar Control Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting/anti-glare-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Commercial Anti-Glare Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Commercial anti-glare window film in Christchurch.",
+      "new": "Commercial Anti-Glare Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Make bright offices, classrooms and customer areas easier to use. Ease harsh sunlight around screens, work surfaces and seating.",
+      "new": "Make bright offices, classrooms and customer areas easier to use. Ease harsh sunlight around screens, work surfaces and seating. We provide anti-glare window film for commercial properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Anti-Glare Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting/anti-graffiti-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Anti-Graffiti Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Anti-graffiti window film in Christchurch.",
+      "new": "Anti-Graffiti Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Add a replaceable protective layer to suitable exposed glass. Help care for the shopfront or entrance that customers see every day.",
+      "new": "Add a replaceable protective layer to suitable exposed glass. Help care for the shopfront or entrance that customers see every day. We provide anti-graffiti window film for commercial properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Anti-Graffiti Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting/frosted-opaque-decorative-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Commercial Frosted, Opaque and Decorative Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Commercial frosted & Decorative window film in Christchurch.",
+      "new": "Commercial Frosted, Opaque and Decorative Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Give meeting rooms, partitions and reception glass a purposeful finish. Plan privacy, daylight and decorative detail together.",
+      "new": "Give meeting rooms, partitions and reception glass a purposeful finish. Plan privacy, daylight and decorative detail together. We provide frosted, opaque and decorative window film for commercial properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Decorative Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ],
+  "/commercial-window-tinting/safety-security-window-films": [
+    {
+      "element": "Hero small eyebrow",
+      "old": "For your workplace",
+      "new": "Commercial Safety and Security Window Film Christchurch",
+      "docx": true
+    },
+    {
+      "element": "Hero large headline",
+      "old": "Commercial safety & security window film in Christchurch.",
+      "new": "Commercial Safety and Security Window Film Across New Zealand",
+      "docx": true
+    },
+    {
+      "element": "Hero paragraph: baseline + appendix",
+      "old": "Assess the glass and the risk before choosing protection. Discuss suitable products, system requirements and clear installation arrangements.",
+      "new": "Assess the glass and the risk before choosing protection. Discuss suitable products, system requirements and clear installation arrangements. We provide safety and security window film for commercial properties in Christchurch and across New Zealand.",
+      "docx": true
+    },
+    {
+      "element": "Overview eyebrow",
+      "old": "Made for your space",
+      "new": "Christchurch Safety Window Films",
+      "docx": true
+    },
+    {
+      "element": "Film-options label",
+      "old": "Compare your options",
+      "new": "Christchurch Film Options",
+      "docx": true
+    },
+    {
+      "element": "Closing label",
+      "old": "Your next step",
+      "new": "Christchurch Tinting Advice",
+      "docx": true
+    }
+  ]
+}

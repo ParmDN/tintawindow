@@ -1,0 +1,152 @@
+# Cromwell
+
+Website page: https://tint-a-window-review.vercel.app/locations/cromwell
+
+Version 7.17 · 23 October 2026
+
+Your property. Your place.
+
+# Window tinting in Cromwell.
+
+For Cromwell Window tinting enquiries, tell us how each room changes through the day. That helps distinguish a heat concern from harsh glare.
+
+Your glass. Your priorities.
+
+Planning your project
+
+## Make sunny spaces more comfortable.
+
+We discuss Window tinting in Cromwell for homes and workplaces, with assessment and regional arrangements confirmed for your property. Tell us whether the main issue is heat, harsh brightness or both.
+
+A hot room and a screen lost in reflections may need different levels of heat and light control. Describe when the problem occurs and where you sit. Where a heat pump is used for cooling, suitable solar film may reduce its electricity demand. We also consider useful winter sun; whole-year savings are not assured.
+
+Your project, in context
+
+## Window tinting in Cromwell: record the problem before choosing a product
+
+A short record of the affected hours is useful for a regional enquiry. Note when the room is occupied, which windows catch direct sunlight and whether the main difficulty is heat or screen brightness. Take photographs from the position where the problem is noticed, using the same room names as your pane list.
+
+Include any nearby shade and the way cooling or ventilation is used. This keeps the film discussion focused on sunlight through the glass rather than assuming every source of discomfort has the same solution. Send the observations with your address so suitability and regional assessment arrangements can be discussed together.
+
+Decisions worth making early
+
+## What to check before choosing film.
+
+### Heat or brightness
+
+Note when the problem occurs and where you sit. A film’s heat reduction and light reduction are not the same measure. We can explain which details matter for your room.
+
+### Glass and shade around it
+
+Share any details about coatings or replacement panes. Include nearby shade in a photo of the window. The film needs to suit the glass and how the sun reaches it.
+
+### The rest of the room
+
+Ventilation, insulation and cooling can affect comfort too. Film addresses sunlight through the treated glass; it is not a promise of a fixed room temperature.
+
+Residential & Commercial Services
+
+## Explore the detail for your property
+
+Choose the appropriate service for your Cromwell enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.
+
+### Residential window tinting
+
+Show which home windows catch direct sun and when the room becomes uncomfortable. Include nearby shade and tell us whether heat, screen glare or both need attention. We compare suitable film with the daylight and winter warmth you value.
+
+### Commercial window tinting
+
+For business premises, identify the desks, reception or customer seats affected by sunlight. Describe heat and glare separately, including the hours they occur. We can discuss suitable films, sample decisions and fitting around your normal opening hours.
+
+Advice, installation & aftercare
+
+## What helps us plan your visit
+
+### Affected hours
+
+Record the hours you actually use the room. A problem affecting an empty space may have a different priority from glare at a working desk.
+
+### Heat and brightness separately
+
+Describe heat and brightness separately, even if they occur together. The suitable film comparison should consider each performance measure.
+
+### A proposal you can follow
+
+Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work.
+
+### Care kept with the project
+
+Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later.
+
+How It Works
+
+## From your enquiry to an agreed visit
+
+### Record the uncomfortable hours
+
+Note the affected hours and where you sit. Photograph the window, any nearby shade and the screen or surface involved.
+
+### Show the affected glass
+
+Send known pane and coating information. Describe heat and glare separately so the next assessment can address the right performance questions.
+
+### Compare the right performance measures
+
+Compare heat reduction, light reduction and reflection for suitable products. Keep the daylight you want alongside the discomfort you want to change.
+
+### Confirm regional assessment needs
+
+Confirm the regional assessment, treated windows and proposal. Include how the room is used when discussing access and installation arrangements.
+
+### Keep a useful follow-up reference
+
+Keep the original observations with the product details. If you need follow-up advice, describe the same seat, time and conditions where practical.
+
+Regional arrangements
+
+## Arrange a visit to your property
+
+For Cromwell, assessment, travel and fitting arrangements are confirmed for the particular job. Include the address area and the access contact in your enquiry. Ask which information can be discussed first and what still needs checking at the property.
+
+Visits to these service areas are arranged for each property. If another property is involved, share its address separately so the proposed visit and work are clear.
+
+Christchurch
+
+Ashburton
+
+Timaru
+
+Queenstown
+
+Wanaka
+
+Before arranging the work
+
+## Questions for your Cromwell project.
+
+### Does darker film always reject more heat? +
+
+No. Look at suitable product data, light and reflection together. The film also needs to suit your glass, so colour alone is not enough to make the choice.
+
+### What if I do not know the glass type? +
+
+Send clear photos and any labels or records you can reach safely. We will discuss the checks needed before choosing a film. Do not guess from another window that looks similar.
+
+### What helps with a follow-up question? +
+
+Describe the pane, the time of day and what you notice. For example, a screen may still catch light from another window. Specific details help us discuss the next step.
+
+After you choose
+
+## Review comfort where you use the room
+
+For your Cromwell property, keep the main problem and affected hours alongside the chosen product information. After installation, use the same seating or desk positions when considering how the room feels. Temperature and brightness also change with weather, ventilation and the rest of the building.
+
+If you have a question, explain what you notice and which window is involved. A useful follow-up is specific: a screen is still difficult to see at one time, or a different seat now catches direct light. Those details help us discuss the next step without assuming every part of the room needs another film.
+
+Your next step
+
+## Tell us when the sunlight becomes a problem.
+
+For Window tinting in Cromwell, show us the room and the affected windows. Tell us when heat or glare becomes uncomfortable and which views you want to keep. We will discuss product suitability, samples and regional arrangements.
+

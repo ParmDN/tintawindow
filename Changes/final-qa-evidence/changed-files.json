@@ -1,0 +1,2256 @@
+{
+  "basis": "289 original project files plus original fresh-build dist for generated-output comparison",
+  "files": [
+    {
+      "file": "Changes/Aditya_05-11-26.md",
+      "status": "Added",
+      "reason": "Requested task change map, changelog, verification evidence or QA report."
+    },
+    {
+      "file": "Changes/Final_QA_05-11-26.md",
+      "status": "Added",
+      "reason": "Requested task change map, changelog, verification evidence or QA report."
+    },
+    {
+      "file": "Changes/final-qa-evidence/audit.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/audit_final.py",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/build.log",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/changed-files.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/docx-extraction.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/links.log",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/original-tree-proof.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/prove-original.mjs",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/render_final.cjs",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/source-guard.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/visible-text-replacements.json",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/final-qa-evidence/write_report.py",
+      "status": "Added",
+      "reason": "Final read-only QA evidence, audit/report helper or complete inventory; not part of the build chain."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-01-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-01-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-01-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-02-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-02-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-02-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-03-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-03-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-03-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-04-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-04-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-04-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-05-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-05-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-05-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-06-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-06-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-06-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-07-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-07-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-07-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-08-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-08-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-08-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-09-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-09-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-09-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-10-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-10-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-10-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-11-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-11-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-11-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-12-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-12-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-12-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-13-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-13-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline-regions/page-13-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-00-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-00-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-00-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-01-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-01-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-01-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-02-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-02-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-02-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-03-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-03-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-03-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-04-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-04-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-04-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-05-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-05-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-05-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-06-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-06-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-06-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-07-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-07-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-07-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-08-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-08-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-08-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-09-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-09-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-09-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-10-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-10-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-10-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-11-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-11-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-11-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-12-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-12-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-12-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-13-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-13-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/baseline/page-13-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-01.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-02.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-03.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-04.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-05.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-06.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-07.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-08.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-09.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-10.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-11.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-12.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/closing-13.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-02-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-02-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-04-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-04-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-05-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-05-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-09-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-09-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-10-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/film-10-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/full-pages-1440.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/full-pages-375.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/full-pages-768.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-00.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-01.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-02.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-03.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-04.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-05.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-06.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-07.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-08.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-09.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-10.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-11.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-12.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/hero-13.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/home-audience.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/home-enquiry.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/home-intro.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-01.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-02.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-03.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-04.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-05.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-06.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-07.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-08.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-09.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-10.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-11.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-12.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/inspection/overview-13.jpg",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-00-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-00-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-00-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-01-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-01-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-01-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-02-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-02-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-02-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-03-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-03-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-03-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-04-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-04-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-04-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-05-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-05-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-05-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-06-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-06-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-06-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-07-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-07-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-07-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-08-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-08-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-08-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-09-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-09-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-09-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-10-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-10-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-10-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-11-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-11-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-11-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-12-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-12-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-12-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-13-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-13-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/page-13-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-1440-audience.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-1440-enquiry.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-1440-intro.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-375-audience.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-375-enquiry.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-375-intro.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-768-audience.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-768-enquiry.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-00-768-intro.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-01-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-02-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-03-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-04-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-05-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-06-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-07-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-08-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-09-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-10-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-11-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-12-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-1440-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-1440-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-375-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-375-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-768-film-options.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/regions/page-13-768-hero.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/final-qa-05-11-26/render-results.json",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/homepage-05-11-26/hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/homepage-05-11-26/hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/homepage-05-11-26/hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/homepage-05-11-26/layout.json",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/film-options-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/service-1-05-11-26/layout.json",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/baseline/page-2-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/baseline/page-2-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/baseline/page-4-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/baseline/page-4-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/layout.json",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-film-options-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-2-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-3-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-3-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-3-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-film-options-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-4-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-5-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-5-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-5-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-6-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-6-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-6-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-7-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-7-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-2-7-05-11-26/page-7-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-10-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-10-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-11-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-11-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-12-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-12-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-13-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-13-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-8-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-8-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-9-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/baseline/page-9-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/layout.json",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-10-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-10-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-10-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-10-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-10-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-11-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-11-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-11-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-11-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-11-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-12-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-12-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-12-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-12-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-12-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-13-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-13-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-13-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-13-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-13-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-8-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-8-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-8-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-8-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-8-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-9-film-options-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-9-film-options-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-9-hero-1440.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-9-hero-375.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "Changes/screenshots/services-8-13-05-11-26/page-9-hero-768.png",
+      "status": "Added",
+      "reason": "Saved QA screenshot, visual inspection sheet or render measurements for the named page/viewport and baseline."
+    },
+    {
+      "file": "website/SECTION-REVIEW.csv",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/about.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting-services.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting__anti-glare-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting__anti-graffiti-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting__frosted-opaque-decorative-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting__heat-rejection-solar-protection-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/commercial-window-tinting__safety-security-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/contact-for-window-tinting.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/home.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__arrowtown.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__ashburton.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__christchurch.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__cromwell.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__geraldine.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__lake-tekapo.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__oamaru.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__queenstown.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__temuka.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__timaru.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/locations__wanaka.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting-services.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__anti-glare-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__fade-reduction-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__frosted-opaque-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__heat-control-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__privacy-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/residential-window-tinting__safety-security-window-films.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/window-tinting-faq.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/audit-text/window-tinting-gallery.txt",
+      "status": "Added",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/build.mjs",
+      "status": "Modified",
+      "reason": "Record the actual rendered H1 on the fourteen scoped routes."
+    },
+    {
+      "file": "website/content-audit.csv",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/content-audit.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/content-review.txt",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/design-audit.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/dist/client-polish.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting-services/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting/anti-glare-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting/anti-graffiti-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting/frosted-opaque-decorative-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting/heat-rejection-solar-protection-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/commercial-window-tinting/safety-security-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/design-review/index.html",
+      "status": "Generated changed",
+      "reason": "Generated report: only the fifteen listed allowed measurement cells differ from the original build."
+    },
+    {
+      "file": "website/dist/film-guide.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/fresh.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/launch-polish-717.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/refinement.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/residential-window-tinting-services/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/anti-glare-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/fade-reduction-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/frosted-opaque-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/heat-control-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/privacy-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/residential-window-tinting/safety-security-window-films/index.html",
+      "status": "Generated changed",
+      "reason": "Generated HTML from the accepted scoped copy/hero changes."
+    },
+    {
+      "file": "website/dist/routes.json",
+      "status": "Generated changed",
+      "reason": "Generated build asset; added relative to the supplied project, compared separately to the original built baseline."
+    },
+    {
+      "file": "website/dist/signature.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/dist/style.css",
+      "status": "Generated changed",
+      "reason": "Generated copy of the corresponding changed public stylesheet."
+    },
+    {
+      "file": "website/keyword-audit.csv",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/keyword-source-check.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/metadata-review.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/public/client-polish.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/film-guide.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/fresh.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/launch-polish-717.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/refinement.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/signature.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/public/style.css",
+      "status": "Modified",
+      "reason": "Retarget affected hero headline/eyebrow styling while retaining excluded-layout selectors and responsive rules."
+    },
+    {
+      "file": "website/qa-final.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/qa-http-polish.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/route-manifest.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/site-audit.json",
+      "status": "Modified",
+      "reason": "Generated build/check report reflecting the accepted copy, rendered H1s or fresh check results; not a check implementation."
+    },
+    {
+      "file": "website/src/brand-pages.mjs",
+      "status": "Modified",
+      "reason": "Read scoped headline data at the banner-title controlling layer."
+    },
+    {
+      "file": "website/src/customer-polish.mjs",
+      "status": "Modified",
+      "reason": "Protect exact-copy segments and apply scoped rendered-lead overrides without changing other polish behaviour."
+    },
+    {
+      "file": "website/src/final-content.mjs",
+      "status": "Modified",
+      "reason": "Use scoped national-copy hero-lead data at its controlling layer."
+    },
+    {
+      "file": "website/src/fresh-design.mjs",
+      "status": "Modified",
+      "reason": "Render scoped eyebrow H1/headline SPAN and the accepted homepage audience copy."
+    },
+    {
+      "file": "website/src/homepage-refinement.mjs",
+      "status": "Modified",
+      "reason": "Apply exact homepage introduction copy and the accepted additional keyword question."
+    },
+    {
+      "file": "website/src/national-copy.mjs",
+      "status": "Added",
+      "reason": "New exact-copy configuration/helper for Home, service indexes 1–13 and shared labels."
+    },
+    {
+      "file": "website/src/quote-form.mjs",
+      "status": "Modified",
+      "reason": "Apply exact homepage enquiry eyebrow and first sentence."
+    },
+    {
+      "file": "website/src/revised-content.mjs",
+      "status": "Modified",
+      "reason": "Apply scoped overview eyebrows and the shared closing label."
+    },
+    {
+      "file": "website/verify-homepage.py",
+      "status": "Added",
+      "reason": "New standalone homepage exact-copy and scope verifier; outside the build chain."
+    },
+    {
+      "file": "website/verify-service-pages.py",
+      "status": "Added",
+      "reason": "New standalone data-driven service-copy and scope verifier; outside the build chain."
+    },
+    {
+      "file": "website/verify-shared-mechanism.py",
+      "status": "Added",
+      "reason": "New standalone shared-structure, labels and scope verifier; outside the build chain."
+    }
+  ],
+  "removed_original_files": []
+}
