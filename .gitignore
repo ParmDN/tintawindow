@@ -7,3 +7,5 @@
 /.next/
 /out/
 **/*.tsbuildinfo
+# Downloaded browser binaries
+migration/verify/browsers/
