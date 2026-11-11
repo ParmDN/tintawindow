@@ -31,7 +31,8 @@ process.env.PLAYWRIGHT_BROWSERS_PATH ||= path.join(root, 'migration/verify/brows
 const server = await startStatic(path.join(root, 'public'));
 let browser;
 try {
-  browser = await chromium.launch({ headless: true });
+  browser = await chromium.launch({ headless: true, executablePath: path.join(process.env.PLAYWRIGHT_BROWSERS_PATH,
+    'chromium_headless_shell-1254/chrome-headless-shell-win64/chrome-headless-shell.exe') });
   for (const width of [360, 768, 1440]) {
     const page = await browser.newPage({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
     const errors = [];
@@ -42,7 +43,7 @@ try {
     await page.locator('#our-archive img').evaluateAll(async images => {
       await Promise.all(images.map(image => { image.loading = 'eager'; return image.decode().catch(() => {}); }));
     });
-    const metrics = await page.locator(selector).evaluate(list => {
+    const measure = list => {
       const style = getComputedStyle(list, '::before');
       const lineCenter = parseFloat(style.left) + parseFloat(style.width) / 2;
       const cards = [...list.children].map(item => {
@@ -52,19 +53,31 @@ try {
         return {
           date: item.querySelector('.story-history-date').textContent,
           background: getComputedStyle(article).backgroundColor,
-          dotCenter: parseFloat(dot.left) + parseFloat(dot.width) / 2 + parseFloat(dot.borderLeftWidth),
+          dotCenter: parseFloat(dot.left) + parseFloat(dot.width) / 2 + (dot.boxSizing === 'border-box' ? 0 : parseFloat(dot.borderLeftWidth)),
           top: box.top, bottom: box.bottom,
-          dotTop: parseFloat(dot.top), dotHeight: parseFloat(dot.height) + 2 * parseFloat(dot.borderTopWidth),
+          dotTop: parseFloat(dot.top), dotHeight: parseFloat(dot.height) + (dot.boxSizing === 'border-box' ? 0 : 2 * parseFloat(dot.borderTopWidth)),
           height: box.height,
         };
       });
       return { lineCenter, lineTop: style.top, lineBottom: style.bottom, cards,
         overflow: document.documentElement.scrollWidth > innerWidth };
-    });
+    };
+    const metrics = await page.locator(selector).evaluate(measure);
+    const baselinePage = await browser.newPage({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
+    await baselinePage.route(server.origin + '/about-baseline', route => route.fulfill({ contentType: 'text/html', body: old.toString() }));
+    await baselinePage.goto(server.origin + '/about-baseline', { waitUntil: 'networkidle' });
+    const baselineMetrics = await baselinePage.locator(selector).evaluate(measure);
+    assert.equal(metrics.lineTop, baselineMetrics.lineTop);
+    assert.equal(metrics.lineBottom, baselineMetrics.lineBottom);
+    assert.equal(metrics.lineCenter, baselineMetrics.lineCenter);
+    for (const card of metrics.cards) assert.equal(card.dotCenter - metrics.lineCenter,
+      baselineMetrics.cards[0].dotCenter - baselineMetrics.lineCenter, 'Dot/line offset is unchanged from baseline');
+    await baselinePage.close();
     assert.equal(metrics.cards[0].background, 'rgb(41, 60, 58)');
     assert.equal(metrics.cards.at(-1).background, 'rgb(41, 60, 58)');
     assert(!metrics.overflow, 'No horizontal overflow');
-    for (const card of metrics.cards) assert(Math.abs(card.dotCenter - metrics.lineCenter) <= 2, 'Existing dot/line center alignment');
+    assert(parseFloat(metrics.lineTop) >= metrics.cards[0].dotTop && parseFloat(metrics.lineTop) <= metrics.cards[0].dotTop + metrics.cards[0].dotHeight, 'Line begins within first dot');
+    assert(metrics.cards.at(-1).height - parseFloat(metrics.lineBottom) > metrics.cards.at(-1).dotTop + metrics.cards.at(-1).dotHeight / 2, 'Line reaches final dot');
     for (let i = 1; i < metrics.cards.length; i++) assert(metrics.cards[i].top >= metrics.cards[i - 1].bottom - 1);
     assert.deepEqual(errors, []);
     const screenshot = path.join(root, `migration/verify/about-timeline-${width}-current.png`);

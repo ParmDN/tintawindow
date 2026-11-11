@@ -3,11 +3,11 @@
 const phrases: any=[
  ['In this review version, selected photographs stay on your device and are not uploaded.','Keep a copy of the photographs with your project notes, so you can identify the correct window when you call.'],
  ['The review form does not send aftercare requests or upload images, so please use those direct contact details when you need the team to respond.','For help with an existing installation, use those direct contact details and identify the pane that needs attention.'],
- ['Choose a window tint Christchurch homeowners and businesses can compare on their own glass, with suitable samples and clear fitting advice.','When choosing Window Tint in Christchurch, compare suitable samples on your own glass and ask about fitting and care.'],
- ['Choosing a window tint Christchurch homeowners can feel confident about starts with that check.','Choosing Window Tint in Christchurch starts with checking your glass and how the room is used.'],
- ['Find a window tint Christchurch homeowners can choose for their own space.','Choose Window Tint in Christchurch that suits the rooms you use every day.'],
- ['We fit window film Christchurch-wide for homes and businesses, with selected South Island service too.','We fit Window Film in Christchurch homes and businesses, with selected South Island locations also covered.'],
- ['We fit window film Christchurch-wide for homes and workplaces.','Choose Window Film in Christchurch for your home or workplace.'],
+ ['Choose a window tint Christchurch homeowners and businesses can compare on their own glass, with suitable samples and clear fitting advice.','When choosing window tint in Christchurch, compare suitable samples on your own glass and ask about fitting and care.'],
+ ['Choosing a window tint Christchurch homeowners can feel confident about starts with that check.','Choosing window tint in Christchurch starts with checking your glass and how the room is used.'],
+ ['Find a window tint Christchurch homeowners can choose for their own space.','Choose window tint in Christchurch that suits the rooms you use every day.'],
+ ['We fit window film Christchurch-wide for homes and businesses, with selected South Island service too.','We fit window film in Christchurch homes and businesses, with selected South Island locations also covered.'],
+ ['We fit window film Christchurch-wide for homes and workplaces.','Choose window film in Christchurch for your home or workplace.'],
  ['Compare suitable film around daylight, building appearance and the people inside.','Compare films that balance heat control, daylight and the appearance of your building.'],
  ['Discuss film that can help hold broken glass together, with the product and installation assessed for the protection your home needs.','Explore film that can help hold broken glass together. We assess your windows and the protection you need before recommending a product.'],
  ['The first thing to know about Tint A Window is that you can start with the problem, not a product name.','One thing to know about Tint A Window: we start with your room and what you want to improve. You do not need a product name.'],
@@ -34,14 +34,23 @@ const phrases: any=[
 ];
 const places: any='Christchurch|Ashburton|Timaru|Oamaru|Queenstown|Wānaka|Wanaka|Cromwell|Lake Tekapo|Arrowtown|Temuka|Geraldine';
 const service: any=/(?:commercial |residential |house )?window tinting|(?:commercial )?(?:fade[- ]reducing (?:&amp;|&|and) UV|fade[- ]reducing|privacy|window privacy|heat control|anti[- ]glare|frosted and opaque|decorative|safety (?:&amp;|&|and) security|anti[- ]graffiti|solar protection) window films?|window privacy film installation|window tint(?= in | across | for )|window film(?= in | across )/gi;
-function polishText(value){
+// Only ordinary copy is normalized; keep brands, sentence starts and titles intact.
+function windowCase(value){
+ const masked=value.replace(/Tint A Window|Tint-A-Window|TintAWindow/g,m=>'_'.repeat(m.length));
+ return value.replace(/\bWindows?\b/g,(word,offset)=>{
+  const before=masked.slice(0,offset);
+  return masked.slice(offset,offset+word.length)!==word || !before.trim() || /[.!?]\s*[“"'(]*$/.test(before) || /Microsoft\s*$/.test(before)
+   ? word : word.toLowerCase();
+ });
+}
+function polishText(value,preserveWindow=false){
  let s: any=value.replace(/35\+? years of industry experience/g,'39+ years of industry experience');
  for(const [from,to] of phrases)s=s.split(from).join(to);
  s=s.replace(new RegExp('((?:window privacy film installation|window tinting|window films?|window tint)) ('+places+')-wide','gi'),'$1 in $2');
  s=s.replace(new RegExp('((?:window privacy film installation|window tinting|window films?|window tint)) ('+places+')(?![a-z])','gi'),'$1 in $2');
  s=s.replace(/fade reducing (?:&amp;|&) UV/gi,'Fade-reducing and UV').replace(/\banti glare\b/gi,'Anti-glare').replace(/\banti graffiti\b/gi,'Anti-graffiti');
  s=s.replace(service,m=>m[0].toUpperCase()+m.slice(1).toLowerCase().replace(/\buv\b/g,'UV'));
- return s;
+ return preserveWindow?s:windowCase(s);
 }
 export function customerPolish(html){
  // Exact segments contain escaped text only. Restore them after the unchanged
@@ -53,9 +62,16 @@ export function customerPolish(html){
   exact.push(copy);return token;
  });
  let skip: any=false;
+ const titles: boolean[]=[];
  const polished: any=html.replace(/<[^>]+>|[^<]+/g,token=>{
-  if(token.startsWith('<')){if(/^<(script|style)\b/i.test(token))skip=true;else if(/^<\/(script|style)>/i.test(token))skip=false;return token;}
-  return skip?token:polishText(token);
+  if(token.startsWith('<')){
+   if(/^<(script|style)\b/i.test(token))skip=true;else if(/^<\/(script|style)>/i.test(token))skip=false;
+   if(/^<\//.test(token))titles.pop();
+   else if(!/^<!(?:doctype|--)/i.test(token) && !/^<(?:area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)\b/i.test(token) && !/\/>$/.test(token))
+    titles.push(titles.at(-1)||/^<(?:title|h[1-6])\b/i.test(token)||/class="[^"]*\b(?:eyebrow|hero-headline)\b/.test(token));
+   return skip?token:token.replace(/\b(alt|aria-label|placeholder)="([^"]*)"/g,(_,name,value)=>`${name}="${windowCase(value)}"`);
+  }
+  return skip?token:polishText(token,titles.at(-1));
  });
  return polished.replace(/\uE000EXACT_COPY_(\d+)\uE001/g,(token,index)=>exact[Number(index)]??token);
 }

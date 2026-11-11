@@ -10,6 +10,12 @@ Includes local source string/template/JSX literals, public JS string literals/VT
 
 Brand placeholders preserve offsets. No broad replacement is authorized. In particular, keep normal sentence/heading starts, third-party names, URL/slug/filename/identifier/schema values; decide interior title-case words from the exceptions table. Whole-heading sentence-case changes beyond Window/Windows need separate approval.
 
+## Confirmed runtime capitalization cause and approval boundary
+
+`content/customer-polish.ts` applies its `service` regular expression case-insensitively to rendered text and then runs `m[0].toUpperCase()+m.slice(1).toLowerCase()`. This can capitalize Window in the middle of sentences even if source literals are lowercased. Its phrase substitutions also insert capitalized service terms. `content/editorial-review.ts` performs additional heading processing; head values are also stored in `content/routes.ts` and emitted through `lib/metadata.ts`.
+
+A copy-only replacement cannot guarantee the final rule while that formatter remains unchanged. Any adjustment to this text-formatting transform needs explicit approval because the request limits edits to content/string literals and excludes code logic. No formatter has been changed. Existing brand variants, regex patterns, replacement match keys, frozen /design-review HTML, alt text, quotations/testimonials, and historical source units need careful review; source scan rows are not an automatic edit list.
+
 ## Source occurrences (1725)
 
 - KEEP BRAND: 581
