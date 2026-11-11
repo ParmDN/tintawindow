@@ -1,20 +1,24 @@
 // Post-export arrangement, invoked only by the later authorised build.
-// Read baseline paths; never import/evaluate TypeScript or the old generator.
+// Arrange the active export paths; never import/evaluate TypeScript or the old generator.
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { exportRoot, readBaseline } from './lib/baseline.mjs';
+import { exportRoot, htmlFiles } from './lib/baseline.mjs';
 
 const root = await fs.realpath(exportRoot);
 const within = file => file === root || file.startsWith(root + path.sep);
 async function exists(file) { return fs.stat(file).then(stat => stat.isFile(), () => false); }
-for (const page of await readBaseline()) {
-  const destination = path.resolve(root, page.relative);
+const pages = (await htmlFiles(root)).map(source => ({ source, relative: path.relative(root, source) }))
+  .filter(page => page.relative !== '_not-found.html');
+if (pages.length !== 34) throw new Error(`Expected 34 active HTML documents, found ${pages.length}.`);
+for (const page of pages) {
+  const relative = page.relative.replaceAll(path.sep, '/');
+  const destination = path.resolve(root, relative === 'index.html' || relative === '404.html' || relative.endsWith('/index.html') ? relative : relative.replace(/\.html$/, '/index.html'));
   if (!within(destination)) throw new Error('Export target escaped out/.');
-  if (page.relative === 'index.html' || page.relative === '404.html') {
+  if (relative === 'index.html' || relative === '404.html' || relative.endsWith('/index.html')) {
     if (!await exists(destination)) throw new Error(`Next did not export ${page.relative}.`);
     continue;
   }
-  const source = path.resolve(root, '.' + page.route + '.html');
+  const source = page.source;
   if (!within(source)) throw new Error('Export source escaped out/.');
   if (!await exists(source) && await exists(destination)) continue;
   if (!await exists(source)) throw new Error(`Missing Next export: ${source}`);

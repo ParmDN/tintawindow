@@ -70,15 +70,15 @@ export const locations: NavigationItem[] = [
   },
   {
     "path": "/locations/wanaka",
-    "label": "Wanaka"
+    "label": "Wānaka"
   },
   {
     "path": "/locations/cromwell",
     "label": "Cromwell"
   },
   {
-    "path": "/locations/lake-tekapo",
-    "label": "Lake Tekapo"
+    "path": "/locations/waimate",
+    "label": "Waimate"
   },
   {
     "path": "/locations/arrowtown",

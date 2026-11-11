@@ -3,6 +3,7 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { projectRoot, exportRoot, productionOrigin, readBaseline, htmlFiles, parseHtml, styleOrder } from './lib/baseline.mjs';
+import { applyIntentionalOverrides, intentionalOverrides } from './check-overrides.mjs';
 
 const errors = [];
 const fail = message => errors.push(message);
@@ -10,7 +11,9 @@ const expect = (condition, message) => { if (!condition) fail(message); };
 const root = await fs.realpath(process.argv[2] ? path.resolve(process.argv[2]) : exportRoot);
 const within = file => file === root || file.startsWith(root + path.sep);
 const statFile = file => fs.stat(file).then(stat => stat.isFile(), () => false);
-const baseline = await readBaseline();
+const archivedBaseline = await readBaseline();
+const baseline = applyIntentionalOverrides(archivedBaseline);
+console.log(`Expectations: ${intentionalOverrides.reduce((count, page) => count + page.fields.length, 0)} reviewed field overrides on ${intentionalOverrides.length} pages; immutable archive validated; 34 expected documents.`);
 const documents = new Map();
 const loadedCss = new Map();
 const cssVisited = new Set();

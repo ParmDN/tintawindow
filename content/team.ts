@@ -3772,7 +3772,7 @@ export const teamInput: TeamPage[] = [
         "heading": "Questions About Tint A Window",
         "lines": [
           "18. Where do you provide window film services?",
-          "Tint A Window provides services across Christchurch and selected South Island locations, including Ashburton, Timaru, Oamaru, Queenstown, Wanaka, Cromwell, Lake Tekapo, Arrowtown, Temuka and Geraldine.",
+          "Tint A Window provides services across Christchurch and selected South Island locations, including Ashburton, Timaru, Oamaru, Queenstown, Wanaka, Cromwell, Waimate, Arrowtown, Temuka and Geraldine.",
           "19. Do you work with both residential and commercial customers?",
           "Yes. Tint A Window provides specialist window film solutions for homes, offices, schools, retail spaces and other suitable commercial environments.",
           "20. How do I get a quote?",

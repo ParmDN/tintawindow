@@ -17740,7 +17740,7 @@ export const sourceUnits: SourceUnit[] = [
     "path": "/window-tinting-faq",
     "section": 5,
     "role": "paragraph",
-    "text": "Tint A Window provides services across Christchurch and selected South Island locations, including Ashburton, Timaru, Oamaru, Queenstown, Wanaka, Cromwell, Lake Tekapo, Arrowtown, Temuka and Geraldine."
+    "text": "Tint A Window provides services across Christchurch and selected South Island locations, including Ashburton, Timaru, Oamaru, Queenstown, Wanaka, Cromwell, Waimate, Arrowtown, Temuka and Geraldine."
   },
   {
     "path": "/window-tinting-faq",

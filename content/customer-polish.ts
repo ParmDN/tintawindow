@@ -32,7 +32,7 @@ const phrases: any=[
  ['This website design preview does not send enquiries.','Please call or email us to request your quote.'],
  ['This local website preview does not send enquiries.','Please call or email us to request your quote.']
 ];
-const places: any='Christchurch|Ashburton|Timaru|Oamaru|Queenstown|Wānaka|Wanaka|Cromwell|Lake Tekapo|Arrowtown|Temuka|Geraldine';
+const places: any='Christchurch|Ashburton|Timaru|Oamaru|Queenstown|Wānaka|Wanaka|Cromwell|Waimate|Arrowtown|Temuka|Geraldine';
 const service: any=/(?:commercial |residential |house )?window tinting|(?:commercial )?(?:fade[- ]reducing (?:&amp;|&|and) UV|fade[- ]reducing|privacy|window privacy|heat control|anti[- ]glare|frosted and opaque|decorative|safety (?:&amp;|&|and) security|anti[- ]graffiti|solar protection) window films?|window privacy film installation|window tint(?= in | across | for )|window film(?= in | across )/gi;
 // Only ordinary copy is normalized; keep brands, sentence starts and titles intact.
 function windowCase(value){
