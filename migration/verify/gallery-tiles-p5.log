@@ -1,0 +1,4 @@
+{"run":"initial","site":"old","images":36,"blankImageInteriors":["Overhead glazing","Commercial glazing with character","Frosting at building scale","A working shopfront"]}
+{"run":"initial","site":"new","images":36,"blankImageInteriors":["Coverage across glass doors","Commercial glazing with character","Frosting at building scale","A working shopfront"]}
+{"run":"-stable","site":"old","images":36,"blankImageInteriors":[]}
+{"run":"-stable","site":"new","images":36,"blankImageInteriors":[]}

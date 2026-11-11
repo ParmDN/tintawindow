@@ -1,0 +1,9 @@
+Actual exported review main byte-identical: True
+Main bytes: 14779
+Main SHA-256: c1b3827fc821df6ba91714fe91f9c7811bbe38757323118161bdc276ffe391ff
+H1: Your Tint A Window website.Ready for your review.
+Top-level sections: 7
+Surface attributes: [None, None, None, None, None, None, None]
+Five backgrounds: [b'#FFD43B', b'#293c3a', b'#ffffff', b'#dde8e5', b'#f4f4ef']
+Baseline head required values matched: True
+Other native head order/values unchanged from Phase 4: True

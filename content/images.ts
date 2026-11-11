@@ -1,0 +1,697 @@
+import type { ImageAsset } from './types';
+export const images: Record<string, ImageAsset> = {
+  "logo": {
+    "file": "logo-large.webp",
+    "width": 1156,
+    "height": 409,
+    "variants": [
+      {
+        "file": "logo.webp",
+        "width": 310,
+        "height": 110
+      }
+    ]
+  },
+  "interior": {
+    "file": "interior.webp",
+    "width": 840,
+    "height": 630,
+    "variants": []
+  },
+  "architecture": {
+    "file": "architecture.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": []
+  },
+  "commercial": {
+    "file": "commercial.webp",
+    "width": 840,
+    "height": 630,
+    "variants": []
+  },
+  "frost": {
+    "file": "frost.webp",
+    "width": 640,
+    "height": 481,
+    "variants": []
+  },
+  "craft": {
+    "file": "craft-large.webp",
+    "width": 768,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "craft.webp",
+        "width": 640,
+        "height": 853
+      }
+    ]
+  },
+  "glazing": {
+    "file": "glazing-large.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "file": "glazing.webp",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  "view": {
+    "file": "view.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": []
+  },
+  "restaurant": {
+    "file": "restaurant-large.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "file": "restaurant.webp",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  "lake": {
+    "file": "lake-large.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": [
+      {
+        "file": "lake.webp",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  "residential": {
+    "file": "residential.webp",
+    "width": 840,
+    "height": 1120,
+    "variants": []
+  },
+  "room": {
+    "file": "room-large.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": []
+  },
+  "work-1": {
+    "file": "work-1-large.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": []
+  },
+  "work-2": {
+    "file": "work-2-large.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": []
+  },
+  "work-3": {
+    "file": "work-3-large.webp",
+    "width": 768,
+    "height": 1024,
+    "variants": []
+  },
+  "work-4": {
+    "file": "work-4-large.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": [],
+    "alt": "Single-storey commercial frontage with glazed doors and windows"
+  },
+  "work-5": {
+    "file": "work-5-large.webp",
+    "width": 1024,
+    "height": 768,
+    "variants": []
+  },
+  "work-6": {
+    "file": "work-6-large.webp",
+    "width": 1920,
+    "height": 1440,
+    "variants": []
+  },
+  "frost-concept": {
+    "file": "frost-concept.jpg",
+    "width": 1536,
+    "height": 1024,
+    "variants": [],
+    "alt": "AI-created concept of a glazed meeting room with a broad frosted privacy band"
+  },
+  "client-001": {
+    "file": "client-001-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-001-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Tint A Window display with film samples and photographs"
+  },
+  "client-007": {
+    "file": "client-007-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-007-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Tint A Window outdoor display at Ashburton Boulevard Day"
+  },
+  "client-009": {
+    "file": "client-009-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-009-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Tint A Window tent and display at an Ashburton show in 1992"
+  },
+  "client-013": {
+    "file": "client-013-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-013-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "A person beside a branded Tint A Window van in the 1990s"
+  },
+  "client-015": {
+    "file": "client-015-640.webp",
+    "width": 640,
+    "height": 480,
+    "variants": [],
+    "alt": "Two team members wearing Tint A Window branded polo shirts"
+  },
+  "client-016": {
+    "file": "client-016-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-016-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Installer working directly on a large window"
+  },
+  "client-019": {
+    "file": "client-019-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-019-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Blue-clad home with large sun-facing windows"
+  },
+  "client-020": {
+    "file": "client-020-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-020-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Sunlight across a furnished living room with broad windows"
+  },
+  "client-024": {
+    "file": "client-024-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-024-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Apartment bedroom with corner windows and a lake outlook"
+  },
+  "client-026": {
+    "file": "client-026-1600.webp",
+    "width": 1600,
+    "height": 753,
+    "variants": [
+      {
+        "file": "client-026-640.webp",
+        "width": 640,
+        "height": 301
+      }
+    ],
+    "alt": "Apartment living room with broad windows overlooking a lake"
+  },
+  "client-027": {
+    "file": "client-027-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-027-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Street-facing glazing on a pair of contemporary townhouses"
+  },
+  "client-031": {
+    "file": "client-031-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-031-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Close view of tall hotel glazing and a mountain reflection"
+  },
+  "client-033": {
+    "file": "client-033-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-033-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Frosted window panes beside tables and seating"
+  },
+  "client-035": {
+    "file": "client-035-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-035-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Hexagonal decorative frosting across an interior glass wall"
+  },
+  "client-036": {
+    "file": "client-036-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-036-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Frosted glass panels along a deck overlooking rooftops"
+  },
+  "client-037": {
+    "file": "client-037-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-037-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Patterned frosting with soft light and tree shapes behind it"
+  },
+  "client-039": {
+    "file": "client-039-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-039-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Close view of a textured frosted film finish"
+  },
+  "client-040": {
+    "file": "client-040-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-040-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Frosted side glazing beside a white door"
+  },
+  "client-042": {
+    "file": "client-042-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-042-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Frosted film across the lower section of glazed doors"
+  },
+  "client-044": {
+    "file": "client-044-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-044-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Frosted glass panels in an entrance door"
+  },
+  "client-045": {
+    "file": "client-045-1600.webp",
+    "width": 1600,
+    "height": 757,
+    "variants": [
+      {
+        "file": "client-045-640.webp",
+        "width": 640,
+        "height": 303
+      }
+    ],
+    "alt": "Long shared interior with tall windows and installation equipment"
+  },
+  "client-048": {
+    "file": "client-048-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-048-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Timber-clad dining space with full-height exterior glazing"
+  },
+  "client-049": {
+    "file": "client-049-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-049-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Corner windows on a white-clad residential extension"
+  },
+  "client-051": {
+    "file": "client-051-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-051-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Blue sky seen through a long glazed roof"
+  },
+  "client-054": {
+    "file": "client-054-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-054-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Curved timber-clad building with tall narrow windows"
+  },
+  "client-056": {
+    "file": "client-056-1200.webp",
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "client-056-640.webp",
+        "width": 640,
+        "height": 853
+      }
+    ],
+    "alt": "Long continuous frosted-glass wall beside a walkway"
+  },
+  "client-057": {
+    "file": "client-057-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-057-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Tall windows set between stone columns on a heritage facade"
+  },
+  "client-062": {
+    "file": "client-062-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-062-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Tall glazed doors overlooking grass and distant mountains"
+  },
+  "client-064": {
+    "file": "client-064-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-064-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "Wide sliding doors opening onto a deck with a mountain outlook"
+  },
+  "client-065": {
+    "file": "client-065-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "client-065-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "alt": "NPD Refresh shopfront with broad glazed windows and doors"
+  },
+  "client-van": {
+    "file": "client-van-polished.webp",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "client-van-polished-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "client-van-polished-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "file": "client-van-polished-1200.webp",
+        "width": 1200,
+        "height": 900
+      }
+    ],
+    "alt": "Tint A Window branded van outside a residential installation site"
+  },
+  "shoot-team-portrait": {
+    "file": "shoot-team-portrait.webp",
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "file": "shoot-team-portrait-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "shoot-team-portrait-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ],
+    "alt": "Bill and Roxana together in Tint A Window workwear"
+  },
+  "shoot-team-landscape": {
+    "file": "shoot-team-landscape.webp",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "shoot-team-landscape-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "shoot-team-landscape-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "file": "shoot-team-landscape-1200.webp",
+        "width": 1200,
+        "height": 900
+      }
+    ],
+    "alt": "Bill and Roxana, the people behind Tint A Window"
+  },
+  "shoot-bill-tools": {
+    "file": "shoot-bill-tools.webp",
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "file": "shoot-bill-tools-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "shoot-bill-tools-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ],
+    "alt": "Bill holding window-film installation tools"
+  },
+  "shoot-roxana-portrait": {
+    "file": "shoot-roxana-portrait.webp",
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "file": "shoot-roxana-portrait-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "shoot-roxana-portrait-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ],
+    "alt": "Roxana in Tint A Window workwear"
+  },
+  "shoot-team-conversation": {
+    "file": "shoot-team-conversation-balanced-720.webp",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "file": "shoot-team-conversation-balanced-720-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "file": "shoot-team-conversation-balanced-720-800.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "file": "shoot-team-conversation-balanced-720-1200.webp",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "alt": "Bill and Roxana talking together"
+  },
+  "shoot-bill-working": {
+    "file": "shoot-bill-working.webp",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "file": "shoot-bill-working-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "shoot-bill-working-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "file": "shoot-bill-working-1200.webp",
+        "width": 1200,
+        "height": 900
+      }
+    ],
+    "alt": "Bill working at a window with installation tools"
+  },
+  "shoot-roxana-support": {
+    "file": "shoot-roxana-support.webp",
+    "width": 1086,
+    "height": 1448,
+    "variants": [
+      {
+        "file": "shoot-roxana-support-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "shoot-roxana-support-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ],
+    "alt": "Roxana coordinating work at her office desk"
+  }
+};

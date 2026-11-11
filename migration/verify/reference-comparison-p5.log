@@ -1,0 +1,8 @@
+website: files=3257; changed=0; before_manifest_sha256=76ec8a0c42ee133af8def19785db98523dc5cfcbcb59b6fac24057d0aad30e8e; after_manifest_sha256=76ec8a0c42ee133af8def19785db98523dc5cfcbcb59b6fac24057d0aad30e8e
+baseline: files=34; changed=0; before_manifest_sha256=2b326b6bb6755d2797a46c1f482135f2916d10a6ec93aa70759e3afaceaa5d32; after_manifest_sha256=2b326b6bb6755d2797a46c1f482135f2916d10a6ec93aa70759e3afaceaa5d32
+Restricted configuration/dependency/Tailwind files: 8 checked, 0 changed
+Phase 4 logs preserved byte-for-byte: 23
+Application source modified: app/layout.tsx, lib/render-site.ts
+Application source added: content/design-review-final.ts
+Application source removed: none
+Final verification: 102/102 exact pixel matches; 20/20 hydration/control; 48/48 behavior; 34/34 normalized visible regions and native head values/order.

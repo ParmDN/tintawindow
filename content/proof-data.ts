@@ -1,0 +1,1405 @@
+import type { ProofData } from './types';
+export const proofData: ProofData = {
+  "services": {
+    "1": {
+      "process_title": "Choose the right film for each room",
+      "process": [
+        [
+          "List the rooms",
+          "Give each room one main goal: less heat, softer light, more privacy or care for interiors. Note what already works well."
+        ],
+        [
+          "Check the existing windows",
+          "Include different glass types, old film and any owner approvals. A whole-house colour choice comes after the individual panes are considered."
+        ],
+        [
+          "Compare the useful options",
+          "Use the service choices above to narrow the need. Then compare samples for the rooms you actually use, including adjacent untreated glass."
+        ],
+        [
+          "Agree the first stage",
+          "Confirm which windows are included now and which can wait. Keep the product, quote, access and preparation clear for each area."
+        ],
+        [
+          "Fit and keep the details",
+          "Follow the agreed fitting plan and keep the care guidance. Your record of treated panes helps when considering another room later."
+        ]
+      ],
+      "reasons": [
+        [
+          "Room-by-room advice",
+          "One home can need several answers. We help separate heat, privacy and light control so the chosen treatment has a clear purpose."
+        ],
+        [
+          "A finish that belongs",
+          "Samples help you compare colour and reflection beside adjoining glass. Keep the outlook and interior finishes part of the decision."
+        ],
+        [
+          "A practical first stage",
+          "Discuss one difficult room or a larger plan. Make the windows included in the quote clear before fitting is arranged."
+        ]
+      ],
+      "choice_heading": "Choose a film around each room",
+      "choice_lead": "Start with the main concern in each room. For residential window tinting Christchurch-wide, the useful choice may differ between sunny living spaces and more exposed entrance glass."
+    },
+    "2": {
+      "process_title": "Plan protection for the interiors you value",
+      "process": [
+        [
+          "Identify what is fading",
+          "Show the floor, fabric or artwork at risk and where direct sunlight reaches it. Existing damage and future exposure are separate concerns."
+        ],
+        [
+          "Assess sunlight and glass",
+          "Note exposure, coatings and nearby shading. UV, visible light and heat all need consideration alongside the material you want to care for."
+        ],
+        [
+          "Compare protection and appearance",
+          "Ask for the relevant product information and view suitable samples. Check the daylight and colour in the room, not only the pane."
+        ],
+        [
+          "Agree the treated area",
+          "Confirm the windows, selected film and fitting arrangements. Consider adjoining panes so interior protection works with the appearance of the home."
+        ],
+        [
+          "Continue the material’s care",
+          "Keep film-cleaning instructions and any separate care advice for furnishings. Film helps manage sunlight exposure; it does not restore faded finishes."
+        ]
+      ],
+      "reasons": [
+        [
+          "Protection with context",
+          "We consider the furnishings and the sunlight reaching them. UV information is useful, but the whole exposure matters to fading."
+        ],
+        [
+          "Daylight still matters",
+          "Look at the film in the room where your furniture lives. The preferred finish should suit daily life as well as interior care."
+        ],
+        [
+          "Clear expectations",
+          "Keep the selected product information and the reasons for choosing it. Existing fading and other material care remain separate from fitting film."
+        ]
+      ],
+      "choice_heading": "Protection for the interiors you love",
+      "choice_lead": "Compare fade reducing & UV window film Christchurch-wide around the furnishings at risk and the appearance you want to preserve. The information below separates the main factors."
+    },
+    "3": {
+      "process_title": "Choose privacy around the way you live",
+      "process": [
+        [
+          "Show the view into the room",
+          "Explain where someone can see in and whether it happens by day, after dark or both. Include your usual seating position."
+        ],
+        [
+          "Check both sides of the glass",
+          "The indoor and outdoor light balance affects reflective privacy. Decide where keeping a view matters and where an obscured finish is acceptable."
+        ],
+        [
+          "Compare daytime and obscured options",
+          "Look at a reflective sample for daylight use, or explore the Frosted/Opaque page for coverage that obscures the view in other lighting."
+        ],
+        [
+          "Agree coverage and fitting",
+          "Record the panes and any selected areas to cover. Include nearby clear glass and the privacy arrangements needed after sunset."
+        ],
+        [
+          "Use the right night-time covering",
+          "Keep blinds or curtains where needed with reflective film. Follow the selected finish’s care guidance and ask about any unexpected view through it."
+        ]
+      ],
+      "reasons": [
+        [
+          "Privacy at the right time",
+          "We ask when the room feels exposed. A daytime reflective effect should not be mistaken for privacy with lights on after dark."
+        ],
+        [
+          "An outlook worth keeping",
+          "Compare the view out and the view in together. The most useful finish depends on which matters most in that particular room."
+        ],
+        [
+          "Coverage considered properly",
+          "Include nearby clear panes, upstairs views and seated positions. These details help avoid screening the wrong part of the window."
+        ]
+      ],
+      "choice_heading": "Compare privacy while keeping your view",
+      "choice_lead": "For privacy window film Christchurch-wide, first decide whether a clear daytime view matters. Frosted and opaque coverage has its own detailed guide when an obscured view is the better fit."
+    },
+    "4": {
+      "process_title": "Plan for the hours your room gets hottest",
+      "process": [
+        [
+          "Find the affected windows",
+          "Tell us when the room becomes uncomfortable and where sunlight reaches the glass. Start with the seats or rooms you avoid."
+        ],
+        [
+          "Check suitability for the pane",
+          "Share glass labels, coatings and any replacement history. The proposed solar film must suit the actual glass and its exposure."
+        ],
+        [
+          "Compare heat and daylight together",
+          "Use product information to compare heat performance, then view samples for reflection and brightness. Shade alone does not establish heat reduction."
+        ],
+        [
+          "Agree the room and work",
+          "Identify the selected panes, access and product in the quote. Keep cooling, ventilation and other comfort measures in the wider plan."
+        ],
+        [
+          "Review comfort in normal use",
+          "Follow the care guidance and keep the film details. If a concern remains, describe the time, weather and affected position in the room."
+        ]
+      ],
+      "reasons": [
+        [
+          "Heat, not just shade",
+          "We compare suitable solar products using relevant performance information. A darker appearance is not a reliable shortcut to a cooler room."
+        ],
+        [
+          "Advice around actual glass",
+          "Coatings and exposure affect suitability. Include replacement panes or labels so the proposed product can be considered for the right application."
+        ],
+        [
+          "Comfort in context",
+          "Tell us about ventilation, cooling and room use too. Film addresses sunlight through treated glass as one part of the room’s comfort."
+        ]
+      ],
+      "choice_heading": "Compare heat control, daylight and reflection",
+      "choice_lead": "When comparing heat control window film Christchurch-wide, look beyond colour. These are the separate questions to consider before choosing a solar film."
+    },
+    "5": {
+      "process_title": "Choose softer light from your usual seat",
+      "process": [
+        [
+          "Photograph the distracting light",
+          "Show the window from your desk, sofa or reading chair. Include the screen or surface and the time glare interrupts its use."
+        ],
+        [
+          "Separate sunlight from other reflections",
+          "Room lights, other windows and screen position may contribute. The film discussion should identify the sunlight passing through the proposed treated glass."
+        ],
+        [
+          "Try a suitable light level",
+          "Compare samples for comfortable viewing and the daylight you want. Consider a duller day too, not just the moment of strongest sun."
+        ],
+        [
+          "Agree which panes to treat",
+          "Record the product and affected windows, checking how neighbouring clear panes will look. Discuss access around desks, blinds and furniture."
+        ],
+        [
+          "Keep the viewing position in mind",
+          "After fitting, follow product care. Explain any remaining reflection from the same seat so the team can understand what you are seeing."
+        ]
+      ],
+      "reasons": [
+        [
+          "The view from your seat",
+          "Glare needs to be understood from the position that bothers you. A screen photograph gives the discussion a useful starting point."
+        ],
+        [
+          "Enough light for daily use",
+          "Compare glare control with the daylight you enjoy. A finish that feels right in full sun also needs consideration in gentler light."
+        ],
+        [
+          "Other reflections recognised",
+          "Window film is not a cure for every reflection. Include room lights, screen position and other glass when describing the problem."
+        ]
+      ],
+      "choice_heading": "Choose a comfortable level of light",
+      "choice_lead": "Choose anti glare window film Christchurch-wide around the light that interrupts reading, relaxing or screen use. Compare the visual change alongside the improvement you need."
+    },
+    "6": {
+      "process_title": "Plan the finish, edges and clear areas",
+      "process": [
+        [
+          "Mark the view to obscure",
+          "Look from standing and seated positions on both sides. Identify whether the concern involves a whole pane, a door sidelight or one band."
+        ],
+        [
+          "Check the finish on a sample",
+          "Compare frosted, opaque and blackout options by what the actual product lets through. Soft daylight and a clear outlook are different things."
+        ],
+        [
+          "Set out the coverage",
+          "Agree heights and edges across the door, frames and neighbouring panes. Keep clear areas where seeing through the glass is still useful."
+        ],
+        [
+          "Confirm the layout before fitting",
+          "Make sure the product and coverage match the quote. Include access around handles, fittings and any existing film on the glass."
+        ],
+        [
+          "Care for the finished surface",
+          "Use the selected product’s cleaning instructions. Keep the coverage details if an adjoining pane or replacement door needs attention in future."
+        ]
+      ],
+      "reasons": [
+        [
+          "Edges that make sense",
+          "Think about doors and neighbouring panes together. Matching coverage heights can make privacy feel like part of the original room."
+        ],
+        [
+          "A sample before coverage",
+          "Frosted, opaque and blackout describe different effects. Compare the actual product’s appearance and light before deciding what to cover."
+        ],
+        [
+          "Useful clear areas",
+          "A full pane is not always needed. Discuss the view through the entrance or room before settling the final layout."
+        ]
+      ],
+      "choice_heading": "Compare finishes and plan the coverage",
+      "choice_lead": "For frosted and opaque window film Christchurch-wide, compare the actual finish and where it will sit. Coverage and light transmission matter as much as the label."
+    },
+    "7": {
+      "process_title": "Assess the glass and the protection required",
+      "process": [
+        [
+          "Describe the concern",
+          "Separate accidental breakage, loose fragments and forced-entry concerns. Photographs should show the pane’s position in the home as well as the frame."
+        ],
+        [
+          "Check the whole application",
+          "Include the existing glass, frame condition and any written requirement. A thickness or product name alone does not establish the protection offered."
+        ],
+        [
+          "Review the proposed evidence",
+          "Discuss what the selected system is intended to do. Ask whether attachments are needed and which limitations apply to that glass and installation."
+        ],
+        [
+          "Agree product and fitting details",
+          "Keep the pane list, film, attachment requirements and access arrangements with the quote. Resolve any required glass replacement before relying on a film solution."
+        ],
+        [
+          "Keep the system records",
+          "Follow care guidance and keep the installation information. If glass or frames change later, have the new arrangement checked rather than copying the earlier treatment."
+        ]
+      ],
+      "reasons": [
+        [
+          "The concern comes first",
+          "Tell us what worries you about the glass. Holding fragments and resisting entry are different requirements, even when the panes look similar."
+        ],
+        [
+          "Evidence for the application",
+          "Discuss the proposed glass, frame, film and any attachment together. Keep the explanation of intended protection with your quote."
+        ],
+        [
+          "Appearance considered too",
+          "A protective requirement can still include a preferred look. Compare suitable products without assuming darker film means stronger protection."
+        ]
+      ],
+      "choice_heading": "Understand the proposed protection",
+      "choice_lead": "Discuss safety & security window film Christchurch-wide around the intended protection. Use these points to understand what needs assessing before a product is agreed."
+    },
+    "8": {
+      "process_title": "Plan the right work for an occupied building",
+      "process": [
+        [
+          "Bring the users’ needs together",
+          "Ask staff, customers or tenants where heat, glare, privacy or exposed glass causes difficulty. Identify which areas matter most during operating hours."
+        ],
+        [
+          "Confirm the decision-maker",
+          "Include the owner or facilities contact, glass information and appearance requirements. A tenant’s preferred finish may still need approval from another party."
+        ],
+        [
+          "Compare the relevant services",
+          "Choose around the task: solar control, privacy, decoration, surface protection or safety. Different parts of the building may need different products."
+        ],
+        [
+          "Agree access and staging",
+          "Confirm the panes, price and installation arrangements. List areas that must remain available and discuss preparation before agreeing the working schedule."
+        ],
+        [
+          "Hand over care information",
+          "Pass the selected product’s guidance to facilities and cleaning staff. Keep a record of treated panes for maintenance and any later changes to the building."
+        ]
+      ],
+      "reasons": [
+        [
+          "People as well as panes",
+          "A building serves staff, visitors and customers. Their different needs help establish which windows and services should be considered first."
+        ],
+        [
+          "An agreed decision path",
+          "Identify who approves appearance, product and price. Clear responsibilities help the conversation move from a preferred finish to an agreed plan."
+        ],
+        [
+          "A workable installation plan",
+          "Include operating hours and occupied areas early. Discuss access and preparation around the business rather than assume every room is available."
+        ]
+      ],
+      "choice_heading": "Find the film for your working space",
+      "choice_lead": "Explore commercial window tinting Christchurch-wide by the work the glass needs to do. Start with the service that addresses the main concern for your occupants."
+    },
+    "9": {
+      "process_title": "Plan solar control around the building’s use",
+      "process": [
+        [
+          "Map the hot areas",
+          "Show sun-facing desks, reception or seating and the affected hours. Identify where comfort and visibility are both important to staff or customers."
+        ],
+        [
+          "Check glass and owner requirements",
+          "Include coatings, pane information and external appearance approvals. Large areas of glass need a product suitable for the actual building."
+        ],
+        [
+          "Compare solar performance",
+          "Review heat reduction, daylight and reflection together. A film’s appearance is one part of the choice, alongside its relevant product data."
+        ],
+        [
+          "Arrange the work areas",
+          "Agree which panes and product are included, who authorises the work and how access fits operating hours. Discuss staging where needed."
+        ],
+        [
+          "Keep building records current",
+          "Give cleaners the care guidance and record treated panes. Overall comfort also depends on cooling, ventilation and how the occupied space is used."
+        ]
+      ],
+      "reasons": [
+        [
+          "Performance beyond colour",
+          "Solar heat reduction, daylight and reflection are separate considerations. Compare relevant product information for the building’s glass."
+        ],
+        [
+          "A consistent frontage",
+          "Include adjoining panes and owner requirements when viewing samples. A change outside should be considered alongside comfort inside."
+        ],
+        [
+          "Operation kept in view",
+          "Reception, desks and retail displays have different priorities. Describe the affected hours and what needs to remain visible through the glass."
+        ]
+      ],
+      "choice_heading": "Balance solar heat, daylight and appearance",
+      "choice_lead": "For commercial heat control window film Christchurch-wide, compare performance and the building’s appearance together. Glare and partition privacy can be discussed separately where needed."
+    },
+    "10": {
+      "process_title": "Match light control to the working task",
+      "process": [
+        [
+          "Show the user’s view",
+          "Photograph the screen, board or work surface from the affected seat. Note the time of day rather than judging glare from the doorway."
+        ],
+        [
+          "Check the room layout",
+          "Include other windows, lighting and reflections. Identify the sunlight entering through each proposed treated pane and the daylight needed for the task."
+        ],
+        [
+          "Compare samples at work",
+          "Consider monitors, customer seating or teaching areas as appropriate. The useful light level may differ between rooms in the same building."
+        ],
+        [
+          "Agree access around people",
+          "Confirm the product, panes and approvals. Discuss desk preparation, room availability and any areas that need to stay open during the work."
+        ],
+        [
+          "Explain care to the team",
+          "Keep cleaning guidance with the building records. Describe any later glare concern from the original user position to make follow-up advice more useful."
+        ]
+      ],
+      "reasons": [
+        [
+          "Task-specific light control",
+          "A presentation screen, café table and classroom board use daylight differently. Start with what people need to see and do."
+        ],
+        [
+          "A whole-room perspective",
+          "Include lighting and screen placement in the assessment. The treated window may be only one source of distracting reflection."
+        ],
+        [
+          "Sample decisions with users",
+          "Ask the people using the space what bothers them. Their normal seat and working hours help make the comparison relevant."
+        ]
+      ],
+      "choice_heading": "Make light work for the task",
+      "choice_lead": "Compare commercial anti-glare window films Christchurch-wide around the task and the people using the space. Useful light control should not remove more daylight than the room needs."
+    },
+    "11": {
+      "process_title": "Protect the surface and plan its replacement",
+      "process": [
+        [
+          "Identify the marking",
+          "Show the exposed glass and whether damage is scratching, etching or another type of marking. Record the condition before a protective film is considered."
+        ],
+        [
+          "Assess the surface",
+          "The underlying pane must be suitable. Discuss existing damage separately; fitting a layer does not repair scratches already in the glass."
+        ],
+        [
+          "Choose the protective application",
+          "Agree which side and panes need treatment and the exposure involved. Raise breakage or security needs separately from surface protection."
+        ],
+        [
+          "Confirm fitting and maintenance",
+          "Record the product, access and opening hours. Know who will inspect the surface and report damage so replacement can be discussed promptly."
+        ],
+        [
+          "Inspect the replaceable layer",
+          "Follow cleaning guidance and ask about damaged film before attempting repairs. Replacement depends on the film, the underlying glass and the condition found."
+        ]
+      ],
+      "reasons": [
+        [
+          "Surface protection kept separate",
+          "Scratching and etching need a different product discussion from impact or security. Choose around the damage you actually face."
+        ],
+        [
+          "Existing condition checked",
+          "A protective layer covers a suitable surface; it does not repair a damaged pane. Include existing marks in the first photographs."
+        ],
+        [
+          "Maintenance planned early",
+          "Agree how damage will be reported and replacement discussed. A replaceable layer is most useful when its condition is noticed."
+        ]
+      ],
+      "choice_heading": "A replaceable layer for exposed glass",
+      "choice_lead": "For anti graffiti window films Christchurch-wide, the choice includes the surface, exposure and plan for replacement. Start with the damage occurring at your premises."
+    },
+    "12": {
+      "process_title": "Agree the design before the film is fitted",
+      "process": [
+        [
+          "Identify private and clear areas",
+          "Review the partition from both sides, including seated and standing views. Decide which conversations need visual privacy and which routes should remain open to view."
+        ],
+        [
+          "Set out bands and patterns",
+          "Show doors, handles and neighbouring panes. Agree heights, edges and any artwork so the treatment lines up across the whole space."
+        ],
+        [
+          "Approve a suitable finish",
+          "Compare the sample’s light, texture and coverage. Where branding is included, confirm the artwork and scale before cutting or fitting is arranged."
+        ],
+        [
+          "Plan room access",
+          "Confirm the product, layout and person who can sign off the work. Discuss room availability and preparation around staff, furniture and opening hours."
+        ],
+        [
+          "Keep the approved layout",
+          "Give cleaners the care guidance and retain the design record. It helps with future pane replacement or extending the pattern to another part of the workplace."
+        ]
+      ],
+      "reasons": [
+        [
+          "Privacy with a design purpose",
+          "Set coverage around people and room use. A band or pattern should obscure the right views without covering useful clear areas."
+        ],
+        [
+          "Artwork agreed before fitting",
+          "Review the scale and alignment of any branding beside doors and frames. A whole-partition layout is easier to judge than one isolated panel."
+        ],
+        [
+          "Visual limits explained",
+          "Frosting changes what can be seen through glass. It does not soundproof a room, and separate protection needs should be stated early."
+        ]
+      ],
+      "choice_heading": "Choose the finish, pattern and clear areas",
+      "choice_lead": "For commercial frosted and opaque window film Christchurch-wide, agree what must be obscured and what should stay clear. Decorative detail can then be planned around the layout."
+    },
+    "13": {
+      "process_title": "Plan a documented glass-protection system",
+      "process": [
+        [
+          "Define what you need",
+          "Share the risk and any written building rules. Holding broken glass and resisting entry are different needs."
+        ],
+        [
+          "Check the glass and frame",
+          "Include known pane details, coatings and damage. Name the person who can discuss the building and approve the work."
+        ],
+        [
+          "Ask for the right test information",
+          "The data needs to fit the glass, film and any frame fixings proposed. Clear looks or film thickness do not prove security."
+        ],
+        [
+          "Agree the whole job",
+          "Keep the product, pane list and fitting details together. Confirm access and any work needed before the film is fitted."
+        ],
+        [
+          "Keep the records",
+          "Pass care guidance to the people maintaining the building. Have later changes to glass or frames checked before copying the treatment."
+        ]
+      ],
+      "reasons": [
+        [
+          "A clear purpose",
+          "Explain what worries you about the glass. A written requirement helps the team understand what the film needs to do."
+        ],
+        [
+          "Checks for the whole system",
+          "Ask about the pane, frame, film and fixings together. Keep the test information relevant to the proposed job."
+        ],
+        [
+          "Details for the property team",
+          "Store the product and care notes with the building records. They help if a pane or frame changes later."
+        ]
+      ],
+      "choice_heading": "Assess the complete protection system",
+      "choice_lead": "Discuss commercial safety & security window film Christchurch-wide against the risk and any written requirement. The pane, frame and fitting are part of the proposed system."
+    }
+  },
+  "locations": {
+    "14": {
+      "title": "Window tinting in Christchurch: prepare for your assessment",
+      "intro": [
+        "A site visit should answer the questions a photograph cannot. Put together a window list with room names, approximate sizes and the main concern in each space. Mark any panes replaced at a different time. That helps keep the assessment focused on the glass included in your enquiry.",
+        "Decide who will view the samples and approve the work. If you want less heat in one room and privacy in another, record those separately. Bring your preferred appearance, questions and any building information to the same conversation so the resulting quote is easier to understand."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Room and pane list",
+          "Group the pane list by room and mark what you want the visit to establish. Glass suitability, appearance and price are different questions."
+        ],
+        [
+          "Sample decisions",
+          "Name the person who can compare samples and approve the work. If an owner is absent, explain how their decision will be obtained."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "Arrange an assessment and understand the next step",
+      "process": [
+        [
+          "List the glass to assess",
+          "Give each room a name and identify the panes you want assessed. Add the main question for each: suitability, privacy, heat or appearance."
+        ],
+        [
+          "Agree who provides access",
+          "Confirm who can provide access and discuss any occupied rooms. Share known glass labels, coatings or old film before the visit."
+        ],
+        [
+          "Review samples in context",
+          "Compare suitable samples from inside and outside. Keep the room’s priorities beside the product information so the decision has a clear purpose."
+        ],
+        [
+          "Confirm the written proposal",
+          "Check that the proposal identifies the product and windows included. Ask which details still need confirmation before accepting the work."
+        ],
+        [
+          "Prepare for fitting and care",
+          "Agree preparation and installation arrangements. Keep the selected film’s care and warranty information with the assessment and quote records."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Christchurch enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to room and pane list and quote inclusions.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include sample decisions, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "15": {
+      "title": "Window tinting Ashburton: make the address and access clear",
+      "intro": [
+        "An out-of-town address needs more than a town name for a practical first discussion. Include the locality, an access contact and any entrance instructions relevant to the property. Tell us if the windows are in a home, office or another building at the same address.",
+        "Group photographs by building and room so the panes are easy to identify. For several buildings, mark the first area you want to improve rather than mixing every window into one list. Assessment, travel and fitting arrangements are then discussed for that address; a regional enquiry is not a confirmed appointment."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Buildings at one address",
+          "Use separate room labels for windows in different buildings. This avoids a workshop-office enquiry being confused with the glass in the house."
+        ],
+        [
+          "A contact for access",
+          "Describe the entrance and who can open the relevant building. Send access information directly with the enquiry rather than relying on a general town location."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Identify the building",
+          "Distinguish the house, office or other building in your photographs. Include the locality if the address is outside town."
+        ],
+        [
+          "Send a grouped window list",
+          "Use room labels and rough dimensions for each building. Mark one first-priority area rather than combining every pane into an unclear list."
+        ],
+        [
+          "Confirm the regional plan",
+          "Discuss which glass details need checking and how access can be arranged. Assessment and travel are confirmed for the actual address."
+        ],
+        [
+          "Choose the first treated panes",
+          "Compare suitable products for the first stage. Confirm the selected panes, fitting plan and quote before including any later work."
+        ],
+        [
+          "Keep records by building",
+          "Store the product and cleaning information under the same building and room labels. This makes a later window enquiry easier to identify."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Ashburton enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to buildings at one address and a clear first stage.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include a contact for access, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "16": {
+      "title": "Window tinting Timaru: prepare a working shopfront enquiry",
+      "intro": [
+        "For a business enquiry, show a wide view of the frontage as well as the space behind it. Mark which displays should remain visible to customers and where staff sit. Photograph both sides at the time glare or reflection causes difficulty so the discussion includes the customer’s view.",
+        "Bring opening hours, access restrictions and the person who can approve changes together. If the concern is damaged glass, include close photographs of the marks. Surface protection, solar control and safety each serve different purposes, so the enquiry should identify the actual priority before a product is considered."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "The customer’s view",
+          "Explain whether displays must remain clearly visible from the street. Consider reflection from outside at the hours customers pass the frontage."
+        ],
+        [
+          "Staff and display positions",
+          "List rooms or seating that cannot be cleared during trading. These details belong in the access discussion before dates are agreed."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Show both sides of the frontage",
+          "Photograph the frontage from the street and inside the working area. Identify displays that should stay visible and seats affected by glare."
+        ],
+        [
+          "Identify the main glass problem",
+          "Explain whether the concern is heat, brightness or damage. Existing scratches need a separate discussion from protection against future surface marking."
+        ],
+        [
+          "Compare the relevant application",
+          "Compare suitable product information and samples for the actual need. Include the external view as well as the comfort of staff and customers."
+        ],
+        [
+          "Agree operating-hour access",
+          "Name the approving person and list operating-hour restrictions. Confirm the areas to be treated and how access will be provided."
+        ],
+        [
+          "Pass guidance to maintenance staff",
+          "Pass the chosen film’s care guidance to the cleaning or maintenance contact. Record protected panes if later inspection or replacement may be needed."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Timaru enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to the customer’s view and work-area availability.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include staff and display positions, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "17": {
+      "title": "Window tinting Oamaru: record what you know about the windows",
+      "intro": [
+        "Where panes have been repaired or replaced over time, a simple window record is useful. Give each affected pane a room name or number, then note any known replacement, coating or old film. Unknown details can stay unknown until checked; age alone is not enough to identify glass.",
+        "Photograph the whole frame and neighbouring panes as well as close details. Explain which features of the building you want to preserve. If appearance approval is needed, identify the responsible person before choosing a finish. These checks apply to the actual property, without assuming every older building has the same needs."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Known window changes",
+          "Mark panes known to have been replaced. A visual match does not establish that they have the same coatings or glass type."
+        ],
+        [
+          "Appearance to preserve",
+          "Provide the actual appearance requirement, if one applies. A building’s age or style is not enough to establish what permission is needed."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Number the affected panes",
+          "Assign a room or number to each affected pane. Include known repairs or replacement dates where they help identify the glass."
+        ],
+        [
+          "Share known glass history",
+          "Send photographs of frames, nearby panes and safely visible labels. Leave unknown details for assessment rather than guessing from the window’s age."
+        ],
+        [
+          "Compare finishes beside existing glass",
+          "Look at a suitable sample next to existing clear glass. Discuss colour, reflection and the features of the building you want to preserve."
+        ],
+        [
+          "Resolve appearance approvals",
+          "Provide any actual appearance requirements and confirm the approval. Agree the pane list, selected product and practical access before fitting."
+        ],
+        [
+          "Record the product for each window",
+          "Keep the product recorded against each window. Replacement glass needs a fresh suitability check even when the intended appearance is unchanged."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Oamaru enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to known window changes and information still to check.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include appearance to preserve, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "18": {
+      "title": "Window tinting Queenstown: bring the owner and property manager together",
+      "intro": [
+        "For an accommodation enquiry, combine the owner’s preferred look with the manager’s practical knowledge of the rooms. Mark the spaces affected, the view to preserve and any booking restrictions. Confirm who can see samples and who has authority to approve the product and quote.",
+        "A distant owner may need photographs from inside and outside, while the access contact needs to know which rooms and windows are included. Keep those decisions in one plan. Travel, assessment and installation dates are confirmed for the job; a gap between guest stays does not by itself establish a fitting appointment."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "An owner’s approval",
+          "Separate an owner’s finish approval from the manager’s access role. Confirm how both will be included in the decision before a visit."
+        ],
+        [
+          "The manager’s access plan",
+          "Show the rooms affected by bookings and any preparation needed. Availability for discussion does not automatically confirm fitting between guest stays."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Bring the room priorities together",
+          "List the rooms, their users and what needs to improve. Include the view to retain and any interior surfaces exposed to sunlight."
+        ],
+        [
+          "Confirm owner and manager roles",
+          "Identify the owner who approves the finish and the manager who provides access. Explain how sample decisions will reach both people."
+        ],
+        [
+          "Review suitable sample choices",
+          "Compare suitable film with the room’s priorities. Guest privacy, daylight and the preferred external appearance may need consideration together."
+        ],
+        [
+          "Agree access and timing",
+          "Discuss booking restrictions and confirm travel and fitting arrangements for the project. Make preparation responsibilities clear before the team visits."
+        ],
+        [
+          "Keep the property’s care record",
+          "Give the manager the product and cleaning instructions. Keep the record with treated-room details so later questions can identify the right pane."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Queenstown enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to an owner’s approval and rooms affected by bookings.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include the manager’s access plan, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "19": {
+      "title": "Window tinting Wānaka: make remote decisions easier to follow",
+      "intro": [
+        "If you are away from the property, ask the access contact to label photographs by room and pane. Include a wide view from the normal seating position rather than only a close-up of glass. Mark any room layout planned to change before the work, such as a new desk or bed position.",
+        "Agree who will compare samples, approve the finish and receive care guidance. Different people can handle those tasks, but the final choice needs to be clear to everyone. Include guest bookings and regional access details in the enquiry so the next visit can be discussed around the actual use of the property."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Room-labelled photographs",
+          "Ask the local contact to use the same room names in photos and messages. A clear reference prevents decisions being attached to the wrong window."
+        ],
+        [
+          "One approved film choice",
+          "Keep one version of the approved product and pane list. Share it with the person arranging access and whoever looks after the property."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Label photos by room",
+          "Ask the access contact for clearly labelled room photographs. Show the seating, windows and any planned layout changes in the same enquiry."
+        ],
+        [
+          "Name the sample decision-maker",
+          "Agree who can compare samples and approve the product. Share known glass information before choosing a finish from appearance alone."
+        ],
+        [
+          "Check the finish and glass",
+          "Consider the proposed treatment from the positions the owner or guests use. Record which outlooks should stay clear and where privacy is needed."
+        ],
+        [
+          "Confirm access between stays",
+          "Confirm the available rooms, access contact and regional arrangements. Keep one agreed version of the product, panes and fitting plan."
+        ],
+        [
+          "Share the agreed care instructions",
+          "Leave the cleaning guidance with the property manager. If room use changes later, explain the new concern alongside the original film details."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Wānaka enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to room-labelled photographs and care instructions for the manager.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include one approved film choice, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "20": {
+      "title": "Window tinting Cromwell: record the problem before choosing a product",
+      "intro": [
+        "A short record of the affected hours is useful for a regional enquiry. Note when the room is occupied, which windows catch direct sunlight and whether the main difficulty is heat or screen brightness. Take photographs from the position where the problem is noticed, using the same room names as your pane list.",
+        "Include any nearby shade and the way cooling or ventilation is used. This keeps the film discussion focused on sunlight through the glass rather than assuming every source of discomfort has the same solution. Send the observations with your address so suitability and regional assessment arrangements can be discussed together."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Affected hours",
+          "Record the hours you actually use the room. A problem affecting an empty space may have a different priority from glare at a working desk."
+        ],
+        [
+          "Heat and brightness separately",
+          "Describe heat and brightness separately, even if they occur together. The suitable film comparison should consider each performance measure."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Record the uncomfortable hours",
+          "Note the affected hours and where you sit. Photograph the window, any nearby shade and the screen or surface involved."
+        ],
+        [
+          "Show the affected glass",
+          "Send known pane and coating information. Describe heat and glare separately so the next assessment can address the right performance questions."
+        ],
+        [
+          "Compare the right performance measures",
+          "Compare heat reduction, light reduction and reflection for suitable products. Keep the daylight you want alongside the discomfort you want to change."
+        ],
+        [
+          "Confirm regional assessment needs",
+          "Confirm the regional assessment, treated windows and proposal. Include how the room is used when discussing access and installation arrangements."
+        ],
+        [
+          "Keep a useful follow-up reference",
+          "Keep the original observations with the product details. If you need follow-up advice, describe the same seat, time and conditions where practical."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Cromwell enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to affected hours and windows and nearby shade.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include heat and brightness separately, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "21": {
+      "title": "Window tinting Lake Tekapo: write a clear day-and-night privacy plan",
+      "intro": [
+        "For a guest property, list the rooms where a view out matters and the panes where views in need obscuring. Ask the manager to describe the evening lighting as well as daylight use. Include the position of beds, seating and existing coverings so the plan can be discussed without relying on one daytime photograph.",
+        "Keep the approved privacy arrangement with the property instructions. If curtains or blinds are still needed after dark, make that part of how the room is presented to guests. The enquiry should also name the access contact and available dates so regional travel and assessment can be confirmed before fitting."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Views to retain",
+          "Mark which views need to remain clear and which panes may be obscured. A single finish need not serve every guest-room window."
+        ],
+        [
+          "Evening room use",
+          "Keep instructions on evening coverings with the room information. Reflective film should not be presented to guests as reliable privacy after dark."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Map the clear and private areas",
+          "List clear-view areas and privacy-sensitive rooms separately. Include bed or seating positions and the coverings already used at the property."
+        ],
+        [
+          "Show evening lighting needs",
+          "Explain the evening lighting as well as the daytime view. The discussion needs to include when guests actually use the affected room."
+        ],
+        [
+          "Compare coverage and finishes",
+          "Compare reflective daytime options with obscured coverage where appropriate. Agree what remains clear and which other coverings are still needed."
+        ],
+        [
+          "Confirm guest access arrangements",
+          "Name the access contact and describe booking restrictions. Confirm regional travel, the pane list and fitting arrangements before treating a gap as an appointment."
+        ],
+        [
+          "Keep the privacy and care notes",
+          "Keep the privacy arrangement in the room instructions and the film-care details with the cleaner. Make any after-dark covering requirement clear."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Lake Tekapo enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to views to retain and instructions for guests.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include evening room use, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "22": {
+      "title": "Window tinting Arrowtown: agree the appearance before arranging work",
+      "intro": [
+        "If preserving the building’s look is important, photograph a complete side or entrance rather than an isolated pane. Mark the windows proposed for treatment and those intended to remain clear. A sample beside existing glass helps explain the relationship between treated panes, frames and reflection.",
+        "Keep any owner or shared-building approval with the proposed layout. If there are restrictions, provide the actual requirements rather than guessing what applies from the building’s appearance. A clear record of finish, coverage and approval supports the regional enquiry and any later discussion about an adjoining replacement pane."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Whole-window layout",
+          "Show the whole row of windows or entrance. A finish should be considered beside frames and clear panes, not only as a small sample."
+        ],
+        [
+          "Actual approval requirements",
+          "Identify who can approve external appearance and provide any written conditions. Do not assume a particular restriction applies from the building’s character alone."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Show the overall appearance",
+          "Photograph a whole entrance or side of the building. Identify proposed treated windows and neighbouring panes intended to stay clear."
+        ],
+        [
+          "Identify the approving person",
+          "Name the person responsible for appearance approval. Provide any written conditions that apply rather than inferring them from the building’s style."
+        ],
+        [
+          "Compare samples and coverage",
+          "Compare suitable samples for colour, reflection and coverage beside the existing glass. Consider the appearance from inside and outside."
+        ],
+        [
+          "Agree the panes and access",
+          "Keep the approved layout with the selected product and quote. Agree access and regional visit arrangements for the panes actually included."
+        ],
+        [
+          "Retain the approved layout",
+          "Retain photographs, product details and care instructions. New panes or altered frames should be discussed before copying an earlier treatment."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Arrowtown enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to whole-window layout and treated and untreated panes.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include actual approval requirements, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "23": {
+      "title": "Window tinting Temuka: prepare a coverage drawing that is easy to read",
+      "intro": [
+        "For a privacy enquiry, make a simple sketch of the entrance, bathroom window or glass divider. Mark the part of the pane you want obscured and the view you want to keep. Include the positions from which people can see in, rather than choosing a standard band height without checking the room.",
+        "Photographs from both sides can explain the drawing. Say whether dimensions are approximate, and do not reach difficult glass to measure it. A clear layout helps the discussion move from a general privacy request to suitable coverage, glass checks and confirmed regional access arrangements for the work."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Views into the room",
+          "Check the proposed band from both standing and sitting positions. A privacy height chosen without those views may screen the wrong area."
+        ],
+        [
+          "A simple coverage sketch",
+          "Write approximate units on your sketch and mark clear areas. The drawing is a discussion aid, not a substitute for final checks."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Sketch the privacy area",
+          "Sketch the glass and mark the view you want obscured. Include standing and seated positions rather than only a preferred band height."
+        ],
+        [
+          "Photograph both sides",
+          "Add photographs from both sides and safe approximate measurements. Note any door handles, fittings or adjoining clear glass that affect coverage."
+        ],
+        [
+          "Compare the proposed coverage",
+          "Compare the selected finish on a sample. Check the proposed clear areas and privacy height against how the room will be used."
+        ],
+        [
+          "Agree glass checks and access",
+          "Agree the final coverage and glass checks with the team. Confirm product, pane list, access and regional arrangements before fitting is planned."
+        ],
+        [
+          "Keep the final layout for reference",
+          "Keep the approved drawing with the care information. Use it as a reference if a door, neighbouring pane or room layout changes."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Temuka enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to views into the room and safe approximate dimensions.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include a simple coverage sketch, operating hours and any access limits so the proposed work can be discussed with the right people."
+    },
+    "24": {
+      "title": "Window tinting Geraldine: separate this stage from future work",
+      "intro": [
+        "If you want to improve the property in stages, split the window list into work wanted now and possible later work. For each room, record the main problem and anything changing in the layout. This keeps a future wish list from being mistaken for the panes included in the current quote.",
+        "Discuss the overall appearance even where only one room is being considered. Adjoining glass may remain untreated, while a later room may need a different product. Keep the selected film and first-stage pane list together so a future enquiry starts with a reliable record rather than a guess based on colour."
+      ],
+      "coordination_title": "What makes this enquiry easier to plan",
+      "coordination": [
+        [
+          "Work included now",
+          "Put the panes wanted now in a separate list. Keep possible future work visible without allowing it to become an assumed part of the quote."
+        ],
+        [
+          "Possible later stages",
+          "Record the first selected product and the room it serves. Later work can then consider the existing finish alongside the next room’s different needs."
+        ],
+        [
+          "A proposal you can follow",
+          "Check that the proposed product and treated panes are identified. Ask about any detail that is unclear before agreeing to the work."
+        ],
+        [
+          "Care kept with the project",
+          "Keep the film name, installation information and cleaning guidance together. They are useful if another person manages or maintains the property later."
+        ]
+      ],
+      "process_title": "From your enquiry to an agreed visit",
+      "process": [
+        [
+          "Choose the first room",
+          "Choose the room that would make the biggest daily difference. Give its windows a clear label and state the main concern."
+        ],
+        [
+          "Separate current and future panes",
+          "Separate current panes from possible later work. Include planned changes to furniture or room use so samples suit the intended layout."
+        ],
+        [
+          "Compare suitable treatments",
+          "Compare suitable treatments beside adjoining glass. A consistent appearance can still involve different products for rooms with different needs."
+        ],
+        [
+          "Confirm the first-stage proposal",
+          "Confirm the first-stage product, quote and access. Discuss regional arrangements for that stage without assuming later work is already included."
+        ],
+        [
+          "Keep details for the next stage",
+          "Keep the selected film and treated-pane list for future enquiries. Describe the next room afresh rather than assuming the first product is suitable everywhere."
+        ]
+      ],
+      "services_intro": "Choose the appropriate service for your Geraldine enquiry. The linked pages explain film types in detail; use this page to prepare the property information and arrangements for a visit.",
+      "home_service": "For a home, include the rooms in use, the outlook to retain and the main change you want. In this enquiry, pay particular attention to work included now and a record of the first choice.",
+      "business_service": "For a workplace or managed property, identify the person who approves the work. Include possible later stages, operating hours and any access limits so the proposed work can be discussed with the right people."
+    }
+  },
+  "gallery_captions": {
+    "architecture": "Wide glass doors open onto timber decking, with an overhead structure framing the outdoor area. The photograph shows how much of the room’s connection to the landscape depends on keeping the glass visually open. Use it to discuss the outlook you want to retain.",
+    "glazing": "A line of white-framed windows reflects the mountains opposite. Notice how the reflection changes across the separate panes and how the frames divide the view. For a similar arrangement, compare a sample beside adjoining untreated glass as well as looking through it from inside.",
+    "commercial": "A multi-storey building combines windows, balconies and different façade materials. The glazing is part of a larger exterior composition rather than a single isolated pane. A commercial enquiry should include the overall frontage and identify which windows the proposed work would cover.",
+    "residential": "Large corner windows wrap around a two-storey home, with upper and lower panes seen together. That layout makes the appearance across adjoining glass easy to notice. When discussing selected windows, show the surrounding panes too so any visual difference can be considered.",
+    "restaurant": "Tables and chairs sit beside tall windows in a shared dining space. The photograph makes the seating positions as relevant as the windows themselves. For a hospitality enquiry, show where guests sit and explain the hours when bright light makes those places less comfortable.",
+    "interior": "Dark-framed sliding doors connect an interior with timber decking and open space beyond. The frames and large clear areas create a strong visual rhythm. A finish for this kind of opening needs consideration from both sides, including how neighbouring panes and doors look together.",
+    "lake": "A lake and mountain outlook is framed by the window, with the indoor space appearing darker than the view. The photograph illustrates why the outlook can be a priority in the room. Tell us what you want to keep visible when asking about comfort or privacy.",
+    "view": "A long, low building has an extended glazed frontage facing a lawn. The whole line of glass is visible together, making proportion and consistency part of the appearance. Include a wide photograph like this when several windows are being considered in one enquiry.",
+    "craft": "An installer works beside a home from a scaffold platform. This photograph shows the practical access around the glass, rather than only a finished pane. Let the team know about upper-storey windows and surrounding access when discussing the work; do not climb to measure difficult glass yourself.",
+    "room": "Sofas and cushions sit near tall windows above a timber floor. This is a useful view of the people’s space behind the glass: seats, surfaces and daylight together. Show your own room from a similar position to explain where glare, privacy or sunlight exposure affects daily use.",
+    "work-1": "Tall glazed panels wrap around the corner of a single-storey commercial building. Frames, entrances and adjacent surfaces are visible in one view. For a frontage enquiry, identify which panes are included and whether the preferred finish needs approval alongside the rest of the building.",
+    "work-5": "A larger commercial building is photographed with access equipment and vehicles outside. The glass sits within a wider working site. A photograph of the surroundings helps explain practical access and the areas that need to stay available while installation arrangements are discussed.",
+    "work-6": "Upper-storey windows sit above occupied shopfronts. The photograph includes both the proposed working area and the businesses below it. For an enquiry involving a similar setting, name the property contact and explain any access restrictions or hours that affect planning."
+  },
+  "project_context": {
+    "1": {
+      "title": "See the setting before choosing a service",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "room",
+        "interior"
+      ],
+      "captions": {
+        "room": "Seating and tall windows share one living space. Show your own room from the places you use, then identify the main change that would make daily life more comfortable.",
+        "interior": "Sliding doors connect the room with an outdoor deck. When looking at a similar opening, consider the clear outlook and whether every adjoining pane needs the same treatment."
+      }
+    },
+    "2": {
+      "title": "Look at the interiors behind the glass",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "room",
+        "architecture"
+      ],
+      "captions": {
+        "room": "The visible timber floor, sofas and cushions help explain the materials near these windows. For your enquiry, identify the surfaces at risk and where sunlight reaches them each day.",
+        "architecture": "Wide glass doors leave a strong connection to the outdoor area. If keeping that outlook matters, compare suitable protection and daylight together rather than covering the view whenever the sun appears."
+      }
+    },
+    "3": {
+      "title": "Think about the view in and the view out",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "interior",
+        "residential"
+      ],
+      "captions": {
+        "interior": "Large sliding doors offer a clear connection to the deck and landscape. Use your own inside and outside photographs to show which views feel exposed and which outlooks you want to keep.",
+        "residential": "Corner glazing places adjoining panes in different viewing directions. For a privacy enquiry, explain where people can see in, instead of judging the entire room from one window alone."
+      }
+    },
+    "4": {
+      "title": "Show the windows that bring in the sun",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "architecture",
+        "view"
+      ],
+      "captions": {
+        "architecture": "A wide opening and an overhead structure are visible together. Include nearby shade in your own photograph so the solar-film discussion considers how sunlight reaches the proposed treated glass.",
+        "view": "An extended glazed frontage sits beside an open lawn. If several panes are involved, identify the rooms that overheat and the hours affected rather than choosing one shade from appearance alone."
+      }
+    },
+    "5": {
+      "title": "Look from the place where glare bothers you",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "room",
+        "lake"
+      ],
+      "captions": {
+        "room": "Sofas sit close to tall windows in this living space. A photograph from your usual seat can show why the room feels bright and where a television or reading area needs attention.",
+        "lake": "The window frames a bright landscape while the room appears darker. Use your own viewing position to explain the brightness you want softened and the view you would like to preserve."
+      }
+    },
+    "6": {
+      "title": "Plan the edges as part of the room",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "interior",
+        "craft"
+      ],
+      "captions": {
+        "interior": "Repeated frames divide this large opening into clear sections. For an obscured finish on your own glass, mark the areas to cover and check how edges align across neighbouring panes.",
+        "craft": "The installation photograph shows the access needed beside a home. Include frames, handles and surrounding fittings when explaining a proposed privacy layout, so preparation can be discussed with the team."
+      }
+    },
+    "7": {
+      "title": "Include the pane and its surroundings",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "craft",
+        "residential"
+      ],
+      "captions": {
+        "craft": "A scaffold platform gives working access beside the glass. For a protection enquiry, show the pane’s position and frame without climbing to photograph or measure a difficult window yourself.",
+        "residential": "The corner windows form part of a larger two-storey opening. Photographs can explain position and access, but any safety or security proposal still needs assessment of the actual glass and system."
+      }
+    },
+    "8": {
+      "title": "See the building as a working place",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "work-1",
+        "work-5"
+      ],
+      "captions": {
+        "work-1": "Tall panels wrap around a commercial corner and entrance. Identify which windows affect staff or customers and who can approve the proposed finish across the frontage.",
+        "work-5": "Access equipment and vehicles sit outside a larger building. Include the surrounding work area and occupied spaces when asking how installation could be arranged for your premises."
+      }
+    },
+    "9": {
+      "title": "Look at the whole sun-facing frontage",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "work-1",
+        "commercial"
+      ],
+      "captions": {
+        "work-1": "Long glazed panels face the open area outside this building. Show the affected workstations or reception alongside your own frontage photographs so comfort and external appearance can be discussed together.",
+        "commercial": "Windows sit across several levels of this building. A larger project needs a clear pane list and suitable glass information, rather than assuming every level can take an identical treatment."
+      }
+    },
+    "10": {
+      "title": "Put staff and customer positions in the picture",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "restaurant",
+        "work-6"
+      ],
+      "captions": {
+        "restaurant": "Customer tables sit beside tall dining-room windows. Explain which seats are affected and the hours the room is used when discussing a comfortable level of daylight.",
+        "work-6": "Upper-storey glazing sits above busy shopfronts. For a work-area enquiry, include the screen and seating position as well as the external windows, then identify the glare that interrupts the task."
+      }
+    },
+    "11": {
+      "title": "Identify the exposed surface first",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "work-1",
+        "work-6"
+      ],
+      "captions": {
+        "work-1": "Entrance and corner glass are visible together on a commercial frontage. Mark the panes and the side exposed to damage when asking about a replaceable protective layer.",
+        "work-6": "The building photograph includes accessible shopfronts and windows above them. Clearly identify the actual surface being marked; the relevant protection discussion depends on the pane, condition and type of exposure."
+      }
+    },
+    "12": {
+      "title": "Bring the whole glass layout to the discussion",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "restaurant",
+        "work-1"
+      ],
+      "captions": {
+        "restaurant": "Frames divide a shared space into a series of glazed panels. For a decorative or obscured treatment, show the whole arrangement and explain what should stay visible across the room.",
+        "work-1": "An entrance sits within adjoining tall commercial panes. On your own layout, mark doors, handles and any proposed bands or branding so coverage can be agreed as one design."
+      }
+    },
+    "13": {
+      "title": "Show the building and the glass system",
+      "intro": "Installation photographs from our existing gallery. Use them to discuss the setting; individual products and measured outcomes are not identified.",
+      "photos": [
+        "work-5",
+        "craft"
+      ],
+      "captions": {
+        "work-5": "A larger building and its external access are visible together. Include the responsible property contact and any written protection requirements when discussing glass assessment and safe working arrangements.",
+        "craft": "The installer’s working position shows why access is part of fitting. A protection proposal needs the product, glass and any attachment requirements agreed for the real application, beyond what a photograph shows."
+      }
+    }
+  },
+  "extras": {
+    "25": [
+      {
+        "title": "A small project still deserves personal attention",
+        "paras": [
+          "A single bathroom pane or an uncomfortable corner can change how you feel about a room. You can speak to us about that one concern without planning a whole-property installation. Tell us what you like about the space too, so the conversation includes what you want to preserve.",
+          "Our family approach means bringing your priorities into the practical plan. Ask who will coordinate the work, how the selected finish will be explained and what needs to be clear before fitting. The scale of a building should not prevent a straightforward conversation about the windows you actually use."
+        ]
+      },
+      {
+        "title": "Care starts before anyone works on the glass",
+        "paras": [
+          "Bill’s trade background connects advice with preparation and fitting. For you, that means the discussion needs to move beyond a colour preference to the glass, access and finished appearance. Photos and any existing window information help explain the property before a product is agreed.",
+          "Roxana’s day-to-day coordination brings the people and project details together. Let the team know about another decision-maker, a property manager or rooms that remain in use. Clear contact details and an agreed window list help everyone understand the same job, from the first enquiry to the person providing access."
+        ]
+      },
+      {
+        "title": "Keep the connection after the installation",
+        "paras": [
+          "The relationship with the team does not need to end when the film is fitted. Keep the selected product, treated pane list and care instructions so a later question has a clear reference. Contact us about an appearance or cleaning concern and identify the window involved.",
+          "If another person maintains the property, share those details with them. They may not have been part of the original discussion, but they need the right guidance for the installed film. Product and installation warranty information should be kept with the project too, using the terms provided for the actual application."
+        ]
+      },
+      {
+        "title": "Know who and what you are choosing",
+        "paras": [
+          "Choosing a local trade is partly about feeling comfortable with the conversation. You should be able to ask why a product is proposed, who is involved and what the quoted work includes. Bill and Roxana’s different roles bring practical window-film knowledge and personal coordination to that discussion.",
+          "We welcome a clear description of the change you want. If a recommendation raises another question, ask before work is agreed. A well-understood choice gives the job a shared purpose and gives you a useful reference when the windows become part of daily life again."
+        ]
+      }
+    ],
+    "26": [
+      {
+        "title": "Start with a short description of the problem",
+        "paras": [
+          "Tell us what makes the room difficult to use and the change you would like. It might be a desk in harsh sunlight, an entrance that feels exposed or flooring beginning to fade. Include whether the property is a home, workplace, shop or accommodation setting.",
+          "List separate concerns by room. A short, clearly labelled enquiry is more useful than choosing one product name for the whole property. Include the town or address area and who can answer questions about the windows. You can ask about the next step without exact sizes or a preferred film already selected."
+        ]
+      },
+      {
+        "title": "Take photographs that explain your view",
+        "paras": [
+          "Include a wide view of the room and window, then a closer image of the frame, existing film or any safely visible glass label. For glare, take the photograph from the affected seat. For privacy, explain the view from outside and when people can see in.",
+          "Show adjoining panes if appearance matters across a larger opening. Avoid including private documents or people unnecessarily. Photographs help the first discussion but do not establish every glass detail, so the team will explain what else needs checking. In this review version, selected photographs stay on your device and are not uploaded."
+        ]
+      },
+      {
+        "title": "Add approximate sizes and access details",
+        "paras": [
+          "If safe and easy, give the width and height of each pane, the number of panes and the units used. Say that the figures are estimates. Do not climb, lean out or reach difficult glass to obtain a measurement for an initial enquiry.",
+          "Mention furniture, blinds, upper-storey windows and rooms that remain in use. For rented or shared buildings, identify any person who must approve the work or external appearance. Pane sizes, film choice, condition and access can affect the proposal. The final quote needs to make the selected product, windows included and agreed installation arrangements clear."
+        ]
+      },
+      {
+        "title": "Tell us who approves commercial work",
+        "paras": [
+          "Include the owner, facilities contact or other person who can approve the product, appearance and quote. Staff using the room may describe a different issue from the person managing the building, so it helps to bring their requirements into one enquiry.",
+          "List opening hours, access restrictions and areas that must stay available. Include any written safety or security requirement where relevant; a general product description is not proof of performance for every building. The team can then discuss the information needed for the actual application and confirm practical arrangements before an installation plan is agreed."
+        ]
+      },
+      {
+        "title": "Know what the next conversation should cover",
+        "paras": [
+          "After the property and concern are understood, the next discussion can cover missing glass information, an assessment where needed and suitable sample choices. Ask about daylight, reflection, privacy and the finished look from both sides. Request product and warranty information relevant to the proposed use.",
+          "Keep preferred dates, access contacts and approval requirements together. If your priorities change, say so before the work is confirmed. Calling or emailing reaches the team directly. The form on this review website demonstrates the enquiry and thank-you journey only; completing it does not request a booking, callback or quote."
+        ]
+      },
+      {
+        "title": "For aftercare, identify the pane and what you see",
+        "paras": [
+          "Include your name, property location and approximate installation date if known. Describe the affected window and what has changed, with a clear photograph where useful. Product information or the original quote helps identify the film without relying only on its appearance.",
+          "Follow the supplied cleaning instructions and ask before trying an unfamiliar product or repair. Drying and care can vary by application. Call 0800 368 468 or email info@tintawindow.co.nz with your question. The review form does not send aftercare requests or upload images, so please use those direct contact details when you need the team to respond."
+        ]
+      }
+    ],
+    "28": [
+      {
+        "title": "Use the captions to find a similar setting",
+        "paras": [
+          "Each caption describes the visible setting rather than an assumed product result. Choose a home, workplace or installation view close to your own situation, then use the relevant service page to compare suitable applications."
+        ]
+      },
+      {
+        "title": "For a home, show the place you actually use",
+        "paras": [
+          "Your sofa, desk or front entrance can explain more than a close-up of glass. Share where you sit, what you want to see and the time the room becomes uncomfortable. The residential service pages help you identify the next question."
+        ]
+      },
+      {
+        "title": "For a business, include the people and frontage",
+        "paras": [
+          "A working building has views from inside and outside. Include staff positions, customer seating and displays that need to stay visible. Explain access and who can approve the finish when sharing an image with your enquiry."
+        ]
+      },
+      {
+        "title": "Look at the whole arrangement of panes",
+        "paras": [
+          "A door, sidelight and adjoining windows can need consideration together. If you want partial frosting or a pattern, mark clear areas and proposed heights. A whole-window photograph helps keep the eventual coverage aligned."
+        ]
+      },
+      {
+        "title": "Bring one example and explain what appeals",
+        "paras": [
+          "You may like the open view, the restrained reflection or a neat line across several panes. Name that preference, then show your own glass. It gives the team a useful starting point without requiring you to know a product name."
+        ]
+      },
+      {
+        "title": "Keep the photograph with your project notes",
+        "paras": [
+          "Save the image reference alongside your own room photographs and agreed film details. If you later want another pane treated, those notes help explain the earlier discussion and the look you would like to keep."
+        ]
+      },
+      {
+        "title": "Move from a setting to the relevant service",
+        "paras": [
+          "Explore residential films for fading, privacy, heat, glare and suitable protection. Commercial guidance also covers decorative screening and replaceable surface protection. Start with the problem, then use the gallery to explain the appearance you prefer."
+        ]
+      }
+    ]
+  }
+};

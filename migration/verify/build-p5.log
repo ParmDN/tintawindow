@@ -1,0 +1,73 @@
+
+> tint-a-window-next-site@0.1.0 build
+> next build && node scripts/export-directories.mjs
+
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\D:\Aditya Digital Neighbour\Tint-A-Window\next-site\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of D:\Aditya Digital Neighbour\Tint-A-Window\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * D:\Aditya Digital Neighbour\Tint-A-Window\next-site\package-lock.json
+
+   ▲ Next.js 15.5.29
+
+   Creating an optimized production build ...
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\D:\Aditya Digital Neighbour\Tint-A-Window\next-site\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\D:\Aditya Digital Neighbour\Tint-A-Window\next-site\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: An Application Control policy has blocked this file.
+\\?\D:\Aditya Digital Neighbour\Tint-A-Window\next-site\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ✓ Compiled successfully in 3.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/36) ...
+   Generating static pages (9/36) 
+   Generating static pages (18/36) 
+   Generating static pages (27/36) 
+ ✓ Generating static pages (36/36)
+   Finalizing page optimization ...
+   Collecting build traces ...
+   Exporting (0/2) ...
+ ✓ Exporting (2/2)
+
+Route (app)                                                                 Size  First Load JS
+┌ ○ /                                                                      355 B         103 kB
+├ ○ /_not-found                                                            123 B         103 kB
+├ ○ /about                                                                 355 B         103 kB
+├ ○ /commercial-window-tinting-services                                    355 B         103 kB
+├ ● /commercial-window-tinting/[slug]                                      355 B         103 kB
+├   ├ /commercial-window-tinting/anti-glare-window-films
+├   ├ /commercial-window-tinting/anti-graffiti-window-films
+├   ├ /commercial-window-tinting/frosted-opaque-decorative-window-films
+├   └ [+2 more paths]
+├ ○ /contact-for-window-tinting                                            355 B         103 kB
+├ ○ /design-review                                                         355 B         103 kB
+├ ○ /design-review/project-story                                           355 B         103 kB
+├ ○ /locations                                                             355 B         103 kB
+├ ● /locations/[slug]                                                      355 B         103 kB
+├   ├ /locations/arrowtown
+├   ├ /locations/ashburton
+├   ├ /locations/christchurch
+├   └ [+8 more paths]
+├ ○ /residential-window-tinting-services                                   355 B         103 kB
+├ ● /residential-window-tinting/[slug]                                     355 B         103 kB
+├   ├ /residential-window-tinting/anti-glare-window-films
+├   ├ /residential-window-tinting/fade-reduction-window-films
+├   ├ /residential-window-tinting/frosted-opaque-window-films
+├   └ [+3 more paths]
+├ ○ /thank-you                                                             355 B         103 kB
+├ ○ /window-tinting-faq                                                    355 B         103 kB
+└ ○ /window-tinting-gallery                                                355 B         103 kB
++ First Load JS shared by all                                             103 kB
+  ├ chunks/255-15b9cc804e0d9c7d.js                                       46.7 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js                                  54.2 kB
+  └ other shared chunks (total)                                          1.99 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Arranged the 34 audited HTML documents as directory indexes plus 404.html.

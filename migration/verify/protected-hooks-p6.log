@@ -1,0 +1,91 @@
+public/enquiry-flow.js:13: const page=document.querySelector('[data-enquiry-confirmation]');
+public/enquiry-flow.js:18: page.querySelector('h1').textContent='Your next step: speak with our team.';
+public/enquiry-flow.js:19: page.querySelector('[data-confirmation-message]').textContent='Your details are ready to discuss. Please call or email our team to request your quote.';
+public/team-ui-715.js:8:    document.querySelectorAll('.photo-carousel').forEach((track, index) => {
+public/team-ui-715.js:9:      if (track.dataset.teamControlsReady || track.children.length < 2) return;
+public/team-ui-715.js:10:      track.dataset.teamControlsReady = 'true';
+public/team-ui-715.js:11:      if (!track.id) track.id = `photo-rail-715-${index + 1}`;
+public/team-ui-715.js:13:      const title = track.closest('section')?.querySelector('h2')?.textContent.replace(/\s+/g, ' ').trim();
+public/team-ui-715.js:15:      controls.className = 'photo-rail-controls';
+public/team-ui-715.js:16:      controls.setAttribute('role', 'group');
+public/team-ui-715.js:17:      controls.setAttribute('aria-label', title ? `Photograph controls: ${title}` : 'Photograph controls');
+public/team-ui-715.js:36:        button.setAttribute('aria-controls', track.id);
+public/team-ui-715.js:37:        button.setAttribute('aria-label', direction < 0 ? 'Previous photographs' : 'Next photographs');
+public/team-ui-715.js:53:    const photograph = document.querySelector('.page-locations main > .locations-photo');
+public/team-ui-715.js:55:    const image = photograph?.querySelector(':scope > img');
+public/team-ui-715.js:56:    if (photograph && image && note?.matches('.travel-note') && !photograph.dataset.visitComposed) {
+public/team-ui-715.js:57:      photograph.dataset.visitComposed = 'true';
+public/team-ui-715.js:59:      frame.className = 'locations-visit-frame';
+public/site.js:1:const one=(s,root=document)=>root.querySelector(s), all=(s,root=document)=>[...root.querySelectorAll(s)];
+public/site.js:2:const mobile=one('.mobile-toggle'),nav=one('#site-nav');
+public/site.js:3:const closeGroups=()=>all('.nav-toggle').forEach(b=>{b.setAttribute('aria-expanded','false');one('#'+b.getAttribute('aria-controls')).hidden=true;});
+public/site.js:4:function closeNav(){mobile.setAttribute('aria-expanded','false');nav.classList.remove('open');document.body.classList.remove('menu-open');closeGroups();}
+public/site.js:5:mobile?.addEventListener('click',()=>{const open=mobile.getAttribute('aria-expanded')!=='true';mobile.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open);document.body.classList.toggle('menu-open',open);if(!open)closeGroups();});
+public/site.js:6:all('.nav-toggle').forEach(b=>b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';closeGroups();b.setAttribute('aria-expanded',String(open));one('#'+b.getAttribute('aria-controls')).hidden=!open;}));
+public/site.js:7:document.addEventListener('click',e=>{if(!e.target.closest('.nav-group'))closeGroups();});
+public/site.js:8:document.addEventListener('keydown',e=>{if(e.key==='Escape'){const active=one('.nav-toggle[aria-expanded="true"]');if(active){closeGroups();active.focus();}else if(nav?.classList.contains('open')){closeNav();mobile.focus();}}});
+public/site.js:9:all('#site-nav a').forEach(a=>a.addEventListener('click',closeNav));
+public/site.js:11:all('[data-film]').forEach(b=>b.addEventListener('click',()=>{all('[data-film]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));one('.demo-window').dataset.finish=b.dataset.film;one('#film-description').textContent={clear:'A clear outlook, with the right specification for your glass.',solar:'A tinted impression. Real samples help you compare light, reflection and colour.',privacy:'An obscured outlook for spaces where privacy matters more than a clear view.'}[b.dataset.film];}));
+public/site.js:12:all('[data-filter]').forEach(b=>b.addEventListener('click',()=>{all('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));let count=0;all('[data-category]').forEach(x=>{x.hidden=b.dataset.filter!=='All'&&x.dataset.category!==b.dataset.filter;if(!x.hidden)count++;});one('.gallery-count').textContent=`Showing ${count} photograph${count===1?'':'s'}`;}));
+public/site.js:13:const dialog=one('.lightbox');let opener;
+public/site.js:14:all('[data-photo]').forEach(b=>b.addEventListener('click',()=>{opener=b;one('img',dialog).src=b.dataset.src;one('img',dialog).alt=one('img',b).alt;one('img',dialog).width=one('img',b).width;one('img',dialog).height=one('img',b).height;one('p',dialog).textContent=b.dataset.title;dialog.showModal();}));
+public/site.js:15:one('.lightbox-close')?.addEventListener('click',()=>dialog.close());dialog?.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});dialog?.addEventListener('close',()=>opener?.focus());
+public/site.js:16:one('#faq-search')?.addEventListener('input',e=>{const query=e.target.value.trim().toLocaleLowerCase();let count=0;all('.faq-group').forEach(g=>{let groupCount=0;all('details',g).forEach(d=>{d.hidden=!d.textContent.toLowerCase().includes(query);if(!d.hidden){count++;groupCount++;}d.open=Boolean(query)&&!d.hidden;});g.hidden=groupCount===0;});one('#faq-search-status').textContent=query?(count?`${count} matching question${count===1?'':'s'}`:'No matching questions. Try another phrase or call 0800 368 468.') : '';});
+public/site.js:19:all('[data-light]').forEach(b=>b.addEventListener('click',()=>{const night=b.dataset.light==='night';all('[data-light]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));const model=one('.privacy-model');model.dataset.lighting=b.dataset.light;model.setAttribute('aria-label',night?'Night-time illustration: brighter inside than outside':'Daylight illustration: brighter outside than inside');one('#privacy-answer').textContent=night?'With lights on inside after dark, reflective film does not provide reliable privacy. Consider a frosted or opaque finish, or other window coverings, when night-time privacy is essential.':'When it is brighter outside, a suitable reflective film can reduce the view into the room. The result depends on the product and conditions.';}));
+public/site.js:21:document.addEventListener('focusin',e=>{if(nav?.classList.contains('open')&&!nav.contains(e.target)&&!mobile.contains(e.target))closeNav();});
+public/site.js:27: document.documentElement.classList.toggle('motion-disabled',calmMotion.matches);
+public/site.js:35:  root.classList.toggle('motion-visible',visible&&!document.hidden);
+public/site.js:36:  root.classList.toggle('motion-paused',!next);
+public/site.js:43:  root.addEventListener('focusin',e=>{focused=e.target.matches(':focus-visible');sync();});
+public/site.js:44:  root.addEventListener('focusout',e=>{focused=root.contains(e.relatedTarget)&&e.relatedTarget.matches(':focus-visible');sync();});
+public/site.js:59: track.classList.add('drag-scroll');
+public/site.js:62:  if(e.pointerType!=='mouse'||e.button!==0||e.target.closest('button,input,textarea,select'))return;
+public/site.js:69:  if(!moved){moved=true;track.setPointerCapture(pointer);track.classList.add('is-dragging');}
+public/site.js:75:  pointer=null;track.classList.remove('is-dragging');
+public/site.js:91:const phoneRails=all('.home-outcome-grid,.home-reason-grid,.revision-details,.revision-choices,.application-grid,.revision-reasons,.related-service-cards').filter(track=>track.children.length>=3);
+public/site.js:94: const section=track.closest('section'),title=one('h2',section)?.textContent.trim();
+public/site.js:95: track.setAttribute('role','region');
+public/site.js:96: track.setAttribute('aria-label',(one('h2',section)?.innerText.replace(/\s+/g,' ').trim()||title||'Options')+'; scroll to explore');
+public/site.js:100: track.classList.toggle('mobile-card-rail',phoneLayout.matches);
+public/site.js:101: if(phoneLayout.matches)track.tabIndex=0;else track.removeAttribute('tabindex');
+public/site.js:105:all('.archive-timeline').forEach(track=>{
+public/site.js:107: const section=track.closest('section'),buttons=all('[data-archive-index]',section);
+public/site.js:131:all('.home-gallery-pair,.project-slot-grid,.photo-carousel').forEach(track=>{
+public/site.js:133: track.classList.add('photo-carousel');track.setAttribute('role','region');track.tabIndex=0;
+public/site.js:134: track.setAttribute('aria-label','Project photographs; drag, swipe or use arrow keys to explore');
+public/site.js:135: const interval=1000;track.dataset.autoplayInterval=String(interval);
+public/site.js:145:all('[data-carousel="vertical"]').forEach(section=>{
+public/site.js:146: const track=one('[data-reel-track]',section),originals=all('[data-reel-item]',track);
+public/site.js:148: originals.forEach(item=>{const clone=item.cloneNode(true);clone.setAttribute('aria-hidden','true');clone.setAttribute('inert','');clone.dataset.reelClone='';track.append(clone);});
+public/site.js:149: section.classList.add('reel-ready');draggableScroll(track,'y');let timer,resetTimer;
+public/site.js:162:all('[data-carousel="horizontal"]').forEach(section=>{
+public/site.js:163: const track=one('[data-reel-track]',section),originals=all('[data-reel-item]',track);
+public/site.js:169:   const clone=item.cloneNode(true);clone.setAttribute('aria-hidden','true');clone.setAttribute('inert','');clone.dataset.reelClone='';track.append(clone);
+public/site.js:173: section.classList.add('logo-ready');let frame,lastTime,position=0;
+public/site.js:182:all('.revision-steps').forEach(track=>{
+public/site.js:183: const steps=all('article',track);
+public/site.js:194:all('main .section').filter(section=>one('.detail-icon,.film-icon,.revision-steps,.film-explainer,.simple-film-drawing,.decision-line',section)).forEach(section=>watchMotion(section));
+public/site.js:197:const arrivalTargets=all(`main .revision-heading, main .chapter-heading, main .project-slots-heading,
+public/site.js:210:   target.classList.add('atelier-arrive');
+public/site.js:211:   if(target.matches('.material-study'))target.classList.add('study-arrive');
+public/site.js:220: if(calmMotion.matches)arrivalTargets.forEach(el=>el.classList.remove('atelier-arrive','study-arrive'));
+public/site.js:225:all('.nav-group').forEach(group=>{
+public/site.js:226: const toggle=one('.nav-toggle',group),panel=one('.nav-panel',group);let hideTimer;
+public/site.js:228: function open(){clearTimeout(hideTimer);closeGroups();toggle.setAttribute('aria-expanded','true');panel.hidden=false;}
+public/site.js:230: group.addEventListener('pointerleave',()=>{if(desktop())hideTimer=setTimeout(()=>{if(!group.contains(document.activeElement)){toggle.setAttribute('aria-expanded','false');panel.hidden=true;}},180);});
+public/site.js:231: group.addEventListener('focusout',e=>{if(!group.contains(e.relatedTarget)){toggle.setAttribute('aria-expanded','false');panel.hidden=true;}});
+public/site.js:234:const quotePopup=one('.quote-dialog');let quoteOpener;
+public/site.js:235:all('a').filter(a=>/get a quote/i.test(a.textContent)&&/contact-for-window-tinting|#start-enquiry/.test(a.getAttribute('href')||'')).forEach(a=>{
+public/site.js:236: a.setAttribute('aria-haspopup','dialog');
+public/site.js:237: a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();quoteOpener=a;if(nav?.classList.contains('open'))closeNav();quotePopup.showModal();document.body.classList.add('quote-open');});
+public/site.js:239:one('.quote-dialog-close')?.addEventListener('click',()=>quotePopup.close());
+public/site.js:241:quotePopup?.addEventListener('close',()=>{document.body.classList.remove('quote-open');quoteOpener?.focus({preventScroll:true});});
+public/site.js:243:all('[data-enquiry-form]').forEach(form=>{
+public/site.js:244: const property=one('[data-property-select]',form),photos=one('[data-enquiry-photos]',form),status=one('[data-file-status]',form),clear=one('[data-clear-photos]',form);
+public/site.js:245: const checks=all('input[name="services"]',form),groups=all('[data-service-group]',form),summary=one('[data-service-summary]',form);
+public/site.js:251:  groups.forEach(group=>{const hidden=['Residential','Commercial'].includes(property.value)&&property.value!==group.dataset.serviceGroup;group.hidden=hidden;if(hidden)all('input',group).forEach(input=>{input.checked=false;});});
+public/site.js:257: checks.forEach(input=>{if(input.dataset.servicePath===location.pathname)input.checked=true;});updateProperty();
+public/site.js:263:  photos.setCustomValidity(message);photos.setAttribute('aria-invalid',String(Boolean(message)));
+public/site.js:265:  status.classList.toggle('field-error',Boolean(message));clear.hidden=!files.length;
+public/site.js:267: clear.addEventListener('click',()=>{photos.value='';photos.setCustomValidity('');photos.setAttribute('aria-invalid','false');status.textContent='';status.classList.remove('field-error');clear.hidden=true;photos.focus();});
+public/site.js:268: form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;window.tintEnquiryPreview.complete(form.dataset.enquiryForm);});

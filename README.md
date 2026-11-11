@@ -1,206 +1,77 @@
-# Tint A Window
+# Tint A Window — Next site
 
-Source code, content references, and review evidence for the Tint A Window website. The site presents residential and commercial window films, service locations, project photography, FAQs, and enquiry forms.
+This is the working Next.js 15 App Router / React 19 / TypeScript static-export project. **`D:/Aditya Digital Neighbour/Tint-A-Window-backups/root-legacy-before-flatten-20261111/website/` stays as the reference until production launch.** Do not regenerate or edit that tree or `migration/baseline/`. This review build is noindex and has no live enquiry submission service.
 
-The website uses a custom Node.js static-site generator with JavaScript modules, HTML templates, CSS, and browser JavaScript. Python scripts check the generated content and structure. The package is private and currently identifies itself as version `7.20.0`.
+## Requirements and commands
 
-## Getting started
-
-### Requirements
-
-- Node.js 22 or later and npm.
-- Python 3, available as `python3` for the npm build and check scripts.
-
-Run these commands from the repository root:
-
-```sh
-cd website
-npm ci
-npm run build
-npm run dev
-```
-
-Open [the local preview](http://localhost:4325). Stop the server with `Ctrl+C`.
-
-`npm run dev` serves the existing `website/dist/` directory. It does not build the site or watch source files. After editing, rebuild and refresh the browser.
-
-If Windows exposes Python as `python` rather than `python3`, build and run the same checks explicitly from `website/`:
-
-```sh
-node build.mjs
-python check-content.py
-python check-site.py
-python check-design.py
-python check-final.py
-```
-
-To use another preview port in PowerShell:
+Use **Node 22.x** (`>=22 <23`) and npm. Dependencies are locked; do not upgrade them as cleanup. From this folder, with Node 22 active:
 
 ```powershell
-$env:PORT = "4326"
-npm run dev
+node --version
+npm ci
+npm run build
+npm run check
 ```
 
-The server binds to `127.0.0.1`. The HTTP check script expects port `4325`.
+Install only when needed; installed dependencies were kept. Build runs `next build && node scripts/export-directories.mjs`, producing 33 directory-style documents plus `404.html` in `out/`. Check is plain `node scripts/check.mjs`; it reads the real export and retained baseline, verifies head/schema/h1/native structure/scripts/CSS provenance and internal references. Normal compiler/type/build errors remain enabled.
 
-## File structure
+Preview the existing export locally (the helper exports a function; running its file alone does not start a server):
 
-The tree below highlights the main files and groups repetitive assets, reports, and rendering modules.
+```powershell
+node --input-type=module -e "const { startStatic } = await import('./migration/verify/local-server.mjs'); const server = await startStatic('./out'); console.log(server.origin);"
+```
+
+Open the printed loopback URL; Ctrl+C stops it. This server maps clean URLs to directory indexes and returns the 404 body/status for unknown paths. It does not reproduce host redirects/cache/header policy. It is not a deployment. Rebuild after source changes; preview does not watch files. `next start` is not the server for output:export.
+
+## Windows: retained Node 22 and SWC/WASM
+
+The system Node on the verification machine was 24, so use the retained Node **v22.23.4** explicitly. A global npm shim may select its sibling Node rather than the first node on PATH; invoke npm's CLI through the retained binary:
+
+```powershell
+$node22 = (Resolve-Path '.\migration\verify\runtime\node_modules\node\bin\node.exe').Path
+$npmCli = Join-Path $env:ProgramFiles 'nodejs\node_modules\npm\bin\npm-cli.js'
+$env:PATH = "$(Split-Path $node22);$env:PATH"
+& $node22 --version
+# If reinstalling is actually needed: & $node22 $npmCli ci
+$env:NEXT_TEST_WASM = '1'
+$env:NEXT_TEST_WASM_DIR = (Resolve-Path '.\node_modules\next\wasm\@next\swc-wasm-nodejs').Path
+$env:NEXT_TELEMETRY_DISABLED = '1'
+& $node22 $npmCli run build
+& $node22 scripts/check.mjs
+```
+
+Application Control blocks native Windows SWC here. The above uses the existing cached WASM binding without modifying dependencies; the NEXT_TEST_WASM variables are internal Next switches tied to this installed version, not permanent app configuration. Verify the cached wasm.js exists before using the directory override. A fresh install elsewhere may need Next's ordinary supported fallback download/cache; do not manufacture a replacement binding or suppress build errors. If worker spawning is sandbox-blocked, run the authorized build outside that sandbox. Existing WASI/workspace-root warnings do not mean checks are disabled. Clear these shell-only overrides when no longer needed (`$env:NEXT_TEST_WASM = $null`; likewise NEXT_TEST_WASM_DIR).
+
+For preview with the retained binary, replace `node` in the preview command with `& $node22`. No package preview script or UI library is required.
+
+## Structure and editing
 
 ```text
-Tint-A-Window/
-|-- README.md                         # Project overview and development guide
-|-- README-FIRST.md                   # Original source-handover instructions
-|-- HANDOFF-NOTES-2026-11-05.md        # Dated feedback and handover context
-|-- BUILD-VERIFICATION.md             # Historical build-verification record
-|-- MANIFEST.sha256                   # Handover file checksums
-|-- .gitignore                        # Local environment/dependency exclusions
-|-- package-lock.json                 # Root lockfile; app commands run in website/
-|-- Changes/
-|   |-- Aditya_05-11-26.md             # Dated change notes
-|   |-- Aditya_10-11-26.md             # Forms review and implementation proposals
-|   |-- Final_QA_05-11-26.md           # QA findings
-|   |-- final-qa-evidence/            # Audit scripts, logs, and evidence
-|   `-- screenshots/                 # Responsive screenshots and baselines
-|-- page-copy/
-|   |-- README.md                     # Editorial export notes
-|   |-- home.md                       # Readable homepage copy
-|   |-- about.md                      # Readable About copy
-|   `-- *.md                          # Service, location, contact, gallery, FAQ copy
-|-- reference/
-|   |-- CLIENT-INPUTS.md              # Client input reference
-|   |-- DESIGN-DIRECTION.md           # Design guidance
-|   |-- PRODUCTION-HANDOFF.md          # Production handover context
-|   |-- SOURCES.md                    # Source references
-|   |-- latest-qa/                    # QA notes and screenshots
-|   `-- ...                           # Dated reviews and provenance records
-`-- website/
-    |-- package.json                  # Application scripts and dependencies
-    |-- package-lock.json             # Application dependency lockfile
-    |-- .env.example                  # Optional Sanity environment variable names
-    |-- README.md                     # Pointer to the original handover guide
-    |-- build.mjs                     # Static page generation and asset copying
-    |-- server.mjs                    # Local static preview server
-    |-- src/
-    |   |-- site-data.mjs              # Page definitions, routes, and shared data
-    |   |-- final-proof-copy.json      # Final copy data used by proofing layer
-    |   |-- final-proof.mjs            # Final copy rendering helpers
-    |   |-- editorial-review.mjs       # Shared editorial transformations
-    |   |-- customer-polish.mjs        # Final page refinements
-    |   |-- homepage-refinement.mjs    # Homepage refinement helpers
-    |   |-- footer.mjs                # Shared footer rendering
-    |   |-- quote-form.mjs            # Quote form and dialog markup
-    |   |-- thank-you.mjs             # Confirmation page markup
-    |   |-- image-manifest.json        # Image metadata and responsive variants
-    |   |-- media-map-717.mjs          # Page-to-photo mapping
-    |   |-- social-links.json         # Social destination data
-    |   |-- keyword-map*.json          # Keyword mapping snapshots
-    |   |-- lib/forms/
-    |   |   |-- config.js             # Supported form configuration
-    |   |   |-- date.js               # Submission date helper
-    |   |   `-- saveSubmission.js      # Optional server-side Sanity logging helper
-    |   |-- sanity/
-    |   |   |-- lib/writeClient.js     # Server-only Sanity client configuration
-    |   |   |-- schemas/               # Form submission schema and exports
-    |   |   `-- structure/             # Form submission Studio structure helper
-    |   `-- ...                       # Additional content and rendering modules
-    |-- public/
-    |   |-- assets/                   # Images, fonts, logos, videos, and captions
-    |   |-- site.js                   # Shared browser interactions
-    |   |-- enquiry-flow.js           # Local preview enquiry completion flow
-    |   |-- style.css                 # Base styles
-    |   |-- placement-polish-720.css   # Later photo placement/spacing refinements
-    |   `-- ...                       # Additional CSS, scripts, and favicon
-    |-- dist/                         # Generated site; created by build.mjs
-    |-- audit-text/                   # Generated page-text audit extracts
-    |-- check-content.py              # Content and keyword audit
-    |-- check-site.py                 # Generated HTML, links, and asset checks
-    |-- check-design.py               # Design structure checks
-    |-- check-final.py                # Final regression checks
-    |-- check-http.py                 # Local HTTP response checks
-    |-- check-enquiry-flow.mjs         # Preview enquiry attribution checks
-    |-- package-vercel-review.py      # Static Vercel review-package generator
-    |-- package-review.py             # Legacy offline review-package utility
-    `-- ...                           # Other verification tools and CSV/JSON reports
+app/                       App Router routes, layout, globals.css, legacy.css
+components/{layout,forms,sections,ui}/
+                           Shared native chrome and main/dialog boundary
+content/*.ts               Typed copy, route/media/data modules and render helpers
+lib/render-site.ts         Composition and final document assembly
+lib/pages.ts               getPage(), final mainHtml extraction
+lib/metadata.ts            Baseline head/SEO contract
+public/                    Original assets, fonts, videos/VTT and browser scripts
+scripts/                   Export rearrangement, checker, parity capture/normalizer,
+                           baseline discovery, private sitemap-draft generator
+migration/baseline/         Immutable 34-document HTML reference archive
+migration/verify/           Retained final logs, reusable harnesses, Node22 and browser
+migration/MIGRATION-SUMMARY.md  Route/layer/CSS contracts, evidence and pending checks
 ```
 
-`node_modules/`, `dist/`, and review-package output are installed or generated directories. Source content lives in `website/src/` and `website/public/`. Files in `page-copy/` are readable editorial references; editing them does not update the rendered website.
+Edit typed content under `content/` and assembly under `lib/render-site.ts`; do not import the old generator or its revised-content module. Current styling is **app/legacy.css: 22 original sheets concatenated in original order**, with original public CSS retained for strict provenance checks. Tailwind v4 has no Preflight and no automatic source scan. **No section has been converted to utilities.** Do not remove legacy rules or change classes/ids/data/aria hooks without a separately approved conversion.
 
-## Available commands
+Pages mount immutable final `mainHtml` directly on **main#main**, with no extra wrapper/second main. Native anchors cause full-document navigation. The original scripts load as classic deferred scripts once, in order: enquiry-flow.js, site.js, team-ui-715.js. They own forms/dialog/carousels/visit-frame descendants. shoot-media-715.js remains intentionally unloaded; assets and optional media remain retained.
 
-Run these commands inside `website/`:
+`content/design-review-final.ts` is a frozen baseline main snapshot for `/design-review` only (seven sections, exact inline colours). Do not re-polish it or conflate it with project-story. Keep Home document-title versus social/schema-title capitalization and 404/thank-you canonical exceptions. See [migration summary](migration/MIGRATION-SUMMARY.md) for the complete route list and cascade order.
 
-| Command | Purpose |
-| --- | --- |
-| `npm ci` | Install dependencies from the application lockfile, including `@sanity/client`. |
-| `npm run build` | Generate `dist/`, copy public assets, then run the four Python checks. |
-| `npm run dev` | Serve the generated site at `http://localhost:4325`. |
-| `npm run check` | Run the four Python checks against an existing build. |
-| `npm run check:links` | Check local HTTP responses while the preview server runs on port `4325`. |
-| `node check-enquiry-flow.mjs` | Check preview form origins, one-time attribution, receipt expiry, and blocked storage. |
-| `python3 package-vercel-review.py` | Generate a static review bundle under `website/vercel-review/`; does not deploy it. |
-| `npm run package:review` | Run the legacy offline packaging utility; review/update its older labels before release use. |
+## Verification status and boundaries
 
-The build also writes route, keyword, migration, content, and QA reports into `website/`. Some checks update report files, so inspect the working-tree diff after running them.
+Retained Phase 5/6 logs show 102/102 exact pixels at 360/768/1440, 34/34 HTML regions, 20/20 hydration/control and 48/48 behavior cases. Phase 6's strict computed comparator still reports 935 pre-existing zero-offset background-position representations, with matching geometry. Gallery screenshots require paint/image-quality care. This cleanup's build/check result is in [Phase 7 report](migration/PHASE-7-REPORT.md); historical pixel tests were not silently rerun as part of cleanup.
 
-## Editing the website
+Reusable verification tools remain under migration/verify/ (painted capture, pixel-diff, browser-checks, computed-style, local-server) plus scripts/parity/. Playwright uses the retained browser by setting PLAYWRIGHT_BROWSERS_PATH to this folder's migration/verify/browsers. Screenshot/diff/raw-normalization inputs are generated and may have been recycled; regenerate them before a corresponding comparison. Final numeric logs are retained. The computed-style tool intentionally fails on real strict property differences.
 
-| Task | Main source files |
-| --- | --- |
-| Routes, page data, contact details | `website/src/site-data.mjs` |
-| Metadata and keyword ownership | `website/src/site-data.mjs`, `website/src/enhancements.mjs`, `website/src/keyword-map*.json` |
-| Service and location wording | `website/src/final-proof-copy.json`, `website/src/final-proof.mjs` |
-| Shared wording and final refinements | `website/src/editorial-review.mjs`, `website/src/customer-polish.mjs` |
-| Layout and page generation | `website/build.mjs`, rendering modules in `website/src/` |
-| Homepage and team media | `website/src/homepage-refinement.mjs`, `website/src/shoot-media.mjs` |
-| Photography | `website/src/media-map-717.mjs`, `website/src/client-media.mjs`, `website/src/image-manifest.json` |
-| Browser behavior and styling | `website/public/*.js`, `website/public/*.css` |
-| Footer and social links | `website/src/footer.mjs`, `website/src/social-links.json` |
-| Enquiry preview | `website/src/quote-form.mjs`, `website/src/thank-you.mjs`, `website/public/enquiry-flow.js` |
-
-The build applies multiple content and design layers. Later transformations can override earlier edits. If a change does not appear, inspect the final proof, editorial review, and customer polish modules, along with stylesheet order in `build.mjs`.
-
-Edit source files and rebuild. Changes made directly to generated pages can be overwritten. Review Home, service pages, location pages, About, the gallery, navigation, and forms at desktop, tablet, and phone widths after relevant changes.
-
-## Forms and optional Sanity integration
-
-The Home, Contact, and quote-popup forms currently demonstrate local selection and a thank-you journey. They do not send enquiries or upload selected photos. The preview server supports only `GET` and `HEAD`; no submission API is wired into it.
-
-Server-side Sanity logging helpers, a submission schema, and a Studio structure helper exist under `website/src/`. These are integration building blocks: there is no configured Studio application or connected form endpoint in this repository.
-
-The optional write helper reads these environment variables:
-
-| Variable | Purpose |
-| --- | --- |
-| `SANITY_PROJECT_ID` | Target project; falls back to `NEXT_PUBLIC_SANITY_PROJECT_ID`. |
-| `SANITY_SUBMISSIONS_DATASET` | Target dataset; falls back to `NEXT_PUBLIC_SANITY_DATASET`. |
-| `SANITY_WRITE_TOKEN` | Server-side write token; falls back to `SANITY_API_TOKEN`. |
-
-See [`website/.env.example`](website/.env.example) for the variable names. Credentials are unnecessary for the static build and preview. The helper skips writes without a token and disables its client if the project or dataset is missing. Adding credentials alone does not enable submissions: a server endpoint must validate data and call the helper.
-
-Keep write tokens in the server environment. The current build and preview commands do not automatically load `.env` files. Do not put tokens in browser scripts, generated HTML, or public assets.
-
-## Review packaging and launch status
-
-The generated site is a **noindex review build**. The local server adds `X-Robots-Tag: noindex, nofollow`; the Vercel review packager creates additional review headers and configuration. The production sitemap draft is an output for review, not an instruction to enable indexing.
-
-To prepare a review bundle, first complete `npm run build`, then run:
-
-```sh
-python3 package-vercel-review.py
-```
-
-The packager recreates the generated `website/vercel-review/public/` directory. It does not deploy the site or supply hosting credentials. The original handover identifies [the isolated review site](https://tint-a-window-review.vercel.app) as the review destination.
-
-Production launch remains a separate step requiring the approval described in the handover, working enquiry delivery, server-side validation, spam protection, private photo handling, privacy/retention decisions, confirmed social destinations, and migration checks.
-
-## Further documentation
-
-- [Original handover guide](README-FIRST.md)
-- [Handover notes, 5 November 2026](HANDOFF-NOTES-2026-11-05.md)
-- [Forms review, 10 November 2026](Changes/Aditya_10-11-26.md)
-- [Final QA record](Changes/Final_QA_05-11-26.md)
-- [Production handover reference](reference/PRODUCTION-HANDOFF.md)
-- [Editorial copy notes](page-copy/README.md)
-
-Dated handover and review documents describe their respective snapshots. For example, older notes predate the Sanity dependency and helper files now present. Check the current source and `website/package.json` when those records differ from the implementation.
+Forms are review-only; nothing is sent. The sitemap is a private 30-URL draft outside out/. Noindex, host headers, query-preserving slash redirects, cleanUrls/404 aliases and caching still need authorized real-host checks. Do not deploy as a side effect of build/check/preview.

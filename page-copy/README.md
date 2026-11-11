@@ -1,3 +1,0 @@
-# Final page copy, version 7.17
-
-Rebuilt from the final rendered website on 23 October 2026. There are 30 customer-page copies, including the Locations directory. Each file preserves the reading order of headings, paragraphs, lists, questions and captions, including closed FAQ answers. Shared navigation/footer, pop-up form fields, illustrations and decorative labels are excluded. These are editorial review copies; the website is the layout reference. The precise website word and keyword measurements are in ../../content-audit.csv and ../../FINAL-CONTENT-REVIEW-7.17.md. No Drive documents or email drafts were changed by this export.
