@@ -1,0 +1,8 @@
+before /about: migration/verify/window-copy-before_about-detail.png
+after /about: migration/verify/window-copy-after_about-detail.png
+before /residential-window-tinting/privacy-window-films: migration/verify/window-copy-before_residential-window-tinting_privacy-window-films-detail.png
+after /residential-window-tinting/privacy-window-films: migration/verify/window-copy-after_residential-window-tinting_privacy-window-films-detail.png
+before /residential-window-tinting/heat-control-window-films: migration/verify/window-copy-before_residential-window-tinting_heat-control-window-films-detail.png
+after /residential-window-tinting/heat-control-window-films: migration/verify/window-copy-after_residential-window-tinting_heat-control-window-films-detail.png
+before /commercial-window-tinting/anti-glare-window-films: migration/verify/window-copy-before_commercial-window-tinting_anti-glare-window-films-detail.png
+after /commercial-window-tinting/anti-glare-window-films: migration/verify/window-copy-after_commercial-window-tinting_anti-glare-window-films-detail.png
