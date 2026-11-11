@@ -9,3 +9,4 @@
 **/*.tsbuildinfo
 # Downloaded browser binaries
 migration/verify/browsers/
+Changes/screenshots/
