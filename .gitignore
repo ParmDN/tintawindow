@@ -10,3 +10,12 @@
 # Downloaded browser binaries
 migration/verify/browsers/
 Changes/screenshots/
+
+# Local dependencies, generated output and verification artifacts
+node_modules/
+.next/
+out/
+migration/verify/runtime/
+migration/verify/window-copy-before/
+migration/verify/*.png
+migration/verify/*.log

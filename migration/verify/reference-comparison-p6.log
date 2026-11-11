@@ -1,8 +1,0 @@
-Preserved combined Chromium log and restored original 59994 byte prefix: migration/verify/browsers/chromium_headless_shell-1254/chrome-headless-shell-win64/debug.log
-Earlier log files preserved: 52
-website: files=3257; added/removed/changed=0; before/after saved-manifest SHA-256=76ec8a0c42ee133af8def19785db98523dc5cfcbcb59b6fac24057d0aad30e8e
-baseline: files=34; added/removed/changed=0; before/after saved-manifest SHA-256=2b326b6bb6755d2797a46c1f482135f2916d10a6ec93aa70759e3afaceaa5d32
-source: 76 files unchanged
-restricted: 6 files unchanged
-Application source file set unchanged; legacy.css before/after: 246903 bytes
-Three protected browser scripts byte-identical to reference/public/export
