@@ -61,6 +61,10 @@ export const locations: NavigationItem[] = [
     "label": "Timaru"
   },
   {
+    "path": "/locations/waimate",
+    "label": "Waimate"
+  },
+  {
     "path": "/locations/oamaru",
     "label": "Oamaru"
   },
@@ -75,10 +79,6 @@ export const locations: NavigationItem[] = [
   {
     "path": "/locations/cromwell",
     "label": "Cromwell"
-  },
-  {
-    "path": "/locations/waimate",
-    "label": "Waimate"
   },
   {
     "path": "/locations/arrowtown",

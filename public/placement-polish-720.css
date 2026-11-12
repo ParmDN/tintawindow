@@ -63,3 +63,28 @@
     grid-row: 3;
   }
 }
+
+/* Location pages have three steps; fill the same content width as the homepage. */
+.fresh.page-location .revision-steps {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fresh.page-location .revision-steps-section .revision-steps:after {
+    animation-name: home-process-journey;
+    animation-duration: 6s;
+  }
+  .fresh.page-location .revision-steps-section .revision-steps article:before {
+    animation-duration: 6s;
+  }
+  .fresh.page-location .revision-steps-section .revision-steps article:last-child:before {
+    animation-name: process-last-dot;
+  }
+}
+@media (max-width: 1100px) {
+  .fresh.page-location .revision-steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .fresh.page-location .revision-steps-section .revision-steps:after {
+    animation-name: home-process-vertical;
+  }
+}
